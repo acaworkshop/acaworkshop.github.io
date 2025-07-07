@@ -6,19 +6,6 @@
       <!-- left: photo -->
       <div class="blog-card__image">
         <img src="<%= item.photo %>" alt="Photo of <%= item.author %>" class="blog-card__photo"/>
-      </div>
-      <!-- right: content -->
-      <div class="blog-card__content">
-        <h2 class="blog-card__title">
-          <% if (item.website) { %>
-            <a href="<%= item.website %>" target="_blank" rel="noopener">
-              <%= item.talk_title %>
-            </a>
-          <% } else { %>
-            <%= item.talk_title %>
-          <% } %>
-        </h2>
-        <p class="blog-card__abstract"><%= item.abstract %></p>
         <p class="blog-card__author">
           <% if (item.website) { %>
             <a href="<%= item.website %>" target="_blank" rel="noopener"><%= item.author %></a>
@@ -30,14 +17,23 @@
           <%= item.role %><br/>
           <%= item.institution %>
         </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title">
+            <%= item.talk_title %>
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b><%= item.abstract %></p>
+        
         <p class="blog-card__date"><%= item.date %></p>
-        <% if (item.categories && item.categories.length) { %>
-          <p class="blog-card__categories">
-            Categories:
-            <% item.categories.forEach((cat, i) => { %>
-              <a href="/categories/<%= cat %>"><%= cat.replace(/-/g,' ') %></a><%= i < item.categories.length-1 ? ', ' : '' %>
-            <% }) %>
-          </p>
+       <% if (item.categories) { %>
+            <span class="post-categories listing-categories">
+                <% for (const category of item.categories) { %>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('<%=category%>'); return false;">
+                    <%= category %>
+                </div>
+                <% } %>
+            </span>
         <% } %>
       </div>
     </div>

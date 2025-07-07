@@ -6,8 +6,8 @@ website: "https://tijana-zrnic.github.io/"
 role: "Incoming Assistant Professor"
 institution: "Stanford University"
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-date: "2025-12-18 09:30"
-categories: ["preformative-prediction", "active-inference"]
+date: "2025-12-18 09:10"
+categories: ["machine learning", "statistics", "preformative-prediction"]
 ---
 
 ## Bio

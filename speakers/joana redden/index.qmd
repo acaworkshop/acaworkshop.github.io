@@ -1,0 +1,14 @@
+---
+talk_title: "TBD"
+author: "Joanna Redden"
+photo: "images/joanna.jpg"
+website: "https://www.fims.uwo.ca/people/profiles/joanna_redden.html"
+role: "Associate Professor"
+institution: "Western University"
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+date: "2025-12-18 14:55"
+categories: ["data justice", "data governance", "Civic participation"]
+---
+
+## Bio
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

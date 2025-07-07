@@ -1,6 +1,12 @@
 ---
 title: "About the workshop"
 bibliography: refs.bib
+suppress-bibliography: true
+format:
+  html:
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: true
 ---
 
 Despite opening up unthought opportunities for productivity and commercial development, increasingly capable algorithmic systems 

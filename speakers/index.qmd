@@ -10,8 +10,6 @@ listing:
   fields: [talk_title, author, photo, website, role, institution, abstract, date]  
   page-size: 6
   template: speaker-listing.ejs
-page-layout: full
-title-block-banner: true
 format:
   html:
     css: speakers.css

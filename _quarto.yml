@@ -4,6 +4,7 @@ project:
 website:
   title: "NeurIPS Workshop on Algorithmic Collective Action"
   navbar:
+    background: "#243B59"
     left:
       - href: index.qmd
         text: About
@@ -15,6 +16,10 @@ website:
 
 format:
   html:
+    page-layout: full
+    title-block-banner: images/banner-3.jpg
+    title-block-banner-color: "white"
+
     theme:
       - cosmo
       - brand

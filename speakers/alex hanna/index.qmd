@@ -1,0 +1,14 @@
+---
+talk_title: "TBD"
+author: "Alex Hanna"
+photo: "images/alex.jpg"
+website: "https://alex-hanna.com/"
+role: "Director of Research"
+institution: "Distributed AI Research Institute (DAIR)"
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+date: "2025-12-18 14:30"
+categories: ["data ethics", "labor", "social movements"]
+---
+
+## Bio
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

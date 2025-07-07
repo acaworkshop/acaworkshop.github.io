@@ -1,3 +1,10 @@
+
+.quarto-title-block-banner {
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+
 .organiser-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

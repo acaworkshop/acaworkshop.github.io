@@ -1,0 +1,14 @@
+---
+talk_title: "TBD"
+author: "Helen Nissenbaum"
+photo: "images/helen.jpg"
+website: "https://nissenbaum.tech.cornell.edu/"
+role: "Professor"
+institution: "Cornell Tech"
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+date: "2025-12-18 10:00"
+categories: ["privacy", "security", "accountability"]
+---
+
+## Bio
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
