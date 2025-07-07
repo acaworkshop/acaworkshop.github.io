@@ -1,5 +1,6 @@
 ---
 title: "About the workshop"
+title-block-banner: images/banner-5.jpg
 bibliography: refs.bib
 suppress-bibliography: true
 format:
@@ -7,8 +8,35 @@ format:
     citations-hover: true
     footnotes-hover: true
     crossrefs-hover: true
+listing:
+    - id: list-org
+      template: templates/organisers.ejs
+      contents:
+        - data/organisers.yml
+    - id: list-rev
+      template: templates/reviewers.ejs
+      contents:
+        - data/reviewers.yml
+    - id: list-speakers
+      contents: "speakers/*/index.qmd"
+      sort: "date"
+      type: "default"
+      date-format: "YYYY-MM-DD HH:mm"
+      fields: [talk_title, author, photo, website, role, institution, abstract, date, categories]  
+      template: speakers/speaker-listing.ejs
+execute: 
+  echo: false
+  cache: false
+  eval: true
+  include: false
+jupyter: python3
 ---
 
+```{python setup}
+from utils import yml_reviewers
+yml_reviewers()
+```
+# About the workshop
 Despite opening up unthought opportunities for productivity and commercial development, increasingly capable algorithmic systems 
 have also posed new threats to the well-being of their participants and lead to or exacerbated existing social issues such as biases, 
 labor tensions [@marcin_economic_2019;@wood2019platform], and erosion of privacy [@papernot_sok_2018]. 
@@ -39,3 +67,25 @@ discussions between core ML researchers, scholars from the social sciences,  com
 involved in organizing communities to share practical insights and real world challenges, as well as researchers exploring  related technical questions 
 within the core ML community. Ultimately our goal is to build a lasting community and promote exciting opportunities for 
 new research, **centering the needs of consumers and workers in the study of AI systems**. 
+
+---
+
+# Speakers
+
+::: {#list-speakers}
+:::
+
+---
+
+# Organisers
+
+::: {#list-org}
+:::
+
+---
+
+# Reviewers
+
+::: {#list-rev}
+:::
+

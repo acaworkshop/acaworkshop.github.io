@@ -8,17 +8,18 @@ website:
     left:
       - href: index.qmd
         text: About
-      - href: speakers/index.qmd
-        text: Our Speakers
-      - href: team.qmd
-        text: Our Team
+      # - href: speakers/index.qmd
+      #   text: Our Speakers
+      # - href: team.qmd
+      #   text: Our Team
       
 
 format:
   html:
     page-layout: full
-    title-block-banner: images/banner-3.jpg
-    title-block-banner-color: "white"
+  
+    # title-block-banner: images/banner-5.jpg
+    # title-block-banner-color: "white"
 
     theme:
       - cosmo
