@@ -261,5 +261,186 @@ section, .section, .content > * {
   box-shadow: 0 4px 16px 0 rgba(36,59,89,0.12);
 }
 
+/* --- Mobile Responsive Styles --- */
+@media (max-width: 768px) {
+  /* Base font size adjustment for mobile */
+  body, html {
+    font-size: 1rem;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Ensure all containers wrap text properly */
+  * {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  /* Adjust banner height for mobile */
+  .quarto-title-banner {
+    height: 300px !important;
+  }
+  
+  /* Adjust content padding for mobile */
+  main, .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Adjust section headings for mobile */
+  h2, .section-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    word-wrap: break-word;
+  }
+  
+  /* Adjust organiser grid for mobile */
+  .organiser-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    max-width: 100%;
+  }
+  
+  /* Adjust organiser photos for mobile */
+  .organiser-photo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* Adjust organiser text for mobile */
+  .organiser-name {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+  
+  .organiser-institution {
+    font-size: 0.9rem;
+    word-wrap: break-word;
+  }
+  
+  /* Make speaker grid single column on mobile */
+  .speaker-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 100%;
+  }
+  
+  /* Adjust speaker photos for mobile */
+  .speaker-photo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* Adjust speaker content spacing for mobile */
+  .speaker-content {
+    margin-left: 0;
+    margin-top: 1rem;
+    word-wrap: break-word;
+  }
+  
+  /* Adjust talk title for mobile */
+  .talk-title {
+    font-size: 1.1rem;
+    word-wrap: break-word;
+  }
+  
+  /* Make blog cards stack vertically on mobile */
+  .blog-card__layout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  
+  /* Adjust blog card image for mobile */
+  .blog-card__image img.blog-card__photo {
+    max-width: 150px;
+  }
+  
+  /* Adjust post categories for mobile */
+  .post-categories {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Adjust section spacing for mobile */
+  section, .section, .content > * {
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+  
+  /* Ensure all text elements wrap properly */
+  p, div, span, h1, h2, h3, h4, h5, h6, li, td, th {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+  
+  /* Fix any potential table overflow */
+  table {
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+  
+  /* Ensure images don't overflow */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Additional adjustments for very small screens */
+@media (max-width: 480px) {
+  /* Further reduce font size for very small screens */
+  body, html {
+    font-size: 0.95rem;
+    overflow-x: hidden;
+  }
+  
+  /* Reduce banner height further */
+  .quarto-title-banner {
+    height: 250px !important;
+  }
+  
+  /* Adjust organiser grid for very small screens */
+  .organiser-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Smaller organiser photos */
+  .organiser-photo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Smaller speaker photos */
+  .speaker-photo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Adjust headings for very small screens */
+  h2, .section-title {
+    font-size: 1.3rem;
+  }
+  
+  /* Adjust content padding for very small screens */
+  main, .content {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  /* Adjust blog card image for very small screens */
+  .blog-card__image img.blog-card__photo {
+    max-width: 120px;
+  }
+}
+
 
 
