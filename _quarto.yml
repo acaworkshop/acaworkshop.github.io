@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: About
       - href: speakers/index.qmd
-        text: Speakers
+        text: Our Speakers
       - href: team.qmd
         text: Our Team
       
