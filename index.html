@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -67,25 +69,128 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-list-org .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-institution','listing-website','listing-photo',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-institution","listing-website","listing-photo"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-list-org'] = new List('listing-list-org', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-list-rev .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-institution',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-institution"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-list-rev'] = new List('listing-list-rev', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-list-speakers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-talk_title','listing-author','listing-photo','listing-website','listing-role','listing-institution','listing-abstract','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-talk_title","listing-author","listing-photo","listing-role","listing-institution","listing-abstract","listing-date","listing-categories","listing-path","listing-outputHref","listing-title","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-list-speakers'] = new List('listing-list-speakers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>
 
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: white;
-      }
-
       .quarto-title-block .quarto-title-banner {
-        color: white;
-background-image: url(images/banner-3.jpg);
+        background-image: url(images/banner-5.jpg);
 background-size: cover;
       }
 </style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -111,14 +216,6 @@ background-size: cover;
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./speakers/index.html"> 
-<span class="menu-text">Our Speakers</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./team.html"> 
-<span class="menu-text">Our Team</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -129,13 +226,13 @@ background-size: cover;
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">About the workshop</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -146,21 +243,493 @@ background-size: cover;
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about-the-workshop" id="toc-about-the-workshop" class="nav-link active" data-scroll-target="#about-the-workshop">About the workshop</a></li>
+  <li><a href="#speakers" id="toc-speakers" class="nav-link" data-scroll-target="#speakers">Speakers</a></li>
+  <li><a href="#organisers" id="toc-organisers" class="nav-link" data-scroll-target="#organisers">Organisers</a></li>
+  <li><a href="#reviewers" id="toc-reviewers" class="nav-link" data-scroll-target="#reviewers">Reviewers</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
+<section id="about-the-workshop" class="level1">
+<h1>About the workshop</h1>
 <p>Despite opening up unthought opportunities for productivity and commercial development, increasingly capable algorithmic systems have also posed new threats to the well-being of their participants and lead to or exacerbated existing social issues such as biases, labor tensions <span class="citation" data-cites="marcin_economic_2019 wood2019platform">(Marcin 2019; Wood and Lehdonvirta 2019)</span>, and erosion of privacy <span class="citation" data-cites="papernot_sok_2018">(Papernot et al. 2018)</span>. As a result, those who interact with algorithmic systems have led coordinated campaigns to shape the systems directly or pressure the operators to indirectly implement changes to the systems. Real world examples include the #DeclineNow campaign by Doordash gig workers to increase pay by collectively witholding labor, the use of <a href="https://arstechnica.com/information-technology/2022/12/artstation-artists-stage-mass-protest-against-ai-generated-artwork/">coordinated “No AI Art” posts by artists on DeviantArt to voice their grievances to the platform</a>, and the <a href="https://www.theguardian.com/media/2024/dec/11/from-x-to-bluesky-why-are-people-abandoning-twitter-digital-town-square">coordinated migration of users from X (Twitter) to BlueSky</a>. We refer to <span class="citation" data-cites="sigg2025decline">(Sigg, Hardt, and Mendler-Dünner 2025)</span> for a living survey of docmumented use cases. These bottom-up efforts demonstrate the organic interests of workers, consumers, and citizens in shaping and pushing back against algorithmic systems.</p>
 <p>The study of ``collective action’’ has a long history in Economics and Sociology as a way for groups of people to impact markets and the political arena <span class="citation" data-cites="olson_logic_1965 marwell_critical_1993">(Olson 1965; Marwell and Oliver 1993)</span>. <em>Algorithmic Collective Action</em> (ACA) is the study of such coordination strategies in algorithmically-mediated sociotechnical systems. Following early explorations in HCI and Computational Social Science <span class="citation" data-cites="postmes_collective_2002 turner_picturing_2005 li_out_2018">(Postmes and Brunsting 2002; Turner et al. 2005; Li et al. 2018)</span>, ACA has recently emerged as an exciting new topic for rigorous theoretical and empirical work within Machine Learning <span class="citation" data-cites="kulynych2020pots hardt_algorithmic_2023 ben-dov_role_2024 baumann_algorithmic_2024 gauthier2025stat solanki2025crowding">(Kulynych et al. 2020; Hardt et al. 2023; Ben-Dov et al. 2024; Baumann and Mendler-Dünner 2024; Gauthier, Bach, and Jordan 2025; Solanki et al. 2025)</span>. Initial findings demonstrate how the expertise of the ML community in algorithm design and optimization can be used, not only to build increasingly powerful systems, but also to enable community participation and counter power centralization though the conscious use of data interfaces in AI systems. Moreover, the <em>user-centric perspective</em> of ACA complements the many ongoing efforts of building “fair”, “participatory”, and “responsible” AI systems from within firms.</p>
 <p>Our workshop offers a platform to discuss new ideas and help define the foundational research directions for this emerging topic through interdisciplinary discussions between core ML researchers, scholars from the social sciences, community stakeholders and advocates. We will invite speakers and panelists involved in organizing communities to share practical insights and real world challenges, as well as researchers exploring related technical questions within the core ML community. Ultimately our goal is to build a lasting community and promote exciting opportunities for new research, <strong>centering the needs of consumers and workers in the study of AI systems</strong>.</p>
+<hr>
+</section>
+<section id="speakers" class="level1">
+<h1>Speakers</h1>
+<div id="listing-list-speakers" class="quarto-listing quarto-listing-container-custom">
+<ul class="blog-list">
+
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="images/tijana.jpg" alt="Photo of Tijana Zrnic" class="blog-card__photo">
+        <p class="blog-card__author">
+          
+            <a href="https://tijana-zrnic.github.io/" target="_blank" rel="noopener">Tijana Zrnic</a>
+          
+        </p>
+        <p class="blog-card__meta">
+          Incoming Assistant Professor<br>
+          Stanford University
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title anchored" data-anchor-id="speakers">
+            TBD
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        
+        <p class="blog-card__date">2025-12-18 09:10</p>
+       
+            <span class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
+                    machine learning
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
+                    statistics
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('preformative-prediction'); return false;">
+                    preformative-prediction
+                </div>
+                
+            </span>
+        
+      </div>
+    </div>
+  </li>
+
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="images/seda.jpg" alt="Photo of Seda Gürses" class="blog-card__photo">
+        <p class="blog-card__author">
+          
+            <a href="https://www.tudelft.nl/en/tpm/our-faculty/departments/multi-actor-systems/people/associate-professors/dr-fs-seda-gurses" target="_blank" rel="noopener">Seda Gürses</a>
+          
+        </p>
+        <p class="blog-card__meta">
+          Associate Professor<br>
+          TU Delft
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title anchored">
+            TBD
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        
+        <p class="blog-card__date">2025-12-18 09:35</p>
+       
+            <span class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('privacy-enhancing technologies'); return false;">
+                    privacy-enhancing technologies
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('protective optimization technologies'); return false;">
+                    protective optimization technologies
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('computational infrastructures'); return false;">
+                    computational infrastructures
+                </div>
+                
+            </span>
+        
+      </div>
+    </div>
+  </li>
+
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="images/helen.jpg" alt="Photo of Helen Nissenbaum" class="blog-card__photo">
+        <p class="blog-card__author">
+          
+            <a href="https://nissenbaum.tech.cornell.edu/" target="_blank" rel="noopener">Helen Nissenbaum</a>
+          
+        </p>
+        <p class="blog-card__meta">
+          Professor<br>
+          Cornell Tech
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title anchored">
+            TBD
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        
+        <p class="blog-card__date">2025-12-18 10:00</p>
+       
+            <span class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('privacy'); return false;">
+                    privacy
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('security'); return false;">
+                    security
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('accountability'); return false;">
+                    accountability
+                </div>
+                
+            </span>
+        
+      </div>
+    </div>
+  </li>
+
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="images/florian.jpeg" alt="Photo of Florian Tramèr" class="blog-card__photo">
+        <p class="blog-card__author">
+          
+            <a href="https://floriantramer.com/" target="_blank" rel="noopener">Florian Tramèr</a>
+          
+        </p>
+        <p class="blog-card__meta">
+          Assistant Professor<br>
+          ETH Zürich
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title anchored">
+            TBD
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        
+        <p class="blog-card__date">2025-12-18 10:35</p>
+       
+            <span class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('ML Security'); return false;">
+                    ML Security
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('Computer Security'); return false;">
+                    Computer Security
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('Privacy'); return false;">
+                    Privacy
+                </div>
+                
+            </span>
+        
+      </div>
+    </div>
+  </li>
+
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="images/alex.jpg" alt="Photo of Alex Hanna" class="blog-card__photo">
+        <p class="blog-card__author">
+          
+            <a href="https://alex-hanna.com/" target="_blank" rel="noopener">Alex Hanna</a>
+          
+        </p>
+        <p class="blog-card__meta">
+          Director of Research<br>
+          Distributed AI Research Institute (DAIR)
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title anchored">
+            TBD
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        
+        <p class="blog-card__date">2025-12-18 14:30</p>
+       
+            <span class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('data ethics'); return false;">
+                    data ethics
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('labor'); return false;">
+                    labor
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('social movements'); return false;">
+                    social movements
+                </div>
+                
+            </span>
+        
+      </div>
+    </div>
+  </li>
+
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="images/joanna.jpg" alt="Photo of Joanna Redden" class="blog-card__photo">
+        <p class="blog-card__author">
+          
+            <a href="https://www.fims.uwo.ca/people/profiles/joanna_redden.html" target="_blank" rel="noopener">Joanna Redden</a>
+          
+        </p>
+        <p class="blog-card__meta">
+          Associate Professor<br>
+          Western University
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title anchored">
+            TBD
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        
+        <p class="blog-card__date">2025-12-18 14:55</p>
+       
+            <span class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('data justice'); return false;">
+                    data justice
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('data governance'); return false;">
+                    data governance
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('Civic participation'); return false;">
+                    Civic participation
+                </div>
+                
+            </span>
+        
+      </div>
+    </div>
+  </li>
+
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="images/saiph.jpg" alt="Photo of Saiph Savage" class="blog-card__photo">
+        <p class="blog-card__author">
+          
+            <a href="https://www.saiph.org/" target="_blank" rel="noopener">Saiph Savage</a>
+          
+        </p>
+        <p class="blog-card__meta">
+          Assistant Professor<br>
+          Northeastern University
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title anchored">
+            TBD
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        
+        <p class="blog-card__date">2025-12-18 15:20</p>
+       
+            <span class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('gig work'); return false;">
+                    gig work
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('crowdsourcing'); return false;">
+                    crowdsourcing
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('human centered ai'); return false;">
+                    human centered ai
+                </div>
+                
+            </span>
+        
+      </div>
+    </div>
+  </li>
+
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
+<section id="organisers" class="level1">
+<h1>Organisers</h1>
+<div id="listing-list-org" class="quarto-listing quarto-listing-container-custom">
+<ul class="organiser-grid">
+<li class="organiser-card" data-index="0">
+<img src="images/organisers/elliot.jpg" alt="Photo of Elliot Creager" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://ecreager.github.io/" target="_blank" rel="noopener noreferrer"> Elliot Creager </a>
+</p>
+<p class="organiser-institution">
+University of Waterloo
+</p>
+</li>
+<li class="organiser-card" data-index="1">
+<img src="images/organisers/nicholas.jpg" alt="Photo of Nicholas Vincent" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://www.nickmvincent.com/" target="_blank" rel="noopener noreferrer"> Nicholas Vincent </a>
+</p>
+<p class="organiser-institution">
+Simon Fraser University
+</p>
+</li>
+<li class="organiser-card" data-index="2">
+<img src="images/organisers/celestine.jpg" alt="Photo of Celestine Mendler-Dünner" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://celestine.ai/" target="_blank" rel="noopener noreferrer"> Celestine Mendler-Dünner </a>
+</p>
+<p class="organiser-institution">
+ELLIS Institute Tübingen
+</p>
+</li>
+<li class="organiser-card" data-index="3">
+<img src="images/organisers/willie.jpg" alt="Photo of William Agnew" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://sites.google.com/view/williamagnew" target="_blank" rel="noopener noreferrer"> William Agnew </a>
+</p>
+<p class="organiser-institution">
+Carnegie Mellon University
+</p>
+</li>
+<li class="organiser-card" data-index="4">
+<img src="images/organisers/Hanlin.jpg" alt="Photo of Hanlin Li" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://www.hanlinli.com/" target="_blank" rel="noopener noreferrer"> Hanlin Li </a>
+</p>
+<p class="organiser-institution">
+University of Texas at Austin
+</p>
+</li>
+<li class="organiser-card" data-index="5">
+<img src="images/organisers/ulrich.jpg" alt="Photo of Ulrich Aïvodji" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://aivodji.github.io/" target="_blank" rel="noopener noreferrer"> Ulrich Aïvodji </a>
+</p>
+<p class="organiser-institution">
+École de Technologie Supérieure
+</p>
+</li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
+<section id="reviewers" class="level1">
+<h1>Reviewers</h1>
+<div id="listing-list-rev" class="quarto-listing quarto-listing-container-custom">
+<ul>
+<li>
+<strong>Elliot Creager</strong> — <em>U of Waterloo</em>
+</li>
+<li>
+<strong>Nicholas Vincent</strong> — <em>Simon Fraser U</em>
+</li>
+<li>
+<strong>Celestine Mendler-Dünner</strong> — <em>MPI Tübingen</em>
+</li>
+<li>
+<strong>Williiam Agnew</strong> — <em>CMU</em>
+</li>
+<li>
+<strong>Hanlin Li</strong> — <em>U of Texas</em>
+</li>
+<li>
+<strong>Ulrich Aïvodji</strong> — <em>ETS Montreal</em>
+</li>
+<li>
+<strong>Rushabh Solanki</strong> — <em>U of Waterloo</em>
+</li>
+<li>
+<strong>Meghana Bhange</strong> — <em>ETS Montreal</em>
+</li>
+<li>
+<strong>Prakhar Ganesh</strong> — <em>McGill</em>
+</li>
+<li>
+<strong>Khaoula Chehbouni</strong> — <em>McGill</em>
+</li>
+<li>
+<strong>Parth Sarin</strong> — <em>Stanford</em>
+</li>
+<li>
+<strong>Afif Taik</strong> — <em>Université de Sherbrooke</em>
+</li>
+<li>
+<strong>Joachim Baumann</strong> — <em>University of Zurich</em>
+</li>
+<li>
+<strong>Sara Fish</strong> — <em>Harvard</em>
+</li>
+<li>
+<strong>Qing Xiao</strong> — <em>CMU</em>
+</li>
+<li>
+<strong>Etienne Gauthier</strong> — <em>Inria</em>
+</li>
+<li>
+<strong>Julien Ferry</strong> — <em>Polytechnique Montreal</em>
+</li>
+<li>
+<strong>Heber Hwang Arcolezi</strong> — <em>Inria</em>
+</li>
+<li>
+<strong>Patrik Kenfack</strong> — <em>ETS Montreal</em>
+</li>
+<li>
+<strong>Harry Cheon</strong> — <em>UCSD</em>
+</li>
+<li>
+<strong>Meredith Stewart</strong> — <em>UCSD</em>
+</li>
+<li>
+<strong>Shreyas Kadekodi</strong> — <em>UCSD</em>
+</li>
+<li>
+<strong>Blair Attard-Frost</strong> — <em>U of Toronto</em>
+</li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
