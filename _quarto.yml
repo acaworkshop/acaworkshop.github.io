@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: About
+      - href: cfp.qmd
+        text: Call for Papers
       # - href: speakers/index.qmd
       #   text: Our Speakers
       # - href: team.qmd

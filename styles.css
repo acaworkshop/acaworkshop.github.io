@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
   --accent-light: #eaf0fa;
   --text-main: #222;
   --text-muted: #555;
-  --max-width: 900px;
+  --max-width: 800px;
 }
 
 main, .content {

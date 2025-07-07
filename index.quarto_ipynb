@@ -8,7 +8,6 @@
         "title: \"About the workshop\"\n",
         "title-block-banner: images/banner-5.jpg\n",
         "bibliography: refs.bib\n",
-        "suppress-bibliography: true\n",
         "format:\n",
         "  html:\n",
         "    citations-hover: true\n",
@@ -38,7 +37,7 @@
         "jupyter: python3\n",
         "---"
       ],
-      "id": "b011cc73"
+      "id": "16855cc2"
     },
     {
       "cell_type": "code",
@@ -47,7 +46,7 @@
         "from utils import yml_reviewers\n",
         "yml_reviewers()"
       ],
-      "id": "fdddf5be",
+      "id": "c262e485",
       "execution_count": null,
       "outputs": []
     },
@@ -69,7 +68,7 @@
         "and citizens in shaping and pushing back against algorithmic systems. \n",
         "\n",
         "\n",
-        "The study of ``collective action'' has a long history in Economics and Sociology as a way for groups of people to impact markets \n",
+        "The study of \"collective action\" has a long history in Economics and Sociology as a way for groups of people to impact markets \n",
         "and the political arena [@olson_logic_1965; @marwell_critical_1993].\n",
         "*Algorithmic Collective Action* (ACA) is the study of such coordination strategies in algorithmically-mediated sociotechnical systems. \n",
         "Following early explorations in HCI and Computational Social Science [@postmes_collective_2002; @turner_picturing_2005; @li_out_2018], \n",
@@ -106,9 +105,17 @@
         "# Reviewers\n",
         "\n",
         "::: {#list-rev}\n",
-        ":::\n"
+        ":::\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "# References\n",
+        "\n",
+        "::: {#refs}\n",
+        ":::"
       ],
-      "id": "94a164bf"
+      "id": "7228f8ba"
     }
   ],
   "metadata": {

@@ -2,7 +2,6 @@
 title: "About the workshop"
 title-block-banner: images/banner-5.jpg
 bibliography: refs.bib
-suppress-bibliography: true
 format:
   html:
     citations-hover: true
@@ -50,7 +49,7 @@ We refer to [@sigg2025decline] for a living survey of docmumented use cases. The
 and citizens in shaping and pushing back against algorithmic systems. 
 
 
-The study of ``collective action'' has a long history in Economics and Sociology as a way for groups of people to impact markets 
+The study of "collective action" has a long history in Economics and Sociology as a way for groups of people to impact markets 
 and the political arena [@olson_logic_1965; @marwell_critical_1993].
 *Algorithmic Collective Action* (ACA) is the study of such coordination strategies in algorithmically-mediated sociotechnical systems. 
 Following early explorations in HCI and Computational Social Science [@postmes_collective_2002; @turner_picturing_2005; @li_out_2018], 
@@ -89,3 +88,10 @@ new research, **centering the needs of consumers and workers in the study of AI 
 ::: {#list-rev}
 :::
 
+
+---
+
+# References
+
+::: {#refs}
+:::
