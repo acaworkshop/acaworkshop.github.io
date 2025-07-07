@@ -1,5 +1,4 @@
 ---
-title: "Our Team"
 listing:
     - id: list-org
       template: templates/organisers.ejs
