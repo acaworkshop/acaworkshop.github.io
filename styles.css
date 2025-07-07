@@ -4,8 +4,8 @@
 /* Set Inter as the primary font family */
 body, html {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  font-size: 1.15rem;
-  line-height: 1.7;
+  font-size: 0.85rem;
+  line-height: 1.6;
   color: var(--text-main);
   background: #fafbfc;
 }
@@ -76,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .organiser-name {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0.5rem 0 0.25rem;
 }
 
 .organiser-institution {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555;
   margin: 0;
 }
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .speaker-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   gap: 2rem;
   list-style: none;
   margin: 0;
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 /* tweak each element */
 .talk-title {
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin: 0 0 0.5rem 0;
 }
 
@@ -144,15 +144,26 @@ h1, h2, h3, h4, h5, h6 {
   --accent-light: #eaf0fa;
   --text-main: #222;
   --text-muted: #555;
-  --max-width: 800px;
+  --max-width: 45rem;
 }
 
 main, .content {
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+/* Center align specific content sections */
+.content > * {
+  text-align: left;
+}
+
+/* Keep headings left-aligned */
+h1, h2, h3, h4, h5, h6, .section-title {
+  text-align: left;
 }
 
 
@@ -174,10 +185,10 @@ main, .content {
 
 /* Section headings with divider */
 h2, .section-title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
   color: var(--accent);
   position: relative;
 }
@@ -193,7 +204,7 @@ h2::after, .section-title::after {
 
 /* Add more whitespace between sections */
 section, .section, .content > * {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 
