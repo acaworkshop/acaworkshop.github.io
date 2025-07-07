@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Workshop on Algorithmic Collective Action"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: speakers/index.qmd
+        text: Speakers
+      - href: team.qmd
+        text: Our Team
+      
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+

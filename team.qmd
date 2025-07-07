@@ -1,0 +1,33 @@
+---
+title: "Our Team"
+listing:
+    - id: list-org
+      template: templates/organisers.ejs
+      contents:
+        - data/organisers.yml
+    - id: list-rev
+      template: templates/reviewers.ejs
+      contents:
+        - data/reviewers.yml
+execute: 
+  echo: false
+  cache: false
+  eval: true
+  include: false
+jupyter: python3
+---
+
+```{python setup}
+from utils import yml_reviewers
+yml_reviewers()
+```
+
+## Organisers
+
+::: {#list-org}
+:::
+
+## Reviewers
+
+::: {#list-rev}
+:::

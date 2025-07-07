@@ -1,0 +1,6 @@
+---
+title: "Speakers"
+listing:
+  contents: data/speakers.yml
+  template: templates/speakers.ejs
+---

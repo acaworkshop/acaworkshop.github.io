@@ -1,0 +1,29 @@
+- name: Elliot Creager
+  institution: University of Waterloo
+  website: https://ecreager.github.io/
+  photo: "images/organisers/elliot.jpg"
+
+- name: Nicholas Vincent
+  institution: Simon Fraser University
+  website: https://www.nickmvincent.com/
+  photo: "images/organisers/nicholas.jpg"
+
+- name: Celestine Mendler-Dünner
+  institution: ELLIS Institute Tübingen
+  website: https://celestine.ai/
+  photo: "images/organisers/celestine.jpg" 
+
+- name: William Agnew
+  institution: Carnegie Mellon University
+  website: https://sites.google.com/view/williamagnew
+  photo: "images/organisers/willie.jpg"
+
+- name: Hanlin Li
+  institution: University of Texas at Austin
+  website: https://www.hanlinli.com/
+  photo: "images/organisers/Hanlin.jpg"
+
+- name: Ulrich Aïvodji
+  institution: École de Technologie Supérieure
+  website: https://aivodji.github.io/
+  photo: "images/organisers/ulrich.jpg"

@@ -1,0 +1,42 @@
+# Quarto output
+_site/
+*.html
+
+# Quarto cache (if used)
+.quarto/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE folders
+.vscode/
+.Rproj.user/
+.idea/
+
+# Jupyter/IPython files
+.ipynb_checkpoints/
+*.ipynb~
+
+# Python environment (if using Python)
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+
+# Quarto preview cache
+*.qmd~*
+
+# Output from quarto preview
+*.log
+*.tmp
+
+# Markdown render artifacts
+*.knit.md
+*.utf8.md
+*.nb.html
+
+/.quarto/
+
+docs/
