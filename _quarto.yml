@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Workshop on Algorithmic Collective Action"
+  title: "NeurIPS Workshop on Algorithmic Collective Action"
   navbar:
     left:
       - href: index.qmd
