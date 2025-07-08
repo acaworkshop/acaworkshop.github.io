@@ -1,20 +1,43 @@
-<ul class="speaker-grid">
+```{=html}
+<ul class="blog-list">
 <% for (const item of items) { %>
-  <li class="speaker-card">
-    <img
-      src="<%= item.photo %>"
-      alt="Photo of <%= item.author %>"
-      class="speaker-photo"
-    >
-    <p class="speaker-name">
-      <% if (item.website) { %>
-        <a href="<%= item.website %>" target="_blank" rel="noopener noreferrer"><%= item.author %></a>
-      <% } else { %>
-        <%= item.author %>
-      <% } %>
-    </p>
-    <p class="speaker-role"><%= item.role %></p>
-    <p class="speaker-institution"><%= item.institution %></p>
+  <li class="blog-card">
+    <div class="blog-card__layout">
+      <!-- left: photo -->
+      <div class="blog-card__image">
+        <img src="<%= item.photo %>" alt="Photo of <%= item.author %>" class="blog-card__photo"/>
+        <p class="blog-card__author">
+          <% if (item.website) { %>
+            <a href="<%= item.website %>" target="_blank" rel="noopener"><%= item.author %></a>
+          <% } else { %>
+            <%= item.author %>
+          <% } %>
+        </p>
+        <p class="blog-card__meta">
+          <%= item.role %><br/>
+          <%= item.institution %>
+        </p>
+      </div>
+      <!-- right: content -->
+      <div class="blog-card__content">
+        <h2 class="blog-card__title">
+            <%= item.talk_title %>
+        </h2>
+        <p class="blog-card__abstract"><b>Abstract: </b><%= item.abstract %></p>
+        
+        <p class="blog-card__date"><%= item.date %></p>
+       <% if (item.categories) { %>
+            <span class="post-categories listing-categories">
+                <% for (const category of item.categories) { %>
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('<%=category%>'); return false;">
+                    <%= category %>
+                </div>
+                <% } %>
+            </span>
+        <% } %>
+      </div>
+    </div>
   </li>
 <% } %>
 </ul>
+```
