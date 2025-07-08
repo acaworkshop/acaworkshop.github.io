@@ -6,8 +6,8 @@ website:
   navbar:
     background: "#243B59"
     left:
-      - href: index.qmd
-        text: About
+      # - href: index.qmd
+      #   text: About
       - href: cfp.qmd
         text: Call for Papers
       # - href: speakers/index.qmd
