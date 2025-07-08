@@ -1,0 +1,56 @@
+---
+title: "Call for Papers"
+title-block-banner: images/banner-5.jpg
+bibliography: refs.bib
+suppress-bibliography: true
+format:
+  html:
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: true
+---
+
+# Call for Papers
+
+We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action (ACA)**. This workshop aims to bring together researchers, practitioners, and community stakeholders to explore how coordinated actions can shape and improve algorithmic sociotechnical systems.
+
+## Important Dates
+
+- **Submission Deadline**: August 22, 2025 (Anywhere on Earth)
+- **Notification**: September 19, 2025
+- **Workshop**: December 6/7 2025
+
+## Submission Information
+
+Submissions will be collected through **OpenReview** (`TBA`). We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action.
+
+## Topics of Interest
+
+We are interested in submissions covering both **Algorithmic Collective Action (ACA)** and a broad set of related subfields, including but not limited to:
+
+### ACA Topics
+- **Data strikes and data leverage**: Strategies for withholding or manipulating data to influence algorithmic systems
+- **Data obfuscation and data poisoning**: Techniques for protecting privacy and influencing model behavior through data manipulation
+- **Coordinated user behavior**: Analysis of collective actions in digital platforms and AI systems
+
+### Related Research Areas
+- **Economics and ML**: Incentives in AI systems, strategic behavior, mechanism design
+- **Learning from non-i.i.d. statistics**: Robust learning in the presence of coordinated data manipulation
+- **Participatory AI**: Methods for incorporating community input and collective decision-making in AI systems
+- **Trustworthy/responsible AI**: 
+- **Grassroots AI Governance and Advocacy**: Community-driven approaches to AI regulation and oversight
+
+### Application Domains
+- **Labor and gig economy**: Worker coordination in platform-mediated work
+- **Content creation and social media**: Artist and creator collective actions
+- **Consumer protection**: Coordinated consumer actions against algorithmic systems
+- **Privacy and surveillance**: Collective resistance to surveillance technologies
+- **Algorithmic bias and fairness**: Community-driven approaches to addressing bias
+
+## Contact Information
+
+For questions about submissions or the workshop, please contact the organizers at [email TBA].
+
+---
+
+*We look forward to your submissions and to building a vibrant community around algorithmic collective action!* 
