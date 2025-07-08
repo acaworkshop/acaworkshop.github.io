@@ -18,7 +18,7 @@ We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action
 
 - **Submission Deadline**: August 22, 2025 (Anywhere on Earth)
 - **Notification**: September 19, 2025
-- **Workshop**: `DATE HERE`
+- **Workshop**: December 6/7 2025
 
 ## Submission Information
 
@@ -46,24 +46,6 @@ We are interested in submissions covering both **Algorithmic Collective Action (
 - **Consumer protection**: Coordinated consumer actions against algorithmic systems
 - **Privacy and surveillance**: Collective resistance to surveillance technologies
 - **Algorithmic bias and fairness**: Community-driven approaches to addressing bias
-
-## Submission Types
-
-We welcome several types of submissions:
-
-1. **Research Papers** (`PAGE LIMIT HERE`): Novel theoretical or empirical contributions
-2. `ADD SUBMISSION TYPE HERE`
-3. `ADD SUBMISSION TYPE HERE`
-4. `ADD SUBMISSION TYPE HERE`
-
-## Submission Guidelines
-
-- Papers should be submitted in `PAPER SUBMISSION TYPE` format
-- `TEMPLATE, DOUBLE BLIND AND OTHER GUIDELINES`
-
-## Review Process
-
-`REVIEW PROCESS AND EXPECTATION HERE`
 
 ## Contact Information
 
