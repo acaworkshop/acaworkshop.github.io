@@ -1,5 +1,6 @@
 project:
   type: website
+  #output-dir: docs
 
 website:
   title: "NeurIPS Workshop on Algorithmic Collective Action"
