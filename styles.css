@@ -75,6 +75,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 1rem;
 }
 
+.organiser-photo-2 {
+  width: 200px;
+  height: 250px;
+  border-radius: 12px;     /* ← soft rounded corners */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
 .organiser-name {
   font-size: 1rem;
   font-weight: 600;

@@ -22,7 +22,8 @@ listing:
       type: "default"
       date-format: "YYYY-MM-DD HH:mm"
       fields: [talk_title, author, photo, website, role, institution, abstract, date, categories]  
-      template: speakers/speaker-listing.ejs
+      #template: speakers/speaker-listing.ejs
+      template: speakers/speaker-listing-temp.ejs
 execute: 
   echo: false
   cache: false
