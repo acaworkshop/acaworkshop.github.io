@@ -8,6 +8,7 @@ institution: "Distributed AI Research Institute (DAIR)"
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
 date: "2025-12-18 14:30"
 categories: ["data ethics", "labor", "social movements"]
+confirmed: true
 ---
 
 ## Bio
