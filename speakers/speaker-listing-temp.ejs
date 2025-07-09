@@ -1,5 +1,6 @@
 <ul class="organiser-grid">
-<% for (const item of items) { %>
+<% const confirmed = items.filter(p => p.confirmed == true); %>
+<% for (const item of confirmed) { %>
   <li class="organiser-card" <%= metadataAttrs(item) %>>
     <img
       src="<%= item.photo %>"
