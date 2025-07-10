@@ -15,6 +15,10 @@ website:
       #   text: Our Speakers
       # - href: team.qmd
       #   text: Our Team
+
+  page-footer: 
+    center: "Contact us at acaworkshop2025@gmail.com"
+    background: "#006296"
       
 
 format:
