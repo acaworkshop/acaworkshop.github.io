@@ -485,5 +485,13 @@ section, .section, .content > * {
   }
 }
 
+footer.footer .nav-footer {
+  font-size: 1.2rem;      
+  line-height: 1.4;      
+}
 
+footer.footer .nav-footer-center {
+  color: white !important;
+  font-weight: bold; /* if you still want it bold */
+}
 
