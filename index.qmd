@@ -89,6 +89,15 @@ new research, **centering the needs of consumers and workers in the study of AI 
 ::: {#list-rev}
 :::
 
+---
+# Reviewer Volunteer Form
+
+If you would like to help as a reviewer, please fill out the form below.  
+
+<div style="text-align: center; margin-top: 2em; margin-bottom: 2em;">
+  <a href="https://forms.gle/oXT3pzQAkzvuzgVq6" target="_blank" class="reviewer-form-btn">Reviewer self-nomination form</a>
+</div>
+
 
 ---
 
