@@ -1,10 +1,73 @@
 [
   {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Organisers",
+    "section": "",
+    "text": "Elliot Creager \n\n\nUniversity of Waterloo\n\n\n\n\n\n Nicholas Vincent \n\n\nSimon Fraser University\n\n\n\n\n\n Celestine Mendler-Dünner \n\n\nELLIS Institute Tübingen\n\n\n\n\n\n William Agnew \n\n\nCarnegie Mellon University\n\n\n\n\n\n Hanlin Li \n\n\nUniversity of Texas at Austin\n\n\n\n\n\n Ulrich Aïvodji \n\n\nÉcole de Technologie Supérieure\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "team.html#reviewers",
+    "href": "team.html#reviewers",
+    "title": "Organisers",
+    "section": "Reviewers",
+    "text": "Reviewers\n\n\n\nElliot Creager — U of Waterloo\n\n\nNicholas Vincent — Simon Fraser U\n\n\nCelestine Mendler-Dünner — MPI Tübingen\n\n\nWilliiam Agnew — CMU\n\n\nHanlin Li — U of Texas\n\n\nUlrich Aïvodji — ETS Montreal\n\n\nRushabh Solanki — U of Waterloo\n\n\nMeghana Bhange — ETS Montreal\n\n\nPrakhar Ganesh — McGill\n\n\nKhaoula Chehbouni — McGill\n\n\nParth Sarin — Stanford\n\n\nAfif Taik — Université de Sherbrooke\n\n\nJoachim Baumann — University of Zurich\n\n\nSara Fish — Harvard\n\n\nQing Xiao — CMU\n\n\nEtienne Gauthier — Inria\n\n\nJulien Ferry — Polytechnique Montreal\n\n\nHeber Hwang Arcolezi — Inria\n\n\nPatrik Kenfack — ETS Montreal\n\n\nHarry Cheon — UCSD\n\n\nMeredith Stewart — UCSD\n\n\nShreyas Kadekodi — UCSD\n\n\nBlair Attard-Frost — U of Toronto\n\n\nNo matching items"
+  },
+  {
+    "objectID": "speakers/florian tramer/index.html",
+    "href": "speakers/florian tramer/index.html",
+    "title": "NeurIPS Workshop on Algorithmic Collective Action",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "objectID": "speakers/florian tramer/index.html#bio",
+    "href": "speakers/florian tramer/index.html#bio",
+    "title": "NeurIPS Workshop on Algorithmic Collective Action",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "objectID": "speakers/joana redden/index.html",
+    "href": "speakers/joana redden/index.html",
+    "title": "NeurIPS Workshop on Algorithmic Collective Action",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "objectID": "speakers/joana redden/index.html#bio",
+    "href": "speakers/joana redden/index.html#bio",
+    "title": "NeurIPS Workshop on Algorithmic Collective Action",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "objectID": "speakers/index.html",
+    "href": "speakers/index.html",
+    "title": "\nSpeakers\n",
+    "section": "",
+    "text": "Tijana Zrnic \n\n\nIncoming Assistant Professor\n\n\nStanford University\n\n\n\n\n\n Seda Gürses \n\n\nAssociate Professor\n\n\nTU Delft\n\n\n\n\n\n Florian Tramèr \n\n\nAssistant Professor\n\n\nETH Zürich\n\n\n\n\n\n Alex Hanna \n\n\nDirector of Research\n\n\nDistributed AI Research Institute (DAIR)\n\n\n\n\n\n Joanna Redden \n\n\nAssociate Professor\n\n\nWestern University\n\n\n\n\n\n Saiph Savage \n\n\nAssistant Professor\n\n\nNortheastern University\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "speakers/tijana zrnic/index.html",
+    "href": "speakers/tijana zrnic/index.html",
+    "title": "NeurIPS Workshop on Algorithmic Collective Action",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "objectID": "speakers/tijana zrnic/index.html#bio",
+    "href": "speakers/tijana zrnic/index.html#bio",
+    "title": "NeurIPS Workshop on Algorithmic Collective Action",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
     "objectID": "cfp.html",
     "href": "cfp.html",
     "title": "Call for Papers",
     "section": "",
-    "text": "We invite submissions to the NeurIPS Workshop on Algorithmic Collective Action (ACA). This workshop aims to bring together researchers, practitioners, and community stakeholders to explore how coordinated actions can shape and improve algorithmic sociotechnical systems.\n\n\n\nSubmission Deadline: August 22, 2025 (Anywhere on Earth)\nNotification: September 19, 2025\nWorkshop: December 6/7 2025\n\n\n\n\nSubmissions will be collected through OpenReview (TBA). We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action.\n\n\n\nWe are interested in submissions covering both Algorithmic Collective Action (ACA) and a broad set of related subfields, including but not limited to:\n\n\n\nData strikes and data leverage: Strategies for withholding or manipulating data to influence algorithmic systems\nData obfuscation and data poisoning: Techniques for protecting privacy and influencing model behavior through data manipulation\nCoordinated user behavior: Analysis of collective actions in digital platforms and AI systems\n\n\n\n\n\nEconomics and ML: Incentives in AI systems, strategic behavior, mechanism design\nLearning from non-i.i.d. statistics: Robust learning in the presence of coordinated data manipulation\nParticipatory AI: Methods for incorporating community input and collective decision-making in AI systems\nTrustworthy/responsible AI:\nGrassroots AI Governance and Advocacy: Community-driven approaches to AI regulation and oversight\n\n\n\n\n\nLabor and gig economy: Worker coordination in platform-mediated work\nContent creation and social media: Artist and creator collective actions\nConsumer protection: Coordinated consumer actions against algorithmic systems\nPrivacy and surveillance: Collective resistance to surveillance technologies\nAlgorithmic bias and fairness: Community-driven approaches to addressing bias\n\n\n\n\n\nFor questions about submissions or the workshop, please contact the organizers at acaworkshop2025@gmail.com\n\nWe look forward to your submissions and to building a vibrant community around algorithmic collective action!"
+    "text": "We invite submissions to the NeurIPS Workshop on Algorithmic Collective Action (ACA). This workshop aims to bring together researchers, practitioners, and community stakeholders to explore how coordinated actions can shape and improve algorithmic sociotechnical systems.\n\n\n\nSubmission Deadline: August 22, 2025 (Anywhere on Earth)\nNotification: September 19, 2025\nWorkshop: December 6/7 2025\n\n\n\n\nSubmissions will be collected through OpenReview (TBA). We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action.\n\n\n\nWe are interested in submissions covering both Algorithmic Collective Action (ACA) and a broad set of related subfields, including but not limited to:\n\n\n\nData strikes and data leverage: Strategies for withholding or manipulating data to influence algorithmic systems\nData obfuscation and data poisoning: Techniques for protecting privacy and influencing model behavior through data manipulation\nCoordinated user behavior: Analysis of collective actions in digital platforms and AI systems\n\n\n\n\n\nEconomics and ML: Incentives in AI systems, strategic behavior, mechanism design\nLearning from non-i.i.d. statistics: Robust learning in the presence of coordinated data manipulation\nParticipatory AI: Methods for incorporating community input and collective decision-making in AI systems\nTrustworthy/responsible AI:\nGrassroots AI Governance and Advocacy: Community-driven approaches to AI regulation and oversight\n\n\n\n\n\nLabor and gig economy: Worker coordination in platform-mediated work\nContent creation and social media: Artist and creator collective actions\nConsumer protection: Coordinated consumer actions against algorithmic systems\nPrivacy and surveillance: Collective resistance to surveillance technologies\nAlgorithmic bias and fairness: Community-driven approaches to addressing bias\n\n\n\n\n\nFor questions about submissions or the workshop, please contact the organizers at acaworkshop2025@gmail.com.\n\nWe look forward to your submissions and to building a vibrant community around algorithmic collective action!"
   },
   {
     "objectID": "cfp.html#important-dates",
@@ -32,74 +95,18 @@
     "href": "cfp.html#contact-information",
     "title": "Call for Papers",
     "section": "",
-    "text": "For questions about submissions or the workshop, please contact the organizers at acaworkshop2025@gmail.com\n\nWe look forward to your submissions and to building a vibrant community around algorithmic collective action!"
+    "text": "For questions about submissions or the workshop, please contact the organizers at acaworkshop2025@gmail.com.\n\nWe look forward to your submissions and to building a vibrant community around algorithmic collective action!"
   },
   {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Organisers",
-    "section": "",
-    "text": "Elliot Creager \n\n\nUniversity of Waterloo\n\n\n\n\n\n Nicholas Vincent \n\n\nSimon Fraser University\n\n\n\n\n\n Celestine Mendler-Dünner \n\n\nELLIS Institute Tübingen\n\n\n\n\n\n William Agnew \n\n\nCarnegie Mellon University\n\n\n\n\n\n Hanlin Li \n\n\nUniversity of Texas at Austin\n\n\n\n\n\n Ulrich Aïvodji \n\n\nÉcole de Technologie Supérieure\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "team.html#reviewers",
-    "href": "team.html#reviewers",
-    "title": "Organisers",
-    "section": "Reviewers",
-    "text": "Reviewers\n\n\n\nElliot Creager — U of Waterloo\n\n\nNicholas Vincent — Simon Fraser U\n\n\nCelestine Mendler-Dünner — MPI Tübingen\n\n\nWilliiam Agnew — CMU\n\n\nHanlin Li — U of Texas\n\n\nUlrich Aïvodji — ETS Montreal\n\n\nRushabh Solanki — U of Waterloo\n\n\nMeghana Bhange — ETS Montreal\n\n\nPrakhar Ganesh — McGill\n\n\nKhaoula Chehbouni — McGill\n\n\nParth Sarin — Stanford\n\n\nAfif Taik — Université de Sherbrooke\n\n\nJoachim Baumann — University of Zurich\n\n\nSara Fish — Harvard\n\n\nQing Xiao — CMU\n\n\nEtienne Gauthier — Inria\n\n\nJulien Ferry — Polytechnique Montreal\n\n\nHeber Hwang Arcolezi — Inria\n\n\nPatrik Kenfack — ETS Montreal\n\n\nHarry Cheon — UCSD\n\n\nMeredith Stewart — UCSD\n\n\nShreyas Kadekodi — UCSD\n\n\nBlair Attard-Frost — U of Toronto\n\n\nNo matching items"
-  },
-  {
-    "objectID": "speakers/seda gürses/index.html",
-    "href": "speakers/seda gürses/index.html",
+    "objectID": "speakers/alex hanna/index.html",
+    "href": "speakers/alex hanna/index.html",
     "title": "NeurIPS Workshop on Algorithmic Collective Action",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/seda gürses/index.html#bio",
-    "href": "speakers/seda gürses/index.html#bio",
-    "title": "NeurIPS Workshop on Algorithmic Collective Action",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/tijana zrnic/index.html",
-    "href": "speakers/tijana zrnic/index.html",
-    "title": "NeurIPS Workshop on Algorithmic Collective Action",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/tijana zrnic/index.html#bio",
-    "href": "speakers/tijana zrnic/index.html#bio",
-    "title": "NeurIPS Workshop on Algorithmic Collective Action",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/florian tramer/index.html",
-    "href": "speakers/florian tramer/index.html",
-    "title": "NeurIPS Workshop on Algorithmic Collective Action",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/florian tramer/index.html#bio",
-    "href": "speakers/florian tramer/index.html#bio",
-    "title": "NeurIPS Workshop on Algorithmic Collective Action",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/saiph savage/index.html",
-    "href": "speakers/saiph savage/index.html",
-    "title": "NeurIPS Workshop on Algorithmic Collective Action",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/saiph savage/index.html#bio",
-    "href": "speakers/saiph savage/index.html#bio",
+    "objectID": "speakers/alex hanna/index.html#bio",
+    "href": "speakers/alex hanna/index.html#bio",
     "title": "NeurIPS Workshop on Algorithmic Collective Action",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
@@ -119,39 +126,32 @@
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/alex hanna/index.html",
-    "href": "speakers/alex hanna/index.html",
+    "objectID": "speakers/saiph savage/index.html",
+    "href": "speakers/saiph savage/index.html",
     "title": "NeurIPS Workshop on Algorithmic Collective Action",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/alex hanna/index.html#bio",
-    "href": "speakers/alex hanna/index.html#bio",
+    "objectID": "speakers/saiph savage/index.html#bio",
+    "href": "speakers/saiph savage/index.html#bio",
     "title": "NeurIPS Workshop on Algorithmic Collective Action",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/joana redden/index.html",
-    "href": "speakers/joana redden/index.html",
+    "objectID": "speakers/seda gürses/index.html",
+    "href": "speakers/seda gürses/index.html",
     "title": "NeurIPS Workshop on Algorithmic Collective Action",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/joana redden/index.html#bio",
-    "href": "speakers/joana redden/index.html#bio",
+    "objectID": "speakers/seda gürses/index.html#bio",
+    "href": "speakers/seda gürses/index.html#bio",
     "title": "NeurIPS Workshop on Algorithmic Collective Action",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/index.html",
-    "href": "speakers/index.html",
-    "title": "\nSpeakers\n",
-    "section": "",
-    "text": "Tijana Zrnic \n\n\nIncoming Assistant Professor\n\n\nStanford University\n\n\n\n\n\n Seda Gürses \n\n\nAssociate Professor\n\n\nTU Delft\n\n\n\n\n\n Florian Tramèr \n\n\nAssistant Professor\n\n\nETH Zürich\n\n\n\n\n\n Alex Hanna \n\n\nDirector of Research\n\n\nDistributed AI Research Institute (DAIR)\n\n\n\n\n\n Joanna Redden \n\n\nAssociate Professor\n\n\nWestern University\n\n\n\n\n\n Saiph Savage \n\n\nAssistant Professor\n\n\nNortheastern University\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
