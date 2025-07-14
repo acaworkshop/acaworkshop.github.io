@@ -47,6 +47,18 @@ We are interested in submissions covering both **Algorithmic Collective Action (
 - **Privacy and surveillance**: Collective resistance to surveillance technologies
 - **Algorithmic bias and fairness**: Community-driven approaches to addressing bias
 
+---
+
+# Reviewer Volunteer Form
+
+If you would like to help as a reviewer, please fill out the form below.  
+
+<div style="text-align: center; margin-top: 2em; margin-bottom: 2em;">
+  <a href="https://forms.gle/oXT3pzQAkzvuzgVq6" target="_blank" class="reviewer-form-btn">Reviewer self-nomination form</a>
+</div>
+
+---
+
 ## Contact Information
 
 For questions about submissions or the workshop, please contact the organizers at [acaworkshop2025@gmail.com](mailto:acaworkshop2025@gmail.com).
