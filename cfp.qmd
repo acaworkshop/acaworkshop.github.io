@@ -22,7 +22,10 @@ We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action
 
 ## Submission Information
 
-Submissions will be collected through **OpenReview** (`TBA`). We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action.
+We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action.
+
+- **Submission portal:** [OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/ACA#tab-your-consoles)
+
 
 ## Topics of Interest
 
