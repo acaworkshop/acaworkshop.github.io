@@ -26,6 +26,7 @@ We welcome both theoretical and empirical contributions that advance our underst
 
 - **Submission portal:** [OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/ACA#tab-your-consoles)
 
+Papers should be no more than **5 content pages** and formatted according to the following style file [neurips_ACA_2025](https://drive.google.com/file/d/1mfzE21wSmk4I-mGWIWmoi8H6or5vxdRb/view?usp=sharing). 
 
 ## Topics of Interest
 
