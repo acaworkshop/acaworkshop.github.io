@@ -12,7 +12,11 @@ format:
 
 # Call for Papers
 
-We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action (ACA)**. This workshop aims to bring together researchers, practitioners, and community stakeholders to explore how coordinated actions can shape and improve algorithmic sociotechnical systems.
+We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action (ACA)**. This workshop aims to bring together researchers, practitioners, and community stakeholders to explore how coordinated actions of participants can shape and improve algorithmic sociotechnical systems.
+
+📌 𝗧𝗼𝗽𝗶𝗰𝘀 𝗼𝗳 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝘁 𝗶𝗻𝗰𝗹𝘂𝗱𝗲
+Collective goals and strategies, user-driven approaches to participatory AI, power asymmetries and governance on online platforms, incentive structures and equilibria in digital markets, vulnerabilities and attack surfaces in AI systems, tools for orchestrating participants, risks and challenges, case studies and community perspectives.
+
 
 ## Important Dates
 
@@ -26,7 +30,9 @@ We welcome both theoretical and empirical contributions that advance our underst
 
 - **Submission portal:** [OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/ACA#tab-your-consoles)
 
-Papers should be no more than **5 content pages** and formatted according to the following style file [neurips_ACA_2025](https://drive.google.com/file/d/1kjpiXTdWP3ygUmEZ8ZnnyusyIl-P699T/view?usp=sharing). Submissions should be anonymized to ensure a double-blind peer review process. 
+Papers should be no more than **5 content pages** and formatted according to the following style file [neurips_ACA_2025](https://drive.google.com/file/d/1kjpiXTdWP3ygUmEZ8ZnnyusyIl-P699T/view?usp=sharing). Submissions should be anonymized to ensure a double-blind peer review process. Authors are encouraged to work through the NeurIPS paper checklist but it is not mandatory to include the checklist with the workshop submission. 
+
+For *non-standard workshop contributions*, that do not fit with the above format (e.g., software tools, experience reports, grassroots initiatives, or non-academic participation), we engourage authors to reach out to us at [acaworkshop2025@gmail.com](mailto:acaworkshop2025@gmail.com) and we will  figure out an appropriate format for these cases individually.
 
 ## Topics of Interest
 
@@ -49,7 +55,7 @@ We are interested in submissions covering both **Algorithmic Collective Action (
 - **Content creation and social media**: Artist and creator collective actions
 - **Consumer protection**: Coordinated consumer actions against algorithmic systems
 - **Privacy and surveillance**: Collective resistance to surveillance technologies
-- **Algorithmic bias and fairness**: Community-driven approaches to addressing bias
+- **Algorithmic bias and fairness**: Community-driven approaches to addressing bias, discrimination and unfairness
 
 ---
 
