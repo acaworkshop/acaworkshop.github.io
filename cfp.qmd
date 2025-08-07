@@ -32,18 +32,20 @@ For *non-standard workshop contributions*, that do not fit with the above format
 
 ## Topics of Interest
 
-Our workshop aims to offer a platform to discuss technical insights, challenges and novel ideas to identify promising directions for this emerging research field. We welcome submissions covering **Algorithmic Collective Action** as well as insights from related subfieds. Topics of interest include, but are not limited to the following:
+We welcome contributions that explore the mechanisms, challenges, opportunities, and impacts of collective efforts to influence algorithmic systems. Submissions may include technical insights, interdisciplinary perspectives, lived experiences, or original ideas that help advance and shape the future of the emerging field of algorithmic collective action.
 
-- **Collective goals and strategies**: Strategies for purposefully interacting with algorithmic systems to achieve socially beneficial outcomes. Examples include data obfuscation for protecting user privacy, conscious data contributions to promote market compatition, data strikes to resist surveillance and data manipulation to achieve fairness.
+Topics of interest include, but are not limited to the following:
+
+- **Collective goals and strategies**: Strategies for purposefully interacting with algorithmic systems to achieve socially beneficial outcomes. Examples include data obfuscation for protecting user privacy, conscious data contributions to promote market competition, data strikes to resist surveillance and data manipulation to achieve fairness.
 - **Attack surfaces of AI systems**: What are the levers that a collective can exploit in the age of AI? 
-- **Success bounds**: Which collective goals are achievable? This includes statistical bounds, learning theoretic considerations, and optimization results.
-- **Coordination**: What are challenges of coordinating large-scale efforts? This includes information sharing, tools for orchestrating participants, and other practical consideration.
-- **Economic aspects**: Mechanisms for incentivizing participation in collective action, analysis of strategic behavior, competing incentives and equilibrium outcomes.
-- **Countermeasures**: Robust learning in the presence of coordinated data manipulation, trade-offs involved in protecting against collective strategies
-- **AI Governance and Advocacy, Participatory AI**: Community-driven approaches to AI design, regulation and oversight. How can participants be involved in shaping AI systems?
-- **Power dynamics on online platforms**
+- **Success bounds**: What kinds of collective goals are realistically achievable? This includes statistical bounds, learning-theoretic insights, and optimization-based results.
+- **Coordination**: What are the challenges of organizing large-scale collective action? Examples include information sharing, tools for participant orchestration, strategies for coordination and other practical considerations.
+- **Economic aspects**: Mechanism design for incentivizing participation, analysis of strategic behavior, competing incentives, and equilibrium outcomes.
+- **Countermeasures**: Robust learning under coordinated data manipulation; trade-offs in defending against collective strategies.
+- **AI Governance and Advocacy, Participatory AI**: Community-driven approaches to AI design, regulation and oversight. How can stakeholders participate meaningfully in shaping AI systems?
+- **Power dynamics on online platforms**: How platform design and control affect collective efforts and user agency.
 
-We further welcome case studies, community perspectives as well as insights from application domains, including content creation, social media, creative work, and the gig economy more broadly. 
+We also welcome case studies, community perspectives as well as insights from application domains, including content creation, social media, creative work, and the gig economy more broadly. 
 
 ---
 
