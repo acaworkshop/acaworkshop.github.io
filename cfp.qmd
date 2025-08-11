@@ -22,11 +22,11 @@ We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action
 
 ## Submission Information
 
-We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action.
+We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action. Publications are non-archival; we explicitly encourage work in progress and contributions from other fields. If you submit work on related topics, please make explicit how your insights are releavnt for the workshop; fit is an important selection criterion.
 
 - **Submission portal:** [OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/ACA#tab-your-consoles)
 
-Papers should be no more than **5 content pages** and formatted according to the following style file [neurips_ACA_2025](https://drive.google.com/file/d/1kjpiXTdWP3ygUmEZ8ZnnyusyIl-P699T/view?usp=sharing). Submissions should be anonymized to ensure a double-blind peer review process. Authors are encouraged to work through the NeurIPS paper checklist but it is not mandatory to include the checklist with the workshop submission. 
+Papers should be **4-6 content pages** and formatted according to the following style file [neurips_ACA_2025](https://drive.google.com/file/d/1kjpiXTdWP3ygUmEZ8ZnnyusyIl-P699T/view?usp=sharing). Submissions should be anonymized to ensure a double-blind peer review process. Authors are encouraged to work through the NeurIPS paper checklist but it is not mandatory to include the checklist with the workshop submission. 
 
 For *non-standard workshop contributions*, that do not fit with the above format (e.g., software tools, experience reports, grassroots initiatives, or non-academic participation), we engourage authors to reach out to us at [acaworkshop2025@gmail.com](mailto:acaworkshop2025@gmail.com) and we will figure out an appropriate format for these cases individually.
 
@@ -36,7 +36,7 @@ We welcome contributions that explore the mechanisms, challenges, opportunities,
 
 Topics of interest include, but are not limited to the following:
 
-- **Collective goals and strategies**: Strategies for purposefully interacting with algorithmic systems to achieve socially beneficial outcomes. Examples include data obfuscation for protecting user privacy, conscious data contributions to promote market competition, data strikes to resist surveillance and data manipulation to achieve fairness.
+- **Collective goals and strategies**: Strategies for purposefully interacting with algorithmic systems to achieve socially beneficial outcomes. Examples include data obfuscation for protecting user privacy, conscious data contributions to promote market competition, data strikes to resist surveillance and data manipulation to achieve fairness. This could also mean to revisit ideas from data poisoning and adversarial machine learning or to repurpose optimization algorithms for the collective good.
 - **Attack surfaces of AI systems**: What are the levers that a collective can exploit in the age of AI? 
 - **Success bounds**: What kinds of collective goals are realistically achievable? This includes statistical bounds, learning-theoretic insights, and optimization-based results.
 - **Coordination**: What are the challenges of organizing large-scale collective action? Examples include information sharing, tools for participant orchestration, strategies for coordination and other practical considerations.
