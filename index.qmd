@@ -41,12 +41,13 @@ yml_reviewers()
 ::: {.text-center}
 <span class="hero-title">Welcome!</span>
 <span class="hero-subtitle">
-The **Workshop on Algorithmic Collective Action (ACA)** will be co-located with [NeurIPS 2025](https://neurips.cc/) in San Diego.
+The **1st Workshop on Algorithmic Collective Action (ACA)** will be co-located with [NeurIPS 2025](https://neurips.cc/) in San Diego.
 </span>
 :::
 
-This workshop explores coordinated efforts of participants of AI systems towards achieving socially beneficial outcomes. We welcome contributions at the intersection of machine learning, statistics, optimization, economics and humanities that contribute towards understanding, 
-designing and analyzing efforts of algorithmic collective action --- steering outcomes in sociotechnical systems "from below".
+::: {.text-center}
+This workshop explores coordinated efforts of participants of AI systems towards achieving socially beneficial outcomes. We welcome contributions at the intersection of machine learning, statistics, optimization, economics and humanities that contribute towards understanding, designing and analyzing efforts of algorithmic collective action --- shaping outcomes in sociotechnical systems "from below".
+:::
 
 ::: {.text-center}
 <a href="https://acaworkshop.github.io/cfp.html" class="btn btn-primary" role="button">Submit your work!</a>
@@ -84,8 +85,3 @@ If you would like to help as a reviewer, please fill out the form below.
 
 
 ---
-
-# References
-
-::: {#refs}
-:::
