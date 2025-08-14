@@ -1,0 +1,42 @@
+---
+title: "Background"
+title-block-banner: images/banner-5.jpg
+bibliography: refs.bib
+format:
+  html:
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: true
+---
+# About the workshop
+
+Despite opening up unthought opportunities for productivity and commercial development, increasingly capable algorithmic systems 
+have also posed new threats to the well-being of their participants and lead to or exacerbated existing social issues such as biases, 
+labor tensions [@marcin_economic_2019;@wood2019platform], and erosion of privacy [@papernot_sok_2018]. 
+As a result, those who interact with algorithmic systems have led coordinated campaigns to shape the systems directly or pressure the 
+operators to indirectly implement changes to the systems. 
+Real world examples include the \#DeclineNow campaign by Doordash gig workers to increase pay by collectively witholding labor,
+the use of [coordinated "No AI Art" posts by artists on DeviantArt to voice their grievances to the 
+platform](https://arstechnica.com/information-technology/2022/12/artstation-artists-stage-mass-protest-against-ai-generated-artwork/), 
+and the [coordinated migration of users from X (Twitter) to BlueSky](https://www.theguardian.com/media/2024/dec/11/from-x-to-bluesky-why-are-people-abandoning-twitter-digital-town-square). 
+We refer to [@sigg2025decline] for a living survey of docmumented use cases. These bottom-up efforts demonstrate the organic interests of workers, consumers, 
+and citizens in shaping and pushing back against algorithmic systems. 
+
+
+The study of "collective action" has a long history in Economics and Sociology as a way for groups of people to impact markets 
+and the political arena [@olson_logic_1965; @marwell_critical_1993].
+*Algorithmic Collective Action* (ACA) is the study of such coordination strategies in algorithmically-mediated sociotechnical systems. 
+Following early explorations in HCI and Computational Social Science [@postmes_collective_2002; @turner_picturing_2005; @li_out_2018], 
+ACA has recently emerged as an exciting new topic for rigorous theoretical and empirical work within Machine Learning 
+[@kulynych2020pots; @hardt_algorithmic_2023; @ben-dov_role_2024; @baumann_algorithmic_2024; @gauthier2025stat; @solanki2025crowding].
+Initial findings demonstrate how the expertise of the ML community in algorithm design and optimization can be used, not only to build 
+increasingly powerful systems, but also to enable community participation and counter power centralization though the conscious use of 
+data interfaces in AI systems. Moreover, the *user-centric perspective* of ACA complements the many ongoing efforts of building "fair", 
+"participatory", and "responsible" AI systems from within firms.
+
+
+Our workshop offers a platform to discuss new ideas and help define the foundational research directions for this emerging topic through interdisciplinary 
+discussions between core ML researchers, scholars from the social sciences,  community stakeholders and advocates. We will invite speakers and panelists 
+involved in organizing communities to share practical insights and real world challenges, as well as researchers exploring  related technical questions 
+within the core ML community. Ultimately our goal is to build a lasting community and promote exciting opportunities for 
+new research, **centering the needs of consumers and workers in the study of AI systems**. 

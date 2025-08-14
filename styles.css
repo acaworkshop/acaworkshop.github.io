@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -50vw !important;
   margin-right: -50vw !important;
   position: relative !important;
-  height: 500px !important; /* Or your desired height */
+  height: 300px !important; /* Or your desired height */
   background-size: cover !important;
   background-position: center !important;
   border-radius: 0 !important;
@@ -342,10 +342,7 @@ section, .section, .content > * {
     hyphens: auto;
   }
   
-  /* Adjust banner height for mobile */
-  .quarto-title-banner {
-    height: 300px !important;
-  }
+
   
   /* Adjust content padding for mobile */
   main, .content {
@@ -468,10 +465,7 @@ section, .section, .content > * {
     overflow-x: hidden;
   }
   
-  /* Reduce banner height further */
-  .quarto-title-banner {
-    height: 250px !important;
-  }
+
   
   /* Adjust organiser grid for very small screens */
   .organiser-grid {
@@ -518,3 +512,18 @@ footer.footer .nav-footer-center {
   font-weight: bold; /* if you still want it bold */
 }
 
+
+.hero-title {
+  display: block;             /* so margin works */
+  /*font-family: 'Merriweather', serif;*/
+  font-size: 2.5rem;            /* adjust to taste */
+  margin-bottom: 0.5em;
+  color: #222;                /* or whatever you like */
+}
+
+.hero-subtitle {
+  display: block;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  color: #555;
+}
