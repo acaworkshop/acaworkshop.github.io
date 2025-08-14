@@ -3,14 +3,17 @@ project:
   #output-dir: docs
 
 website:
-  title: "NeurIPS Workshop on Algorithmic Collective Action"
+  title: "ACA@NeurIPS"
   navbar:
+    search: false
     background: "#243B59"
-    left:
+    right:
       # - href: index.qmd
       #   text: About
+      - href: about.qmd
+        text: About
       - href: cfp.qmd
-        text: Call for Papers
+        text: 📣 Call for Papers
       # - href: speakers/index.qmd
       #   text: Our Speakers
       # - href: team.qmd
