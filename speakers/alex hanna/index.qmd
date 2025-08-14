@@ -9,6 +9,7 @@ abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 date: "2025-12-18 14:30"
 categories: ["data ethics", "labor", "social movements"]
 confirmed: true
+order: 4
 ---
 
 ## Bio

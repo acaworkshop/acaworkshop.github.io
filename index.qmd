@@ -18,7 +18,7 @@ listing:
         - data/reviewers.yml
     - id: list-speakers
       contents: "speakers/*/index.qmd"
-      sort: "date"
+      sort: "order"
       type: "default"
       date-format: "YYYY-MM-DD HH:mm"
       fields: [talk_title, author, photo, website, role, institution, abstract, date, categories]  
