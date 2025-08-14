@@ -1,19 +1,19 @@
 <ul class="organiser-grid">
-<% const confirmed = items.filter(p => p.confirmed == true); %>
-<% for (const item of confirmed) { %>
-  <li class="organiser-card" <%= metadataAttrs(item) %>>
-    <img
-      src="<%= item.photo %>"
-      alt="Photo of <%= item.name %>"
-      class="organiser-photo-2"
-    >
-    <p class="organiser-name">
-         <a href="<%= item.website %>" target="_blank" rel="noopener noreferrer">
-          <%= item.author %>
-        </a>
-    </p>
-    <p class="organiser-institution"><%= item.role %> </p>
-    <p class="organiser-institution"><%= item.institution %> </p>
-  </li>
-<% } %>
+  <% const confirmed=items.filter(p=> p.confirmed == true); %>
+    <% for (const item of confirmed) { %>
+      <li class="organiser-card" <%=metadataAttrs(item) %>>
+        <img src="<%= item.photo %>" alt="Photo of <%= item.name %>" class="organiser-photo-2">
+        <p class="organiser-name">
+          <a href="<%= item.website %>" target="_blank" rel="noopener noreferrer">
+            <%= item.author %>
+          </a>
+        </p>
+        <p class="organiser-institution">
+          <%= item.role %>
+        </p>
+        <p class="organiser-institution">
+          <%= item.institution %>
+        </p>
+      </li>
+      <% } %>
 </ul>

@@ -9,6 +9,7 @@ abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 date: "2025-12-18 15:20"
 categories: ["gig work", "crowdsourcing", "human centered ai"]
 confirmed: true
+order: 1
 ---
 
 ## Bio
