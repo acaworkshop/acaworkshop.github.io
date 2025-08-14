@@ -4,7 +4,7 @@ author: ""
 comments: false
 listing:
   contents: "index.qmd"
-  sort: "order"
+  sort: "date"
   type: "default"
   date-format: "YYYY-MM-DD HH:mm"
   fields: [talk_title, author, photo, website, role, institution, abstract, date]  
