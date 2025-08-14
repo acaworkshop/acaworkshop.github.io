@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/team.html",
-    "items": []
-  },
-  {
     "listing": "/speakers/index.html",
     "items": [
       "/speakers/tijana zrnic/index.html",
@@ -14,6 +10,10 @@
       "/speakers/joana redden/index.html",
       "/speakers/saiph savage/index.html"
     ]
+  },
+  {
+    "listing": "/team.html",
+    "items": []
   },
   {
     "listing": "/index.html",
