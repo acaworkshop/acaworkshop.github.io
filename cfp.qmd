@@ -10,9 +10,14 @@ format:
     crossrefs-hover: true
 ---
 
+
+
 # Call for Papers
 
 We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action (ACA)**. This workshop aims to bring together researchers, practitioners, and community stakeholders to explore how coordinated actions of participants can shape and improve algorithmic sociotechnical systems.
+
+*We look forward to your submissions and to building a vibrant community around algorithmic collective action!* 
+
 
 ## Important Dates
 
@@ -22,7 +27,7 @@ We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action
 
 ## Submission Information
 
-We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action. Publications are non-archival; we explicitly encourage work in progress and contributions from other fields. If you submit work on related topics, please make explicit how your insights are releavnt for the workshop; fit is an important selection criterion.
+We welcome both theoretical and empirical contributions that advance our understanding of algorithmic collective action. Publications are non-archival; we explicitly encourage work in progress and contributions from other fields. If you submit work on related machine learning topics, please make explicit how your insights are releavnt for the workshop; fit is an important selection criterion.
 
 - **Submission portal:** [OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/ACA#tab-your-consoles)
 
@@ -65,4 +70,3 @@ For questions about submissions or the workshop, please contact the organizers a
 
 ---
 
-*We look forward to your submissions and to building a vibrant community around algorithmic collective action!* 
