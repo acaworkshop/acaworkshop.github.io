@@ -39,4 +39,10 @@ Our workshop offers a platform to discuss new ideas and help define the foundati
 discussions between core ML researchers, scholars from the social sciences,  community stakeholders and advocates. We will invite speakers and panelists 
 involved in organizing communities to share practical insights and real world challenges, as well as researchers exploring  related technical questions 
 within the core ML community. Ultimately our goal is to build a lasting community and promote exciting opportunities for 
-new research, **centering the needs of consumers and workers in the study of AI systems**. 
+new research, **centering the needs of consumers and workers in the study of AI systems**.
+
+## References
+
+::: {#refs}
+:::
+
