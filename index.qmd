@@ -46,7 +46,8 @@ The **1st Workshop on Algorithmic Collective Action (ACA)** will be co-located w
 :::
 
 ::: {.text-center}
-This workshop explores coordinated efforts of participants of AI systems towards achieving socially beneficial outcomes. We welcome contributions at the intersection of machine learning, statistics, optimization, economics and humanities that contribute towards understanding, designing and analyzing efforts of algorithmic collective action --- shaping outcomes in sociotechnical systems "from below".
+This workshop explores coordinated efforts of participants of AI systems towards achieving socially beneficial outcomes. We welcome contributions at the intersection of machine learning, statistics, optimization, economics and humanities that contribute towards understanding, designing and analyzing efforts of algorithmic collective action\
+--- shaping outcomes in sociotechnical systems "from below".
 :::
 
 ::: {.text-center}
