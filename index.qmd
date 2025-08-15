@@ -39,9 +39,9 @@ yml_reviewers()
 
 <!-- HERO SECTION -->
 ::: {.text-center}
-<span class="hero-title">Welcome!</span>
+<span class="hero-title">Workshop on Algorithmic Collective Action</span>
 <span class="hero-subtitle">
-The **1st Workshop on Algorithmic Collective Action (ACA)** will be co-located with [NeurIPS 2025](https://neurips.cc/) in San Diego.
+co-located with [NeurIPS 2025](https://neurips.cc/) in San Diego.
 </span>
 :::
 
