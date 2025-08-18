@@ -46,9 +46,9 @@ A Workshop co-located with [NeurIPS 2025](https://neurips.cc/) in San Diego.
 :::
 
 ::: {.text-center}
-How can participants steer AI systems toward a common good?
+How can participants steer AI systems toward a common good?\
 This workshop explores collective strategies for shaping outcomes in socio-technical systems from below. 
-We welcome contributions that examine algorithmic collective action through the lenses of machine learning, statistics, optimization, economics, and the humanities. Submissions may address theoretical foundations, empirical studies, or practical challenges that advance our understanding of how coordinated efforts can influence the development and deployment of AI systems.
+We welcome contributions that examine algorithmic collective action through the lense of machine learning, statistics, optimization, economics, and the humanities. Submissions may address theoretical foundations, empirical studies, or practical challenges that advance our understanding of how coordinated efforts can influence the development and deployment of AI systems.
 :::
 
 ::: {.text-center}
