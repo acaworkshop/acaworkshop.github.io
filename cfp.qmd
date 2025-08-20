@@ -11,7 +11,6 @@ format:
 ---
 
 
-
 # Call for Papers
 
 We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action (ACA)**. This workshop aims to bring together researchers, practitioners, and community stakeholders to explore how coordinated actions of participants can shape and improve AI systems.
@@ -31,7 +30,7 @@ We welcome both theoretical and empirical contributions that advance our underst
 
 - **Submission portal:** [OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/ACA#tab-your-consoles)
 
-Papers should be **3-6 content pages** and formatted according to the following style file [neurips_ACA_2025](https://drive.google.com/file/d/1kjpiXTdWP3ygUmEZ8ZnnyusyIl-P699T/view?usp=sharing). Submissions should be anonymized to ensure a double-blind peer review process. Authors are encouraged to work through the NeurIPS paper checklist but it is not mandatory to include the checklist with the workshop submission. 
+Papers should be **3-6 content pages** and formatted according to the following style file [neurips_ACA_2025](https://drive.google.com/file/d/1D0x1Tl4bQUTiY3Y9BDyUnz2qlI2MeEkZ/view?usp=drive_link). Submissions should be anonymized to ensure a double-blind peer review process. Authors are encouraged to work through the NeurIPS paper checklist but it is not mandatory to include the checklist with the workshop submission. 
 
 For *non-standard workshop contributions*, that do not fit with the above format (e.g., software tools, experience reports, grassroots initiatives, or non-academic participation), we engourage authors to reach out to us at [acaworkshop2025@gmail.com](mailto:acaworkshop2025@gmail.com) and we will find an appropriate format for these cases individually.
 
