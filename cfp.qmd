@@ -20,7 +20,7 @@ We invite submissions to the **NeurIPS Workshop on Algorithmic Collective Action
 
 ## Important Dates
 
-- **Submission Deadline**: August 22, 2025 (Anywhere on Earth)
+- **Submission Deadline**: August 29, 2025 ~~August 22, 2025~~ (Anywhere on Earth)
 - **Notification**: September 19, 2025
 - **Workshop**: December 6/7 2025
 
