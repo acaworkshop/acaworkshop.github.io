@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/speakers/index.html",
+    "listing": "/index.html",
     "items": [
       "/speakers/saiph savage/index.html",
       "/speakers/florian tramer/index.html",
@@ -16,7 +16,7 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/speakers/index.html",
     "items": [
       "/speakers/saiph savage/index.html",
       "/speakers/florian tramer/index.html",
