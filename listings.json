@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/speakers/index.html",
+    "items": [
+      "/speakers/saiph savage/index.html",
+      "/speakers/florian tramer/index.html",
+      "/speakers/tijana zrnic/index.html",
+      "/speakers/alex hanna/index.html",
+      "/speakers/seda gürses/index.html",
+      "/speakers/joana redden/index.html",
+      "/speakers/helen nissenbaum/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/speakers/saiph savage/index.html",
@@ -14,17 +26,5 @@
   {
     "listing": "/team.html",
     "items": []
-  },
-  {
-    "listing": "/speakers/index.html",
-    "items": [
-      "/speakers/saiph savage/index.html",
-      "/speakers/florian tramer/index.html",
-      "/speakers/tijana zrnic/index.html",
-      "/speakers/alex hanna/index.html",
-      "/speakers/seda gürses/index.html",
-      "/speakers/joana redden/index.html",
-      "/speakers/helen nissenbaum/index.html"
-    ]
   }
 ]
