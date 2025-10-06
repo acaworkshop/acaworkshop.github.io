@@ -109,7 +109,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-name','listing-institution',{ data: ['index'] },{ data: ['categories'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-name","listing-institution"],
     };
 
@@ -293,76 +294,154 @@ University of Texas at Austin
 <div id="listing-list-rev" class="quarto-listing quarto-listing-container-custom">
 <ul>
 <li>
-<strong>Elliot Creager</strong> — <em>U of Waterloo</em>
+<strong>Ulrich Aïvodji</strong> — <em>ETS Montréal</em>
 </li>
 <li>
-<strong>Nicholas Vincent</strong> — <em>Simon Fraser U</em>
+<strong>Ashutosh Ahuja</strong> — <em>Starbucks</em>
 </li>
 <li>
-<strong>Celestine Mendler-Dünner</strong> — <em>MPI Tübingen</em>
+<strong>Blair Attard-Frost</strong> — <em>University of Alberta</em>
 </li>
 <li>
 <strong>Williiam Agnew</strong> — <em>CMU</em>
 </li>
 <li>
-<strong>Hanlin Li</strong> — <em>U of Texas</em>
+<strong>Sushma Anand Akoju1</strong> — <em>University of New Hampshire Durham</em>
 </li>
 <li>
-<strong>Ulrich Aïvodji</strong> — <em>ETS Montreal</em>
+<strong>Héber H. Arcolezi</strong> — <em>Inria</em>
 </li>
 <li>
-<strong>Rushabh Solanki</strong> — <em>U of Waterloo</em>
-</li>
-<li>
-<strong>Meghana Bhange</strong> — <em>ETS Montreal</em>
-</li>
-<li>
-<strong>Prakhar Ganesh</strong> — <em>McGill</em>
-</li>
-<li>
-<strong>Khaoula Chehbouni</strong> — <em>McGill</em>
-</li>
-<li>
-<strong>Parth Sarin</strong> — <em>Stanford</em>
-</li>
-<li>
-<strong>Afaf Taïk</strong> — <em>Université de Sherbrooke</em>
+<strong>Pushpa Kumar Balan</strong> — <em>University of Central Missouri</em>
 </li>
 <li>
 <strong>Joachim Baumann</strong> — <em>University of Zurich</em>
 </li>
 <li>
-<strong>Sara Fish</strong> — <em>Harvard</em>
+<strong>Meghana Bhange</strong> — <em>ETS Montréal</em>
 </li>
 <li>
-<strong>Qing Xiao</strong> — <em>CMU</em>
+<strong>Michal Bravansky</strong> — <em>University College London</em>
 </li>
 <li>
-<strong>Etienne Gauthier</strong> — <em>Inria</em>
+<strong>Renjie Cao</strong> — <em>Nanchang Hangkong University</em>
 </li>
 <li>
-<strong>Julien Ferry</strong> — <em>Polytechnique Montreal</em>
+<strong>Arthur Charpentier</strong> — <em>Université du Québec à Montréal</em>
 </li>
 <li>
-<strong>Heber Hwang Arcolezi</strong> — <em>Inria</em>
+<strong>Mahasweta Chakraborti</strong> — <em>University of California Davis</em>
 </li>
 <li>
-<strong>Patrik Kenfack</strong> — <em>ETS Montreal</em>
+<strong>Abhiroop Chatterjee</strong> — <em>Jadavpur University</em>
+</li>
+<li>
+<strong>Khaoula Chehbouni</strong> — <em>McGill</em>
 </li>
 <li>
 <strong>Harry Cheon</strong> — <em>UCSD</em>
 </li>
 <li>
+<strong>Elliot Creager</strong> — <em>University of Waterloo</em>
+</li>
+<li>
+<strong>Zhoujie Ding</strong> — <em>Stanford University</em>
+</li>
+<li>
+<strong>Kate Donahue</strong> — <em>MIT</em>
+</li>
+<li>
+<strong>Julien Ferry</strong> — <em>Polytechnique Montréal</em>
+</li>
+<li>
+<strong>Sara Fish</strong> — <em>Harvard</em>
+</li>
+<li>
+<strong>Prakhar Ganesh</strong> — <em>McGill</em>
+</li>
+<li>
+<strong>Etienne Gauthier</strong> — <em>Inria</em>
+</li>
+<li>
+<strong>Ashish Gupta</strong> — <em>ServiceNow </em>
+</li>
+<li>
+<strong>Shreyas Kadekodi</strong> — <em>University of California San Diego</em>
+</li>
+<li>
+<strong>Mobina Noori Kaliani</strong> — <em>University of California Davis</em>
+</li>
+<li>
+<strong>Alice Kang</strong> — <em>University of British Columbia</em>
+</li>
+<li>
+<strong>Patrik Kenfack</strong> — <em>ETS Montréal</em>
+</li>
+<li>
+<strong>Khurram Khalil</strong> — <em>University of Missouri</em>
+</li>
+<li>
+<strong>Bogdan Kulynych</strong> — <em>CHUV - University Hospital Lausanne</em>
+</li>
+<li>
+<strong>Chen Li</strong> — <em>Carnegie Mellon University</em>
+</li>
+<li>
+<strong>Hanlin Li</strong> — <em>University of Texas</em>
+</li>
+<li>
+<strong>Celestine Mendler-Dünner</strong> — <em>MPI Tübingen</em>
+</li>
+<li>
+<strong>Jennifer Mickel</strong> — <em>Eleuther AI</em>
+</li>
+<li>
+<strong>Rashid Mushkani</strong> — <em>Université de Montréal</em>
+</li>
+<li>
+<strong>Sohom Mukherjee</strong> — <em>Julius-Maximilians-Universität Würzburg</em>
+</li>
+<li>
+<strong>Lauren Quigley</strong> — <em>IBM</em>
+</li>
+<li>
+<strong>Abhinav Sagar</strong> — <em>University of Maryland</em>
+</li>
+<li>
+<strong>Parth Sarin</strong> — <em>Stanford University</em>
+</li>
+<li>
+<strong>Rushabh Solanki</strong> — <em>University of Waterloo</em>
+</li>
+<li>
+<strong>Mahmoud Srewa</strong> — <em>University of California Irvine</em>
+</li>
+<li>
 <strong>Meredith Stewart</strong> — <em>UCSD</em>
 </li>
 <li>
-<strong>Shreyas Kadekodi</strong> — <em>UCSD</em>
+<strong>Afaf Taïk</strong> — <em>Université de Sherbrooke</em>
 </li>
 <li>
-<strong>Blair Attard-Frost</strong> — <em>U of Toronto</em>
+<strong>Sandy Tanwisuth</strong> — <em>University of California Berkeley</em>
+</li>
+<li>
+<strong>Annie S. Ulichney</strong> — <em>University of California Berkeley</em>
+</li>
+<li>
+<strong>Nicholas Vincent</strong> — <em>Simon Fraser U</em>
+</li>
+<li>
+<strong>Priyanka Verma</strong> — <em>University of Toronto</em>
+</li>
+<li>
+<strong>Qing Xiao</strong> — <em>CMU</em>
 </li>
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="list-rev-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 

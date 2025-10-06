@@ -109,7 +109,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-name','listing-institution',{ data: ['index'] },{ data: ['categories'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-name","listing-institution"],
     };
 
@@ -256,8 +257,7 @@ window.Quarto = {
   <ul>
   <li><a href="#speakers" id="toc-speakers" class="nav-link active" data-scroll-target="#speakers">Speakers</a></li>
   <li><a href="#organisers" id="toc-organisers" class="nav-link" data-scroll-target="#organisers">Organisers</a></li>
-  <li><a href="#reviewers" id="toc-reviewers" class="nav-link" data-scroll-target="#reviewers">Reviewers</a></li>
-  <li><a href="#reviewer-volunteer-form" id="toc-reviewer-volunteer-form" class="nav-link" data-scroll-target="#reviewer-volunteer-form">Reviewer Volunteer Form</a></li>
+  <li><a href="#program-committee" id="toc-program-committee" class="nav-link" data-scroll-target="#program-committee">Program Committee</a></li>
   </ul>
 </nav>
     </div>
@@ -277,9 +277,11 @@ Saturday, December 6, San Diego Convention Center. </span></p>
 <p>How can participants steer AI systems toward a common good?<br>
 This workshop explores collective strategies for shaping outcomes in socio-technical systems from below. We welcome contributions that examine algorithmic collective action through the lense of machine learning, statistics, optimization, economics, and the humanities. Submissions may address theoretical foundations, empirical studies, or practical challenges that advance our understanding of how coordinated efforts can influence the development and deployment of AI systems.</p>
 </div>
-<div class="text-center">
-<p><a href="https://acaworkshop.github.io/cfp.html" class="btn btn-primary" role="button">Submit your work!</a></p>
-</div>
+<!--
+::: {.text-center}
+<a href="https://acaworkshop.github.io/cfp.html" class="btn btn-primary" role="button">Submit your work!</a>
+:::
+-->
 <hr>
 <section id="speakers" class="level1">
 <h1>Speakers</h1>
@@ -413,91 +415,176 @@ University of Texas at Austin
 </div>
 <hr>
 </section>
-<section id="reviewers" class="level1">
-<h1>Reviewers</h1>
+<section id="program-committee" class="level1">
+<h1>Program Committee</h1>
+<p>We are gratefull to the following volunteer reviewers:</p>
 <div id="listing-list-rev" class="quarto-listing quarto-listing-container-custom">
 <ul>
 <li>
-<strong>Elliot Creager</strong> — <em>U of Waterloo</em>
+<strong>Ulrich Aïvodji</strong> — <em>ETS Montréal</em>
 </li>
 <li>
-<strong>Nicholas Vincent</strong> — <em>Simon Fraser U</em>
+<strong>Ashutosh Ahuja</strong> — <em>Starbucks</em>
 </li>
 <li>
-<strong>Celestine Mendler-Dünner</strong> — <em>MPI Tübingen</em>
+<strong>Blair Attard-Frost</strong> — <em>University of Alberta</em>
 </li>
 <li>
 <strong>Williiam Agnew</strong> — <em>CMU</em>
 </li>
 <li>
-<strong>Hanlin Li</strong> — <em>U of Texas</em>
+<strong>Sushma Anand Akoju1</strong> — <em>University of New Hampshire Durham</em>
 </li>
 <li>
-<strong>Ulrich Aïvodji</strong> — <em>ETS Montreal</em>
+<strong>Héber H. Arcolezi</strong> — <em>Inria</em>
 </li>
 <li>
-<strong>Rushabh Solanki</strong> — <em>U of Waterloo</em>
-</li>
-<li>
-<strong>Meghana Bhange</strong> — <em>ETS Montreal</em>
-</li>
-<li>
-<strong>Prakhar Ganesh</strong> — <em>McGill</em>
-</li>
-<li>
-<strong>Khaoula Chehbouni</strong> — <em>McGill</em>
-</li>
-<li>
-<strong>Parth Sarin</strong> — <em>Stanford</em>
-</li>
-<li>
-<strong>Afaf Taïk</strong> — <em>Université de Sherbrooke</em>
+<strong>Pushpa Kumar Balan</strong> — <em>University of Central Missouri</em>
 </li>
 <li>
 <strong>Joachim Baumann</strong> — <em>University of Zurich</em>
 </li>
 <li>
-<strong>Sara Fish</strong> — <em>Harvard</em>
+<strong>Meghana Bhange</strong> — <em>ETS Montréal</em>
 </li>
 <li>
-<strong>Qing Xiao</strong> — <em>CMU</em>
+<strong>Michal Bravansky</strong> — <em>University College London</em>
 </li>
 <li>
-<strong>Etienne Gauthier</strong> — <em>Inria</em>
+<strong>Renjie Cao</strong> — <em>Nanchang Hangkong University</em>
 </li>
 <li>
-<strong>Julien Ferry</strong> — <em>Polytechnique Montreal</em>
+<strong>Arthur Charpentier</strong> — <em>Université du Québec à Montréal</em>
 </li>
 <li>
-<strong>Heber Hwang Arcolezi</strong> — <em>Inria</em>
+<strong>Mahasweta Chakraborti</strong> — <em>University of California Davis</em>
 </li>
 <li>
-<strong>Patrik Kenfack</strong> — <em>ETS Montreal</em>
+<strong>Abhiroop Chatterjee</strong> — <em>Jadavpur University</em>
+</li>
+<li>
+<strong>Khaoula Chehbouni</strong> — <em>McGill</em>
 </li>
 <li>
 <strong>Harry Cheon</strong> — <em>UCSD</em>
 </li>
 <li>
+<strong>Elliot Creager</strong> — <em>University of Waterloo</em>
+</li>
+<li>
+<strong>Zhoujie Ding</strong> — <em>Stanford University</em>
+</li>
+<li>
+<strong>Kate Donahue</strong> — <em>MIT</em>
+</li>
+<li>
+<strong>Julien Ferry</strong> — <em>Polytechnique Montréal</em>
+</li>
+<li>
+<strong>Sara Fish</strong> — <em>Harvard</em>
+</li>
+<li>
+<strong>Prakhar Ganesh</strong> — <em>McGill</em>
+</li>
+<li>
+<strong>Etienne Gauthier</strong> — <em>Inria</em>
+</li>
+<li>
+<strong>Ashish Gupta</strong> — <em>ServiceNow </em>
+</li>
+<li>
+<strong>Shreyas Kadekodi</strong> — <em>University of California San Diego</em>
+</li>
+<li>
+<strong>Mobina Noori Kaliani</strong> — <em>University of California Davis</em>
+</li>
+<li>
+<strong>Alice Kang</strong> — <em>University of British Columbia</em>
+</li>
+<li>
+<strong>Patrik Kenfack</strong> — <em>ETS Montréal</em>
+</li>
+<li>
+<strong>Khurram Khalil</strong> — <em>University of Missouri</em>
+</li>
+<li>
+<strong>Bogdan Kulynych</strong> — <em>CHUV - University Hospital Lausanne</em>
+</li>
+<li>
+<strong>Chen Li</strong> — <em>Carnegie Mellon University</em>
+</li>
+<li>
+<strong>Hanlin Li</strong> — <em>University of Texas</em>
+</li>
+<li>
+<strong>Celestine Mendler-Dünner</strong> — <em>MPI Tübingen</em>
+</li>
+<li>
+<strong>Jennifer Mickel</strong> — <em>Eleuther AI</em>
+</li>
+<li>
+<strong>Rashid Mushkani</strong> — <em>Université de Montréal</em>
+</li>
+<li>
+<strong>Sohom Mukherjee</strong> — <em>Julius-Maximilians-Universität Würzburg</em>
+</li>
+<li>
+<strong>Lauren Quigley</strong> — <em>IBM</em>
+</li>
+<li>
+<strong>Abhinav Sagar</strong> — <em>University of Maryland</em>
+</li>
+<li>
+<strong>Parth Sarin</strong> — <em>Stanford University</em>
+</li>
+<li>
+<strong>Rushabh Solanki</strong> — <em>University of Waterloo</em>
+</li>
+<li>
+<strong>Mahmoud Srewa</strong> — <em>University of California Irvine</em>
+</li>
+<li>
 <strong>Meredith Stewart</strong> — <em>UCSD</em>
 </li>
 <li>
-<strong>Shreyas Kadekodi</strong> — <em>UCSD</em>
+<strong>Afaf Taïk</strong> — <em>Université de Sherbrooke</em>
 </li>
 <li>
-<strong>Blair Attard-Frost</strong> — <em>U of Toronto</em>
+<strong>Sandy Tanwisuth</strong> — <em>University of California Berkeley</em>
+</li>
+<li>
+<strong>Annie S. Ulichney</strong> — <em>University of California Berkeley</em>
+</li>
+<li>
+<strong>Nicholas Vincent</strong> — <em>Simon Fraser U</em>
+</li>
+<li>
+<strong>Priyanka Verma</strong> — <em>University of Toronto</em>
+</li>
+<li>
+<strong>Qing Xiao</strong> — <em>CMU</em>
 </li>
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="list-rev-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <hr>
-</section>
-<section id="reviewer-volunteer-form" class="level1">
-<h1>Reviewer Volunteer Form</h1>
-<p>If you would like to help as a reviewer, please fill out the form below.</p>
+<!--
+
+# Reviewer Volunteer Form
+
+If you would like to help as a reviewer, please fill out the form below.  
+
 <div style="text-align: center; margin-top: 2em; margin-bottom: 2em;">
-<p><a href="https://forms.gle/oXT3pzQAkzvuzgVq6" target="_blank" class="reviewer-form-btn">Reviewer self-nomination form</a></p>
+  <a href="https://forms.gle/oXT3pzQAkzvuzgVq6" target="_blank" class="reviewer-form-btn">Reviewer self-nomination form</a>
 </div>
-<hr>
+
+
+---
+
+-->
 
 
 
