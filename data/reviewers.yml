@@ -1,46 +1,96 @@
-- name: Elliot Creager
-  institution: U of Waterloo
-- name: Nicholas Vincent
-  institution: Simon Fraser U
-- name: Celestine Mendler-Dünner
-  institution: MPI Tübingen
+- name: Ulrich Aïvodji
+  institution: ETS Montréal
+- name: Ashutosh Ahuja
+  institution: Starbucks
+- name: Blair Attard-Frost
+  institution: University of Alberta
 - name: Williiam Agnew
   institution: CMU
-- name: Hanlin Li
-  institution: U of Texas
-- name: Ulrich Aïvodji
-  institution: ETS Montreal
-- name: Rushabh Solanki
-  institution: U of Waterloo
-- name: Meghana Bhange
-  institution: ETS Montreal
-- name: Prakhar Ganesh
-  institution: McGill
-- name: Khaoula Chehbouni
-  institution: McGill
-- name: Parth Sarin
-  institution: Stanford
-- name: Afaf Taïk
-  institution: Université de Sherbrooke
+- name: Sushma Anand Akoju1
+  institution: University of New Hampshire Durham
+- name: Héber H. Arcolezi
+  institution: Inria
+- name: Pushpa Kumar Balan
+  institution: University of Central Missouri
 - name: Joachim Baumann
   institution: University of Zurich
-- name: Sara Fish
-  institution: Harvard
-- name: Qing Xiao
-  institution: CMU
-- name: Etienne Gauthier
-  institution: Inria
-- name: Julien Ferry
-  institution: Polytechnique Montreal
-- name: Heber Hwang Arcolezi
-  institution: Inria
-- name: Patrik Kenfack
-  institution: ETS Montreal
+- name: Meghana Bhange
+  institution: ETS Montréal
+- name: Michal Bravansky
+  institution: University College London
+- name: Renjie Cao
+  institution: Nanchang Hangkong University
+- name: Arthur Charpentier
+  institution: Université du Québec à Montréal
+- name: Mahasweta Chakraborti
+  institution: University of California Davis
+- name: Abhiroop Chatterjee
+  institution: Jadavpur University
+- name: Khaoula Chehbouni
+  institution: McGill
 - name: Harry Cheon
   institution: UCSD
+- name: Elliot Creager
+  institution: University of Waterloo
+- name: Zhoujie Ding
+  institution: Stanford University
+- name: Kate Donahue
+  institution: MIT
+- name: Julien Ferry
+  institution: Polytechnique Montréal
+- name: Sara Fish
+  institution: Harvard
+- name: Prakhar Ganesh
+  institution: McGill
+- name: Etienne Gauthier
+  institution: Inria
+- name: Ashish Gupta
+  institution: 'ServiceNow    '
+- name: Shreyas Kadekodi
+  institution: University of California San Diego
+- name: Mobina Noori Kaliani
+  institution: University of California Davis
+- name: Alice Kang
+  institution: University of British Columbia
+- name: Patrik Kenfack
+  institution: ETS Montréal
+- name: Khurram Khalil
+  institution: University of Missouri
+- name: Bogdan Kulynych
+  institution: CHUV - University Hospital Lausanne
+- name: Chen Li
+  institution: Carnegie Mellon University
+- name: Hanlin Li
+  institution: University of Texas
+- name: Celestine Mendler-Dünner
+  institution: MPI Tübingen
+- name: Jennifer Mickel
+  institution: Eleuther AI
+- name: Rashid Mushkani
+  institution: Université de Montréal
+- name: Sohom Mukherjee
+  institution: Julius-Maximilians-Universität Würzburg
+- name: Lauren Quigley
+  institution: IBM
+- name: Abhinav Sagar
+  institution: University of Maryland
+- name: Parth Sarin
+  institution: Stanford University
+- name: Rushabh Solanki
+  institution: University of Waterloo
+- name: Mahmoud Srewa
+  institution: University of California Irvine
 - name: Meredith Stewart
   institution: UCSD
-- name: Shreyas Kadekodi
-  institution: UCSD
-- name: Blair Attard-Frost
-  institution: U of Toronto
+- name: Afaf Taïk
+  institution: Université de Sherbrooke
+- name: Sandy Tanwisuth
+  institution: University of California Berkeley
+- name: Annie S. Ulichney
+  institution: University of California Berkeley
+- name: Nicholas Vincent
+  institution: Simon Fraser U
+- name: Priyanka Verma
+  institution: University of Toronto
+- name: Qing Xiao
+  institution: CMU

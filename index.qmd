@@ -52,9 +52,11 @@ This workshop explores collective strategies for shaping outcomes in socio-techn
 We welcome contributions that examine algorithmic collective action through the lense of machine learning, statistics, optimization, economics, and the humanities. Submissions may address theoretical foundations, empirical studies, or practical challenges that advance our understanding of how coordinated efforts can influence the development and deployment of AI systems.
 :::
 
+<!--
 ::: {.text-center}
 <a href="https://acaworkshop.github.io/cfp.html" class="btn btn-primary" role="button">Submit your work!</a>
 :::
+-->
 
 ---
 
@@ -72,12 +74,16 @@ We welcome contributions that examine algorithmic collective action through the 
 
 ---
 
-# Reviewers
+# Program Committee
+We are gratefull to the following volunteer reviewers:
 
 ::: {#list-rev}
 :::
 
 ---
+
+<!--
+
 # Reviewer Volunteer Form
 
 If you would like to help as a reviewer, please fill out the form below.  
@@ -88,3 +94,4 @@ If you would like to help as a reviewer, please fill out the form below.
 
 
 ---
+-->
