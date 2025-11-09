@@ -8,7 +8,8 @@ institution: "Cornell Tech"
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
 date: "2025-12-18 10:00"
 categories: ["privacy", "security", "accountability"]
-confirmed: false
+confirmed: true
+order: 7
 ---
 
 ## Bio
