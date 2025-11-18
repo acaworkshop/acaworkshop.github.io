@@ -1,0 +1,16 @@
+---
+talk_title: "TBD"
+author: "Bogdan Kulynych"
+photo: "images/bogdan.jpg"
+website: "https://kulyny.ch"
+role: "Research Scientist"
+institution: "Lausanne University Hospital"
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+date: "2025-12-18 09:35"
+categories: ["Privacy", "Security", "Reliability", "Social Implications of Algorithmic Systems."]
+confirmed: True
+order: 8
+---
+
+## Bio
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
