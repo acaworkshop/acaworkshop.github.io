@@ -1,0 +1,11 @@
+```{=html} 
+<div class="paper-list">
+  <% for (const paper of items) { %>
+    <p class="oral-entry">
+      <strong><%= paper.title %></strong><br>
+      <em><%= paper.authors.replace(/,\s*/g, ", ").trim() %></em>
+    </p>
+  <% } %>
+</div>
+```
+

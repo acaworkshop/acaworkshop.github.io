@@ -527,3 +527,50 @@ footer.footer .nav-footer-center {
   line-height: 1.4;
   color: #555;
 }
+
+.oral-entry {
+  margin: 0 0 1.2em 0;
+}
+
+.paper-card {
+  margin-top: 1rem;
+}
+
+.paper-entry {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  background: #fff;
+}
+
+.paper-title {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.05rem;
+}
+
+.paper-authors {
+  margin: 0 0 0.8rem 0;
+  color: #444;
+}
+
+.paper-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.paper-btn {
+  display: inline-block;
+  padding: 0.28rem 0.65rem;
+  border-radius: 20px;
+  background: #f3f4f6;
+  color: #111;
+  text-decoration: none;
+  font-size: 0.85rem;
+  border: 1px solid #e5e7eb;
+}
+
+.paper-btn:hover {
+  background: #e5e7eb;
+}

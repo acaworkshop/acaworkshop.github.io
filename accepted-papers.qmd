@@ -1,0 +1,41 @@
+---
+title: "Background"
+title-block-banner: images/banner-5.jpg
+execute:
+  warning: false
+  echo: false
+  message: false
+  eval: true
+bibliography: refs.bib
+format:
+  html:
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: true
+
+listing:
+    - id: oral
+      template: templates/oral.ejs
+      contents:
+        - data/oral-presentations.yml
+    - id: papers
+      template: templates/papers.ejs
+      contents:
+        - data/papers.yml
+---
+
+```{python}
+from utils import dump_data
+dump_data()
+```
+
+# Oral presentations
+
+::: {#oral}
+:::
+
+# Papers
+
+
+
+
