@@ -1,0 +1,63 @@
+```{=html} 
+<section class="schedule-section"></section>
+<div class="schedule-card" style="width: 100%;">
+  <% for (const row of items) {
+
+       const authors = row["Speaker(s)"]
+         ? row["Speaker(s)"].replace(/,\s*/g, ", ").trim()
+         : "";
+
+       const modeRaw = row["Speaker in person?"] || "";
+       const mode = modeRaw.toLowerCase();
+
+       const confirmed = (row["Speaker confirmed?"] || "").toLowerCase();
+       const isYes = confirmed.includes("yes");
+
+       const titleRaw = row.title || row.Title || "";   // support both `title` or `Title`
+       const title = (!titleRaw || titleRaw === ".nan") ? "Talk Title TBD" : titleRaw.trim();
+  %>
+
+    <div class="schedule-entry">
+
+      <div class="schedule-header">
+        <div class="schedule-time">🗓️ <%= row.Time || "" %></div>
+
+        <div class="schedule-pills">
+          <% if (row.Category) { %>
+            <span class="pill pill-category"><%= row.Category %></span>
+          <% } %>
+
+          <% if (mode) { %>
+            <span class="pill 
+              <%= mode.includes("remote") ? "pill-remote"
+                : mode.includes("in person") ? "pill-inperson"
+                : "pill-todo" %>">
+              <%= modeRaw %>
+            </span>
+          <% } %>
+
+          <% if (confirmed) { %>
+            <span class="pill pill-confirm <%= isYes ? "pill-confirm-yes" : "pill-confirm-maybe" %>">
+              <%= isYes ? "✔ confirmed" : confirmed %>
+            </span>
+          <% } %>
+        </div>
+      </div>
+      <h3 class="schedule-title"><strong><%= title %></strong></h3>
+      <% if (authors) { %>
+        <h4 class="schedule-speaker"><strong><%= authors %></strong></h4>
+      <% } %>
+
+
+      <% if (row.Notes) { %>
+        <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. Suspendisse a diam tempor, luctus ligula sed, consectetur tortor. Mauris ac est sed diam euismod finibus nec eu felis. Nunc vel leo dolor. Pellentesque dapibus sapien et molestie suscipit. Etiam fringilla vestibulum turpis, vitae vulputate mauris elementum nec.</p>
+        <!-- <p class="schedule-notes"> . </p> -->
+      <% } %>
+
+    </div>
+
+  <% } %>
+</div>
+</section>
+```
+
