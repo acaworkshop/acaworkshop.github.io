@@ -1,66 +1,94 @@
 [
   {
-    "objectID": "speakers/alex hanna/index.html",
-    "href": "speakers/alex hanna/index.html",
+    "objectID": "speakers/bogdan kulynych/index.html",
+    "href": "speakers/bogdan kulynych/index.html",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/alex hanna/index.html#bio",
-    "href": "speakers/alex hanna/index.html#bio",
+    "objectID": "speakers/bogdan kulynych/index.html#bio",
+    "href": "speakers/bogdan kulynych/index.html#bio",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/florian tramer/index.html",
-    "href": "speakers/florian tramer/index.html",
+    "objectID": "speakers/joana redden/index.html",
+    "href": "speakers/joana redden/index.html",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/florian tramer/index.html#bio",
-    "href": "speakers/florian tramer/index.html#bio",
+    "objectID": "speakers/joana redden/index.html#bio",
+    "href": "speakers/joana redden/index.html#bio",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/seda gürses/index.html",
-    "href": "speakers/seda gürses/index.html",
+    "objectID": "speakers/tijana zrnic/index.html",
+    "href": "speakers/tijana zrnic/index.html",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/seda gürses/index.html#bio",
-    "href": "speakers/seda gürses/index.html#bio",
+    "objectID": "speakers/tijana zrnic/index.html#bio",
+    "href": "speakers/tijana zrnic/index.html#bio",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/index.html",
-    "href": "speakers/index.html",
-    "title": "\nSpeakers\n",
+    "objectID": "speakers/saiph savage/index.html",
+    "href": "speakers/saiph savage/index.html",
+    "title": "ACA@NeurIPS",
     "section": "",
-    "text": "Saiph Savage\n\n\nAssistant Professor\n\n\nNortheastern University\n\n\n\n\n\nFlorian Tramèr\n\n\nAssistant Professor\n\n\nETH Zürich\n\n\n\n\n\nTijana Zrnic\n\n\nIncoming Assistant Professor\n\n\nStanford University\n\n\n\n\n\nAlex Hanna\n\n\nDirector of Research\n\n\nDistributed AI Research Institute (DAIR)\n\n\n\n\n\nJoanna Redden\n\n\nAssociate Professor\n\n\nWestern University\n\n\n\n\n\nHelen Nissenbaum\n\n\nProfessor\n\n\nCornell Tech\n\n\n\nNo matching items"
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Background",
+    "objectID": "speakers/saiph savage/index.html#bio",
+    "href": "speakers/saiph savage/index.html#bio",
+    "title": "ACA@NeurIPS",
     "section": "",
-    "text": "Despite opening up unthought opportunities for productivity and commercial development, increasingly capable algorithmic systems have also posed new threats to the well-being of their participants and lead to or exacerbated existing social issues such as biases, labor tensions (Marcin 2019; Wood and Lehdonvirta 2019), and erosion of privacy (Papernot et al. 2018). As a result, those who interact with algorithmic systems have led coordinated campaigns to shape the systems directly or pressure the operators to indirectly implement changes to the systems. Real world examples include the #DeclineNow campaign by Doordash gig workers to increase pay by collectively witholding labor, the use of coordinated “No AI Art” posts by artists on DeviantArt to voice their grievances to the platform, and the coordinated migration of users from X (Twitter) to BlueSky. We refer to (Sigg, Hardt, and Mendler-Dünner 2025) for a living survey of docmumented use cases. These bottom-up efforts demonstrate the organic interests of workers, consumers, and citizens in shaping and pushing back against algorithmic systems.\nThe study of “collective action” has a long history in Economics and Sociology as a way for groups of people to impact markets and the political arena (Olson 1965; Marwell and Oliver 1993). Algorithmic Collective Action (ACA) is the study of such coordination strategies in algorithmically-mediated sociotechnical systems. Following early explorations in HCI and Computational Social Science (Postmes and Brunsting 2002; Turner et al. 2005; Li et al. 2018), ACA has recently emerged as an exciting new topic for rigorous theoretical and empirical work within Machine Learning (Kulynych et al. 2020; Hardt et al. 2023; Ben-Dov et al. 2024; Baumann and Mendler-Dünner 2024; Gauthier, Bach, and Jordan 2025; Solanki et al. 2025). Initial findings demonstrate how the expertise of the ML community in algorithm design and optimization can be used, not only to build increasingly powerful systems, but also to enable community participation and counter power centralization though the conscious use of data interfaces in AI systems. Moreover, the user-centric perspective of ACA complements the many ongoing efforts of building “fair”, “participatory”, and “responsible” AI systems from within firms.\nOur workshop offers a platform to discuss new ideas and help define the foundational research directions for this emerging topic through interdisciplinary discussions between core ML researchers, scholars from the social sciences, community stakeholders and advocates. We will invite speakers and panelists involved in organizing communities to share practical insights and real world challenges, as well as researchers exploring related technical questions within the core ML community. Ultimately our goal is to build a lasting community and promote exciting opportunities for new research, centering the needs of consumers and workers in the study of AI systems.\n\n\n\n\nBaumann, Joachim, and Celestine Mendler-Dünner. 2024. “Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists.” In The Thirty-Eighth Annual Conference on Neural Information Processing Systems.\n\n\nBen-Dov, Omri, Jake Fawkes, Samira Samadi, and Amartya Sanyal. 2024. “The Role of Learning Algorithms in Collective Action.” In Proceedings of the 41st International Conference on Machine Learning, 3443–61.\n\n\nGauthier, Etienne, Francis Bach, and Michael I. Jordan. 2025. “Statistical Collusion by Collectives on Learning Platforms.” In Proceedings of the 40th International Conference on Machine Learning.\n\n\nHardt, Moritz, Eric Mazumdar, Celestine Mendler-Dünner, and Tijana Zrnic. 2023. “Algorithmic Collective Action in Machine Learning.” In Proceedings of the 40th International Conference on Machine Learning. ICML’23.\n\n\nKulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. 2020. “POTs: Protective Optimization Technologies.” In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 177–88.\n\n\nLi, Hanlin, Bodhi Alarcon, Sara Milkes Espinosa, and Brent Hecht. 2018. “Out of Site: Empowering a New Approach to Online Boycotts.” Proceedings of the ACM on Human-Computer Interaction, no. CSCW (November): 1–28.\n\n\nMarcin, Szczepanski. 2019. “Economic Impacts of Artificial Intelligence.” European Parliamentary Research Service.\n\n\nMarwell, Gerald, and Pamela Oliver. 1993. The Critical Mass in Collective Action. 1st ed. Cambridge University Press.\n\n\nOlson, Mancur. 1965. The Logic of Collective Action: Public Goods and the Theory of Groups. 21. printing. Harvard Economic Studies 124. Cambridge, Mass.: Harvard Univ. Press.\n\n\nPapernot, Nicolas, Patrick McDaniel, Arunesh Sinha, and Michael P. Wellman. 2018. “SoK: Security and Privacy in Machine Learning.” In 2018 IEEE European Symposium on Security and Privacy (EuroS&P), 399–414.\n\n\nPostmes, Tom, and Suzanne Brunsting. 2002. “Collective Action in the Age of the Internet: Mass Communication and Online Mobilization.” Social Science Computer Review 20 (3): 290–301.\n\n\nSigg, Dorothee, Moritz Hardt, and Celestine Mendler-Dünner. 2025. “Decline Now: A Combinatorial Model for Algorithmic Collective Action.” In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, 1–17.\n\n\nSolanki, Rushabh, Meghana Bhange, Ulrich Aı̈vodji, and Elliot Creager. 2025. “Crowding Out the Noise: Algorithmic Collective Action Under Differential Privacy.” arXiv Preprint arXiv:2505.05707.\n\n\nTurner, Tammara Combs, Marc A Smith, Danyel Fisher, and Howard T Welser. 2005. “Picturing Usenet: Mapping Computer-Mediated Collective Action.” Journal of Computer-Mediated Communication 10 (4): JCMC1048.\n\n\nWood, Alex, and Vili Lehdonvirta. 2019. “Platform Labour and Structured Antagonism: Understanding the Origins of Protest in the Gig Economy.” Available at SSRN 3357804."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "about.html#references",
-    "href": "about.html#references",
-    "title": "Background",
+    "objectID": "speakers/helen nissenbaum/index.html",
+    "href": "speakers/helen nissenbaum/index.html",
+    "title": "ACA@NeurIPS",
     "section": "",
-    "text": "Baumann, Joachim, and Celestine Mendler-Dünner. 2024. “Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists.” In The Thirty-Eighth Annual Conference on Neural Information Processing Systems.\n\n\nBen-Dov, Omri, Jake Fawkes, Samira Samadi, and Amartya Sanyal. 2024. “The Role of Learning Algorithms in Collective Action.” In Proceedings of the 41st International Conference on Machine Learning, 3443–61.\n\n\nGauthier, Etienne, Francis Bach, and Michael I. Jordan. 2025. “Statistical Collusion by Collectives on Learning Platforms.” In Proceedings of the 40th International Conference on Machine Learning.\n\n\nHardt, Moritz, Eric Mazumdar, Celestine Mendler-Dünner, and Tijana Zrnic. 2023. “Algorithmic Collective Action in Machine Learning.” In Proceedings of the 40th International Conference on Machine Learning. ICML’23.\n\n\nKulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. 2020. “POTs: Protective Optimization Technologies.” In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 177–88.\n\n\nLi, Hanlin, Bodhi Alarcon, Sara Milkes Espinosa, and Brent Hecht. 2018. “Out of Site: Empowering a New Approach to Online Boycotts.” Proceedings of the ACM on Human-Computer Interaction, no. CSCW (November): 1–28.\n\n\nMarcin, Szczepanski. 2019. “Economic Impacts of Artificial Intelligence.” European Parliamentary Research Service.\n\n\nMarwell, Gerald, and Pamela Oliver. 1993. The Critical Mass in Collective Action. 1st ed. Cambridge University Press.\n\n\nOlson, Mancur. 1965. The Logic of Collective Action: Public Goods and the Theory of Groups. 21. printing. Harvard Economic Studies 124. Cambridge, Mass.: Harvard Univ. Press.\n\n\nPapernot, Nicolas, Patrick McDaniel, Arunesh Sinha, and Michael P. Wellman. 2018. “SoK: Security and Privacy in Machine Learning.” In 2018 IEEE European Symposium on Security and Privacy (EuroS&P), 399–414.\n\n\nPostmes, Tom, and Suzanne Brunsting. 2002. “Collective Action in the Age of the Internet: Mass Communication and Online Mobilization.” Social Science Computer Review 20 (3): 290–301.\n\n\nSigg, Dorothee, Moritz Hardt, and Celestine Mendler-Dünner. 2025. “Decline Now: A Combinatorial Model for Algorithmic Collective Action.” In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, 1–17.\n\n\nSolanki, Rushabh, Meghana Bhange, Ulrich Aı̈vodji, and Elliot Creager. 2025. “Crowding Out the Noise: Algorithmic Collective Action Under Differential Privacy.” arXiv Preprint arXiv:2505.05707.\n\n\nTurner, Tammara Combs, Marc A Smith, Danyel Fisher, and Howard T Welser. 2005. “Picturing Usenet: Mapping Computer-Mediated Collective Action.” Journal of Computer-Mediated Communication 10 (4): JCMC1048.\n\n\nWood, Alex, and Vili Lehdonvirta. 2019. “Platform Labour and Structured Antagonism: Understanding the Origins of Protest in the Gig Economy.” Available at SSRN 3357804."
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "objectID": "speakers/helen nissenbaum/index.html#bio",
+    "href": "speakers/helen nissenbaum/index.html#bio",
+    "title": "ACA@NeurIPS",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Organisers",
+    "section": "",
+    "text": "Elliot Creager \n\n\nUniversity of Waterloo\n\n\n\n\n\n Nicholas Vincent \n\n\nSimon Fraser University\n\n\n\n\n\n Celestine Mendler-Dünner \n\n\nMPI-IS and ELLIS Institute Tübingen\n\n\n\n\n\n William Agnew \n\n\nCarnegie Mellon University\n\n\n\n\n\n Hanlin Li \n\n\nUniversity of Texas at Austin\n\n\n\n\n\n Ulrich Aïvodji \n\n\nÉcole de Technologie Supérieure\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "team.html#reviewers",
+    "href": "team.html#reviewers",
+    "title": "Organisers",
+    "section": "Reviewers",
+    "text": "Reviewers\n\n\n\nUlrich Aïvodji — ETS Montréal\n\n\nAshutosh Ahuja — Starbucks\n\n\nBlair Attard-Frost — University of Alberta\n\n\nWilliiam Agnew — CMU\n\n\nSushma Anand Akoju1 — University of New Hampshire Durham\n\n\nHéber H. Arcolezi — Inria\n\n\nPushpa Kumar Balan — University of Central Missouri\n\n\nJoachim Baumann — University of Zurich\n\n\nMeghana Bhange — ETS Montréal\n\n\nMichal Bravansky — University College London\n\n\nRenjie Cao — Nanchang Hangkong University\n\n\nArthur Charpentier — Université du Québec à Montréal\n\n\nMahasweta Chakraborti — University of California Davis\n\n\nAbhiroop Chatterjee — Jadavpur University\n\n\nKhaoula Chehbouni — McGill\n\n\nHarry Cheon — UCSD\n\n\nElliot Creager — University of Waterloo\n\n\nZhoujie Ding — Stanford University\n\n\nKate Donahue — MIT\n\n\nJulien Ferry — Polytechnique Montréal\n\n\nSara Fish — Harvard\n\n\nPrakhar Ganesh — McGill\n\n\nEtienne Gauthier — Inria\n\n\nAshish Gupta — ServiceNow \n\n\nShreyas Kadekodi — University of California San Diego\n\n\nMobina Noori Kaliani — University of California Davis\n\n\nAlice Kang — University of British Columbia\n\n\nPatrik Kenfack — ETS Montréal\n\n\nKhurram Khalil — University of Missouri\n\n\nBogdan Kulynych — CHUV - University Hospital Lausanne\n\n\nChen Li — Carnegie Mellon University\n\n\nHanlin Li — University of Texas\n\n\nCelestine Mendler-Dünner — MPI Tübingen\n\n\nJennifer Mickel — Eleuther AI\n\n\nRashid Mushkani — Université de Montréal\n\n\nSohom Mukherjee — Julius-Maximilians-Universität Würzburg\n\n\nLauren Quigley — IBM\n\n\nAbhinav Sagar — University of Maryland\n\n\nParth Sarin — Stanford University\n\n\nRushabh Solanki — University of Waterloo\n\n\nMahmoud Srewa — University of California Irvine\n\n\nMeredith Stewart — UCSD\n\n\nAfaf Taïk — Université de Sherbrooke\n\n\nSandy Tanwisuth — University of California Berkeley\n\n\nAnnie S. Ulichney — University of California Berkeley\n\n\nNicholas Vincent — Simon Fraser U\n\n\nPriyanka Verma — University of Toronto\n\n\nQing Xiao — CMU\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About the workshop",
+    "section": "",
+    "text": "Algorithmic Collective Action  A Workshop co-located with NeurIPS 2025.\nSaturday, December 6, San Diego Convention Center. \n\n\nHow can participants steer AI systems toward a common good?\nThis workshop explores collective strategies for shaping outcomes in socio-technical systems from below. We welcome contributions that examine algorithmic collective action through the lense of machine learning, statistics, optimization, economics, and the humanities. Submissions may address theoretical foundations, empirical studies, or practical challenges that advance our understanding of how coordinated efforts can influence the development and deployment of AI systems.\n\n\n\n\nSpeakers\n\n\n\n\n\nSaiph Savage\n\n\nAssistant Professor\n\n\nNortheastern University\n\n\n\n\n\nFlorian Tramèr\n\n\nAssistant Professor\n\n\nETH Zürich\n\n\n\n\n\nTijana Zrnic\n\n\nIncoming Assistant Professor\n\n\nStanford University\n\n\n\n\n\nAlex Hanna\n\n\nDirector of Research\n\n\nDistributed AI Research Institute (DAIR)\n\n\n\n\n\nJoanna Redden\n\n\nAssociate Professor\n\n\nWestern University\n\n\n\n\n\nHelen Nissenbaum\n\n\nProfessor\n\n\nCornell Tech\n\n\n\n\n\nBogdan Kulynych\n\n\nResearch Scientist\n\n\nLausanne University Hospital\n\n\n\nNo matching items\n\n\n\n\nOrganisers\n\n\n\n\n\n Elliot Creager \n\n\nUniversity of Waterloo\n\n\n\n\n\n Nicholas Vincent \n\n\nSimon Fraser University\n\n\n\n\n\n Celestine Mendler-Dünner \n\n\nMPI-IS and ELLIS Institute Tübingen\n\n\n\n\n\n William Agnew \n\n\nCarnegie Mellon University\n\n\n\n\n\n Hanlin Li \n\n\nUniversity of Texas at Austin\n\n\n\n\n\n Ulrich Aïvodji \n\n\nÉcole de Technologie Supérieure\n\n\n\nNo matching items\n\n\n\n\nProgram Committee\nWe are gratefull to the following volunteer reviewers:\n\n\n\nUlrich Aïvodji — ETS Montréal\n\n\nAshutosh Ahuja — Starbucks\n\n\nBlair Attard-Frost — University of Alberta\n\n\nWilliiam Agnew — CMU\n\n\nSushma Anand Akoju1 — University of New Hampshire Durham\n\n\nHéber H. Arcolezi — Inria\n\n\nPushpa Kumar Balan — University of Central Missouri\n\n\nJoachim Baumann — University of Zurich\n\n\nMeghana Bhange — ETS Montréal\n\n\nMichal Bravansky — University College London\n\n\nRenjie Cao — Nanchang Hangkong University\n\n\nArthur Charpentier — Université du Québec à Montréal\n\n\nMahasweta Chakraborti — University of California Davis\n\n\nAbhiroop Chatterjee — Jadavpur University\n\n\nKhaoula Chehbouni — McGill\n\n\nHarry Cheon — UCSD\n\n\nElliot Creager — University of Waterloo\n\n\nZhoujie Ding — Stanford University\n\n\nKate Donahue — MIT\n\n\nJulien Ferry — Polytechnique Montréal\n\n\nSara Fish — Harvard\n\n\nPrakhar Ganesh — McGill\n\n\nEtienne Gauthier — Inria\n\n\nAshish Gupta — ServiceNow \n\n\nShreyas Kadekodi — University of California San Diego\n\n\nMobina Noori Kaliani — University of California Davis\n\n\nAlice Kang — University of British Columbia\n\n\nPatrik Kenfack — ETS Montréal\n\n\nKhurram Khalil — University of Missouri\n\n\nBogdan Kulynych — CHUV - University Hospital Lausanne\n\n\nChen Li — Carnegie Mellon University\n\n\nHanlin Li — University of Texas\n\n\nCelestine Mendler-Dünner — MPI Tübingen\n\n\nJennifer Mickel — Eleuther AI\n\n\nRashid Mushkani — Université de Montréal\n\n\nSohom Mukherjee — Julius-Maximilians-Universität Würzburg\n\n\nLauren Quigley — IBM\n\n\nAbhinav Sagar — University of Maryland\n\n\nParth Sarin — Stanford University\n\n\nRushabh Solanki — University of Waterloo\n\n\nMahmoud Srewa — University of California Irvine\n\n\nMeredith Stewart — UCSD\n\n\nAfaf Taïk — Université de Sherbrooke\n\n\nSandy Tanwisuth — University of California Berkeley\n\n\nAnnie S. Ulichney — University of California Berkeley\n\n\nNicholas Vincent — Simon Fraser U\n\n\nPriyanka Verma — University of Toronto\n\n\nQing Xiao — CMU\n\n\nNo matching items"
   },
   {
     "objectID": "cfp.html",
@@ -98,78 +126,64 @@
     "text": "Contact Information\nFor questions about submissions or the workshop, please contact the organizers at acaworkshop2025@gmail.com."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About the workshop",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Background",
     "section": "",
-    "text": "Algorithmic Collective Action  A Workshop co-located with NeurIPS 2025.\nSaturday, December 6, San Diego Convention Center. \n\n\nHow can participants steer AI systems toward a common good?\nThis workshop explores collective strategies for shaping outcomes in socio-technical systems from below. We welcome contributions that examine algorithmic collective action through the lense of machine learning, statistics, optimization, economics, and the humanities. Submissions may address theoretical foundations, empirical studies, or practical challenges that advance our understanding of how coordinated efforts can influence the development and deployment of AI systems.\n\n\n\n\nSpeakers\n\n\n\n\n\nSaiph Savage\n\n\nAssistant Professor\n\n\nNortheastern University\n\n\n\n\n\nFlorian Tramèr\n\n\nAssistant Professor\n\n\nETH Zürich\n\n\n\n\n\nTijana Zrnic\n\n\nIncoming Assistant Professor\n\n\nStanford University\n\n\n\n\n\nAlex Hanna\n\n\nDirector of Research\n\n\nDistributed AI Research Institute (DAIR)\n\n\n\n\n\nJoanna Redden\n\n\nAssociate Professor\n\n\nWestern University\n\n\n\n\n\nHelen Nissenbaum\n\n\nProfessor\n\n\nCornell Tech\n\n\n\nNo matching items\n\n\n\n\nOrganisers\n\n\n\n\n\n Elliot Creager \n\n\nUniversity of Waterloo\n\n\n\n\n\n Nicholas Vincent \n\n\nSimon Fraser University\n\n\n\n\n\n Celestine Mendler-Dünner \n\n\nMPI-IS and ELLIS Institute Tübingen\n\n\n\n\n\n William Agnew \n\n\nCarnegie Mellon University\n\n\n\n\n\n Hanlin Li \n\n\nUniversity of Texas at Austin\n\n\n\n\n\n Ulrich Aïvodji \n\n\nÉcole de Technologie Supérieure\n\n\n\nNo matching items\n\n\n\n\nProgram Committee\nWe are gratefull to the following volunteer reviewers:\n\n\n\nUlrich Aïvodji — ETS Montréal\n\n\nAshutosh Ahuja — Starbucks\n\n\nBlair Attard-Frost — University of Alberta\n\n\nWilliiam Agnew — CMU\n\n\nSushma Anand Akoju1 — University of New Hampshire Durham\n\n\nHéber H. Arcolezi — Inria\n\n\nPushpa Kumar Balan — University of Central Missouri\n\n\nJoachim Baumann — University of Zurich\n\n\nMeghana Bhange — ETS Montréal\n\n\nMichal Bravansky — University College London\n\n\nRenjie Cao — Nanchang Hangkong University\n\n\nArthur Charpentier — Université du Québec à Montréal\n\n\nMahasweta Chakraborti — University of California Davis\n\n\nAbhiroop Chatterjee — Jadavpur University\n\n\nKhaoula Chehbouni — McGill\n\n\nHarry Cheon — UCSD\n\n\nElliot Creager — University of Waterloo\n\n\nZhoujie Ding — Stanford University\n\n\nKate Donahue — MIT\n\n\nJulien Ferry — Polytechnique Montréal\n\n\nSara Fish — Harvard\n\n\nPrakhar Ganesh — McGill\n\n\nEtienne Gauthier — Inria\n\n\nAshish Gupta — ServiceNow \n\n\nShreyas Kadekodi — University of California San Diego\n\n\nMobina Noori Kaliani — University of California Davis\n\n\nAlice Kang — University of British Columbia\n\n\nPatrik Kenfack — ETS Montréal\n\n\nKhurram Khalil — University of Missouri\n\n\nBogdan Kulynych — CHUV - University Hospital Lausanne\n\n\nChen Li — Carnegie Mellon University\n\n\nHanlin Li — University of Texas\n\n\nCelestine Mendler-Dünner — MPI Tübingen\n\n\nJennifer Mickel — Eleuther AI\n\n\nRashid Mushkani — Université de Montréal\n\n\nSohom Mukherjee — Julius-Maximilians-Universität Würzburg\n\n\nLauren Quigley — IBM\n\n\nAbhinav Sagar — University of Maryland\n\n\nParth Sarin — Stanford University\n\n\nRushabh Solanki — University of Waterloo\n\n\nMahmoud Srewa — University of California Irvine\n\n\nMeredith Stewart — UCSD\n\n\nAfaf Taïk — Université de Sherbrooke\n\n\nSandy Tanwisuth — University of California Berkeley\n\n\nAnnie S. Ulichney — University of California Berkeley\n\n\nNicholas Vincent — Simon Fraser U\n\n\nPriyanka Verma — University of Toronto\n\n\nQing Xiao — CMU\n\n\nNo matching items"
+    "text": "Despite opening up unthought opportunities for productivity and commercial development, increasingly capable algorithmic systems have also posed new threats to the well-being of their participants and lead to or exacerbated existing social issues such as biases, labor tensions (Marcin 2019; Wood and Lehdonvirta 2019), and erosion of privacy (Papernot et al. 2018). As a result, those who interact with algorithmic systems have led coordinated campaigns to shape the systems directly or pressure the operators to indirectly implement changes to the systems. Real world examples include the #DeclineNow campaign by Doordash gig workers to increase pay by collectively witholding labor, the use of coordinated “No AI Art” posts by artists on DeviantArt to voice their grievances to the platform, and the coordinated migration of users from X (Twitter) to BlueSky. We refer to (Sigg, Hardt, and Mendler-Dünner 2025) for a living survey of docmumented use cases. These bottom-up efforts demonstrate the organic interests of workers, consumers, and citizens in shaping and pushing back against algorithmic systems.\nThe study of “collective action” has a long history in Economics and Sociology as a way for groups of people to impact markets and the political arena (Olson 1965; Marwell and Oliver 1993). Algorithmic Collective Action (ACA) is the study of such coordination strategies in algorithmically-mediated sociotechnical systems. Following early explorations in HCI and Computational Social Science (Postmes and Brunsting 2002; Turner et al. 2005; Li et al. 2018), ACA has recently emerged as an exciting new topic for rigorous theoretical and empirical work within Machine Learning (Kulynych et al. 2020; Hardt et al. 2023; Ben-Dov et al. 2024; Baumann and Mendler-Dünner 2024; Gauthier, Bach, and Jordan 2025; Solanki et al. 2025). Initial findings demonstrate how the expertise of the ML community in algorithm design and optimization can be used, not only to build increasingly powerful systems, but also to enable community participation and counter power centralization though the conscious use of data interfaces in AI systems. Moreover, the user-centric perspective of ACA complements the many ongoing efforts of building “fair”, “participatory”, and “responsible” AI systems from within firms.\nOur workshop offers a platform to discuss new ideas and help define the foundational research directions for this emerging topic through interdisciplinary discussions between core ML researchers, scholars from the social sciences, community stakeholders and advocates. We will invite speakers and panelists involved in organizing communities to share practical insights and real world challenges, as well as researchers exploring related technical questions within the core ML community. Ultimately our goal is to build a lasting community and promote exciting opportunities for new research, centering the needs of consumers and workers in the study of AI systems.\n\n\n\n\nBaumann, Joachim, and Celestine Mendler-Dünner. 2024. “Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists.” In The Thirty-Eighth Annual Conference on Neural Information Processing Systems.\n\n\nBen-Dov, Omri, Jake Fawkes, Samira Samadi, and Amartya Sanyal. 2024. “The Role of Learning Algorithms in Collective Action.” In Proceedings of the 41st International Conference on Machine Learning, 3443–61.\n\n\nGauthier, Etienne, Francis Bach, and Michael I. Jordan. 2025. “Statistical Collusion by Collectives on Learning Platforms.” In Proceedings of the 40th International Conference on Machine Learning.\n\n\nHardt, Moritz, Eric Mazumdar, Celestine Mendler-Dünner, and Tijana Zrnic. 2023. “Algorithmic Collective Action in Machine Learning.” In Proceedings of the 40th International Conference on Machine Learning. ICML’23.\n\n\nKulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. 2020. “POTs: Protective Optimization Technologies.” In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 177–88.\n\n\nLi, Hanlin, Bodhi Alarcon, Sara Milkes Espinosa, and Brent Hecht. 2018. “Out of Site: Empowering a New Approach to Online Boycotts.” Proceedings of the ACM on Human-Computer Interaction, no. CSCW (November): 1–28.\n\n\nMarcin, Szczepanski. 2019. “Economic Impacts of Artificial Intelligence.” European Parliamentary Research Service.\n\n\nMarwell, Gerald, and Pamela Oliver. 1993. The Critical Mass in Collective Action. 1st ed. Cambridge University Press.\n\n\nOlson, Mancur. 1965. The Logic of Collective Action: Public Goods and the Theory of Groups. 21. printing. Harvard Economic Studies 124. Cambridge, Mass.: Harvard Univ. Press.\n\n\nPapernot, Nicolas, Patrick McDaniel, Arunesh Sinha, and Michael P. Wellman. 2018. “SoK: Security and Privacy in Machine Learning.” In 2018 IEEE European Symposium on Security and Privacy (EuroS&P), 399–414.\n\n\nPostmes, Tom, and Suzanne Brunsting. 2002. “Collective Action in the Age of the Internet: Mass Communication and Online Mobilization.” Social Science Computer Review 20 (3): 290–301.\n\n\nSigg, Dorothee, Moritz Hardt, and Celestine Mendler-Dünner. 2025. “Decline Now: A Combinatorial Model for Algorithmic Collective Action.” In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, 1–17.\n\n\nSolanki, Rushabh, Meghana Bhange, Ulrich Aı̈vodji, and Elliot Creager. 2025. “Crowding Out the Noise: Algorithmic Collective Action Under Differential Privacy.” arXiv Preprint arXiv:2505.05707.\n\n\nTurner, Tammara Combs, Marc A Smith, Danyel Fisher, and Howard T Welser. 2005. “Picturing Usenet: Mapping Computer-Mediated Collective Action.” Journal of Computer-Mediated Communication 10 (4): JCMC1048.\n\n\nWood, Alex, and Vili Lehdonvirta. 2019. “Platform Labour and Structured Antagonism: Understanding the Origins of Protest in the Gig Economy.” Available at SSRN 3357804."
   },
   {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Organisers",
+    "objectID": "about.html#references",
+    "href": "about.html#references",
+    "title": "Background",
     "section": "",
-    "text": "Elliot Creager \n\n\nUniversity of Waterloo\n\n\n\n\n\n Nicholas Vincent \n\n\nSimon Fraser University\n\n\n\n\n\n Celestine Mendler-Dünner \n\n\nMPI-IS and ELLIS Institute Tübingen\n\n\n\n\n\n William Agnew \n\n\nCarnegie Mellon University\n\n\n\n\n\n Hanlin Li \n\n\nUniversity of Texas at Austin\n\n\n\n\n\n Ulrich Aïvodji \n\n\nÉcole de Technologie Supérieure\n\n\n\nNo matching items"
+    "text": "Baumann, Joachim, and Celestine Mendler-Dünner. 2024. “Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists.” In The Thirty-Eighth Annual Conference on Neural Information Processing Systems.\n\n\nBen-Dov, Omri, Jake Fawkes, Samira Samadi, and Amartya Sanyal. 2024. “The Role of Learning Algorithms in Collective Action.” In Proceedings of the 41st International Conference on Machine Learning, 3443–61.\n\n\nGauthier, Etienne, Francis Bach, and Michael I. Jordan. 2025. “Statistical Collusion by Collectives on Learning Platforms.” In Proceedings of the 40th International Conference on Machine Learning.\n\n\nHardt, Moritz, Eric Mazumdar, Celestine Mendler-Dünner, and Tijana Zrnic. 2023. “Algorithmic Collective Action in Machine Learning.” In Proceedings of the 40th International Conference on Machine Learning. ICML’23.\n\n\nKulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. 2020. “POTs: Protective Optimization Technologies.” In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, 177–88.\n\n\nLi, Hanlin, Bodhi Alarcon, Sara Milkes Espinosa, and Brent Hecht. 2018. “Out of Site: Empowering a New Approach to Online Boycotts.” Proceedings of the ACM on Human-Computer Interaction, no. CSCW (November): 1–28.\n\n\nMarcin, Szczepanski. 2019. “Economic Impacts of Artificial Intelligence.” European Parliamentary Research Service.\n\n\nMarwell, Gerald, and Pamela Oliver. 1993. The Critical Mass in Collective Action. 1st ed. Cambridge University Press.\n\n\nOlson, Mancur. 1965. The Logic of Collective Action: Public Goods and the Theory of Groups. 21. printing. Harvard Economic Studies 124. Cambridge, Mass.: Harvard Univ. Press.\n\n\nPapernot, Nicolas, Patrick McDaniel, Arunesh Sinha, and Michael P. Wellman. 2018. “SoK: Security and Privacy in Machine Learning.” In 2018 IEEE European Symposium on Security and Privacy (EuroS&P), 399–414.\n\n\nPostmes, Tom, and Suzanne Brunsting. 2002. “Collective Action in the Age of the Internet: Mass Communication and Online Mobilization.” Social Science Computer Review 20 (3): 290–301.\n\n\nSigg, Dorothee, Moritz Hardt, and Celestine Mendler-Dünner. 2025. “Decline Now: A Combinatorial Model for Algorithmic Collective Action.” In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, 1–17.\n\n\nSolanki, Rushabh, Meghana Bhange, Ulrich Aı̈vodji, and Elliot Creager. 2025. “Crowding Out the Noise: Algorithmic Collective Action Under Differential Privacy.” arXiv Preprint arXiv:2505.05707.\n\n\nTurner, Tammara Combs, Marc A Smith, Danyel Fisher, and Howard T Welser. 2005. “Picturing Usenet: Mapping Computer-Mediated Collective Action.” Journal of Computer-Mediated Communication 10 (4): JCMC1048.\n\n\nWood, Alex, and Vili Lehdonvirta. 2019. “Platform Labour and Structured Antagonism: Understanding the Origins of Protest in the Gig Economy.” Available at SSRN 3357804."
   },
   {
-    "objectID": "team.html#reviewers",
-    "href": "team.html#reviewers",
-    "title": "Organisers",
-    "section": "Reviewers",
-    "text": "Reviewers\n\n\n\nUlrich Aïvodji — ETS Montréal\n\n\nAshutosh Ahuja — Starbucks\n\n\nBlair Attard-Frost — University of Alberta\n\n\nWilliiam Agnew — CMU\n\n\nSushma Anand Akoju1 — University of New Hampshire Durham\n\n\nHéber H. Arcolezi — Inria\n\n\nPushpa Kumar Balan — University of Central Missouri\n\n\nJoachim Baumann — University of Zurich\n\n\nMeghana Bhange — ETS Montréal\n\n\nMichal Bravansky — University College London\n\n\nRenjie Cao — Nanchang Hangkong University\n\n\nArthur Charpentier — Université du Québec à Montréal\n\n\nMahasweta Chakraborti — University of California Davis\n\n\nAbhiroop Chatterjee — Jadavpur University\n\n\nKhaoula Chehbouni — McGill\n\n\nHarry Cheon — UCSD\n\n\nElliot Creager — University of Waterloo\n\n\nZhoujie Ding — Stanford University\n\n\nKate Donahue — MIT\n\n\nJulien Ferry — Polytechnique Montréal\n\n\nSara Fish — Harvard\n\n\nPrakhar Ganesh — McGill\n\n\nEtienne Gauthier — Inria\n\n\nAshish Gupta — ServiceNow \n\n\nShreyas Kadekodi — University of California San Diego\n\n\nMobina Noori Kaliani — University of California Davis\n\n\nAlice Kang — University of British Columbia\n\n\nPatrik Kenfack — ETS Montréal\n\n\nKhurram Khalil — University of Missouri\n\n\nBogdan Kulynych — CHUV - University Hospital Lausanne\n\n\nChen Li — Carnegie Mellon University\n\n\nHanlin Li — University of Texas\n\n\nCelestine Mendler-Dünner — MPI Tübingen\n\n\nJennifer Mickel — Eleuther AI\n\n\nRashid Mushkani — Université de Montréal\n\n\nSohom Mukherjee — Julius-Maximilians-Universität Würzburg\n\n\nLauren Quigley — IBM\n\n\nAbhinav Sagar — University of Maryland\n\n\nParth Sarin — Stanford University\n\n\nRushabh Solanki — University of Waterloo\n\n\nMahmoud Srewa — University of California Irvine\n\n\nMeredith Stewart — UCSD\n\n\nAfaf Taïk — Université de Sherbrooke\n\n\nSandy Tanwisuth — University of California Berkeley\n\n\nAnnie S. Ulichney — University of California Berkeley\n\n\nNicholas Vincent — Simon Fraser U\n\n\nPriyanka Verma — University of Toronto\n\n\nQing Xiao — CMU\n\n\nNo matching items"
+    "objectID": "speakers/index.html",
+    "href": "speakers/index.html",
+    "title": "\nSpeakers\n",
+    "section": "",
+    "text": "Saiph Savage\n\n\nAssistant Professor\n\n\nNortheastern University\n\n\n\n\n\nFlorian Tramèr\n\n\nAssistant Professor\n\n\nETH Zürich\n\n\n\n\n\nTijana Zrnic\n\n\nIncoming Assistant Professor\n\n\nStanford University\n\n\n\n\n\nAlex Hanna\n\n\nDirector of Research\n\n\nDistributed AI Research Institute (DAIR)\n\n\n\n\n\nJoanna Redden\n\n\nAssociate Professor\n\n\nWestern University\n\n\n\n\n\nHelen Nissenbaum\n\n\nProfessor\n\n\nCornell Tech\n\n\n\n\n\nBogdan Kulynych\n\n\nResearch Scientist\n\n\nLausanne University Hospital\n\n\n\nNo matching items"
   },
   {
-    "objectID": "speakers/helen nissenbaum/index.html",
-    "href": "speakers/helen nissenbaum/index.html",
+    "objectID": "speakers/seda gürses/index.html",
+    "href": "speakers/seda gürses/index.html",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/helen nissenbaum/index.html#bio",
-    "href": "speakers/helen nissenbaum/index.html#bio",
+    "objectID": "speakers/seda gürses/index.html#bio",
+    "href": "speakers/seda gürses/index.html#bio",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/saiph savage/index.html",
-    "href": "speakers/saiph savage/index.html",
+    "objectID": "speakers/florian tramer/index.html",
+    "href": "speakers/florian tramer/index.html",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/saiph savage/index.html#bio",
-    "href": "speakers/saiph savage/index.html#bio",
+    "objectID": "speakers/florian tramer/index.html#bio",
+    "href": "speakers/florian tramer/index.html#bio",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/tijana zrnic/index.html",
-    "href": "speakers/tijana zrnic/index.html",
+    "objectID": "speakers/alex hanna/index.html",
+    "href": "speakers/alex hanna/index.html",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "objectID": "speakers/tijana zrnic/index.html#bio",
-    "href": "speakers/tijana zrnic/index.html#bio",
-    "title": "ACA@NeurIPS",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/joana redden/index.html",
-    "href": "speakers/joana redden/index.html",
-    "title": "ACA@NeurIPS",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-  },
-  {
-    "objectID": "speakers/joana redden/index.html#bio",
-    "href": "speakers/joana redden/index.html#bio",
+    "objectID": "speakers/alex hanna/index.html#bio",
+    "href": "speakers/alex hanna/index.html#bio",
     "title": "ACA@NeurIPS",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
