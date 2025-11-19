@@ -3,239 +3,206 @@
   Speaker(s): null
   Speaker confirmed?: null
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: Opening Remarks
-  Comp ticket: null
+  Title: Announcements
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 9:00 AM
   Category: Invited talk
   Speaker(s): Tijana Zrnic
   Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Point of contact: Elliot
   Contact info: tijana.zrnic@stanford.edu
   Speaker website: TODO
-  Notes: Confirmed in person. Asked about getting a comp registration (we have 5 total)
-  Comp ticket: x
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 9:20 AM
   Category: Invited talk
   Speaker(s): Florian Tramèr
   Speaker confirmed?: 'yes'
   Speaker in person?: remote
-  Point of contact: Elliot
   Contact info: florian.tramer@inf.ethz.ch
   Speaker website: TODO
-  Notes: Calling in from European time zon
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 9:40 AM
   Category: Invited talk
   Speaker(s): Alex Hanna
   Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Point of contact: William
   Contact info: alex.hanna@gmail.com
   Speaker website: TODO
-  Notes: Keynote 1
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 10:10 AM
   Category: Break
   Speaker(s): null
-  Speaker confirmed?: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: Coffee break (10m)
-  Comp ticket: null
+  Title: Break
+  Abstract: null
 - Time: 10:20 AM
   Category: Invited talk
   Speaker(s): Lily Irani
   Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Point of contact: Hanlin
   Contact info: lirani@ucsd.edu
   Speaker website: TODO
-  Notes: Still waiting to hear back to confirm
-  Comp ticket: x
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 10:40 AM
   Category: Invited talk
   Speaker(s): Bogdan Kulynych
   Speaker confirmed?: 'yes'
   Speaker in person?: remote
-  Point of contact: Ulrich
   Contact info: bogdan@kulyny.ch
   Speaker website: TODO
-  Notes: Bogdan Kulynych will speak instead of Seda; He will attend the EurIPS in
-    Copenhagen
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 11:00 AM
   Category: Invited talk
   Speaker(s): Saiph Savage
   Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Point of contact: Celestine
   Contact info: s.savage@northeastern.edu
   Speaker website: TODO
-  Notes: Keynote 2
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 11:30 AM
   Category: Contributed talks
   Speaker(s): Contributing authors
   Speaker confirmed?: null
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: 45m = 6 talks @ 5m talk + 2m Qs, plus 3m buffer
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 12:15 PM
   Category: Break
   Speaker(s): null
-  Speaker confirmed?: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: Lunch break (1h)
-  Comp ticket: null
+  Title: Break
+  Abstract: null
 - Time: 1:15 PM
   Category: Poster session
   Speaker(s): null
   Speaker confirmed?: null
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: Poster session (1h)
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 2:15 PM
   Category: Announcements
   Speaker(s): null
   Speaker confirmed?: null
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: Social media boost collective action (15m)
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 2:30 PM
   Category: Invited talk
   Speaker(s): Helen Nissenbaum
   Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Point of contact: Celestine
   Contact info: hn288@cornell.edu
   Speaker website: TODO
-  Notes: Keynote 3
-  Comp ticket: x
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 3:00 PM
   Category: Invited talk
   Speaker(s): Joanna Redden
   Speaker confirmed?: 'yes'
   Speaker in person?: remote
-  Point of contact: Elliot
   Contact info: jredden2@uwo.ca
   Speaker website: TODO
-  Notes: null
-  Comp ticket: x
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 3:20 PM
   Category: Break
   Speaker(s): null
-  Speaker confirmed?: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: Coffee break (10m)
-  Comp ticket: null
+  Title: Break
+  Abstract: null
 - Time: 3:30 PM
   Category: Panel
-  Speaker(s): Lily Irani
-  Speaker confirmed?: maybe
+  Speaker(s): Lily Irani, Saiph Savage, Alex Hanna, Jillian Arnold, Tech Equity, Adio-Adet
+    Dinika, Krystal Kauffman
+  Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Point of contact: Hanlin
   Contact info: lirani@ucsd.edu
   Speaker website: TODO
-  Notes: Let's try to have only in-person speakers for the panel, if possible
-  Comp ticket: null
-- Time: null
-  Category: null
-  Speaker(s): Saiph Savage
-  Speaker confirmed?: maybe
-  Speaker in person?: in person
-  Point of contact: Celestine
-  Contact info: TODO
-  Speaker website: TODO
-  Notes: 'NOTE: we could maybe move this to a 45m duration if we only have 4 panelists'
-  Comp ticket: null
-- Time: null
-  Category: null
-  Speaker(s): Alex Hanna
-  Speaker confirmed?: maybe
-  Speaker in person?: in person
-  Point of contact: William
-  Contact info: alex.hanna@gmail.com
-  Speaker website: TODO
-  Notes: null
-  Comp ticket: null
-- Time: null
-  Category: null
-  Speaker(s): Jillian Arnold
-  Speaker confirmed?: likely yes
-  Speaker in person?: TODO
-  Point of contact: Nick
-  Contact info: null
-  Speaker website: TODO
-  Notes: 'from Nick: "likely"'
-  Comp ticket: null
-- Time: null
-  Category: null
-  Speaker(s): Tech Equity
-  Speaker confirmed?: maybe
-  Speaker in person?: TODO
-  Point of contact: TODO
-  Contact info: null
-  Speaker website: TODO
-  Notes: null
-  Comp ticket: null
-- Time: null
-  Category: null
-  Speaker(s): Adio-Adet Dinika?
-  Speaker confirmed?: likely yes
-  Speaker in person?: remote
-  Point of contact: Ulrich
-  Contact info: null
-  Speaker website: TODO
-  Notes: Elliot meeting with them 11/18
-  Comp ticket: null
-- Time: null
-  Category: null
-  Speaker(s): Krystal Kauffman?
-  Speaker confirmed?: likely yes
-  Speaker in person?: remote
-  Point of contact: Ulrich
-  Contact info: null
-  Speaker website: TODO
-  Notes: null
-  Comp ticket: null
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 4:30 PM
   Category: Roundtable discussions
   Speaker(s): null
   Speaker confirmed?: null
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: null
-  Comp ticket: null
+  Title: Roundtable discussions
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
 - Time: 5:30 PM
   Category: Announcements
   Speaker(s): null
   Speaker confirmed?: null
   Speaker in person?: null
-  Point of contact: null
   Contact info: null
   Speaker website: TODO
-  Notes: Closing Remarks
-  Comp ticket: null
+  Title: Announcements
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
