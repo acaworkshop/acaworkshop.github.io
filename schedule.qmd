@@ -25,6 +25,7 @@ from utils import dump_schedule
 dump_schedule()
 ```
 
+### Location - Room - Upper Level Room 4
 # Schedule
 
 ::: {#schedule}
