@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/accepted-papers.html",
+    "items": []
+  },
+  {
     "listing": "/team.html",
     "items": []
   },
@@ -15,6 +19,10 @@
       "/speakers/helen nissenbaum/index.html",
       "/speakers/bogdan kulynych/index.html"
     ]
+  },
+  {
+    "listing": "/schedule.html",
+    "items": []
   },
   {
     "listing": "/speakers/index.html",
