@@ -14,8 +14,8 @@ website:
         text: About
       - href: accepted-papers.qmd
         text: Accepted Papers
-      #- href: schedule.qmd
-      #  text: Schedule
+      - href: schedule.qmd
+        text: Schedule
       - href: cfp.qmd
         text: 📣 Call for Papers
       # - href: speakers/index.qmd
