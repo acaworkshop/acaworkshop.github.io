@@ -1,0 +1,375 @@
+- 'Unnamed: 7': .nan
+  authors: 'Shiyang Lai, Junsol Kim, Nadav Kunievsky, Yujin Potter, James Evans '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/abs/2508.09297
+  id: 1
+  oral: false
+  slide-summary: .nan
+  title: Biased AI Improves Human Decision-Making But Reduces Trust
+- 'Unnamed: 7': .nan
+  authors: 'Omri Ben-Dov, Samira Samadi, Amartya Sanyal, Alexandru Tifrea '
+  blogpost: https://beomri.github.io/projects/collective_fairness/
+  camera-ready: https://arxiv.org/abs/2508.15374
+  id: 2
+  oral: true
+  slide-summary: https://beomri.github.io/assets/pdf/fairness_from_users_poster.pdf
+  title: 'Fairness for the People, by the People: Minority Collective Action'
+- 'Unnamed: 7': .nan
+  authors: 'Zhaowei Zhang, Minghua Yi, Mengmeng Wang, Fengshuo Bai, Zilong Zheng,
+    Yipeng Kang, Yaodong Yang '
+  blogpost: .nan
+  camera-ready: https://zowiezhang.github.io/projects/PoliCon/PoliCon_ACA_Workshop.pdf
+  id: 3
+  oral: false
+  slide-summary: .nan
+  title: 'EuroCon: Benchmarking Parliament Deliberation for Political Consensus Finding'
+- 'Unnamed: 7': .nan
+  authors: 'Abhay Gupta, Mark Klein '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 4
+  oral: false
+  slide-summary: .nan
+  title: 'CivicParse: A Benchmark and Pipeline for Structured Online Deliberation'
+- 'Unnamed: 7': .nan
+  authors: 'Sameep Chattopadhyay, Nikhil Karamchandani, Sharayu Moharir '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 5
+  oral: true
+  slide-summary: .nan
+  title: Observation-Free Attacks on Online Learning to Rank
+- 'Unnamed: 7': .nan
+  authors: Alice Kang
+  blogpost: .nan
+  camera-ready: .nan
+  id: 6
+  oral: false
+  slide-summary: .nan
+  title: The Future of Cyberunions in the Era of AI-Based Automation of Work
+- 'Unnamed: 7': .nan
+  authors: "Lin Kyi, Paul G\xF6lz, Asia Biega, Robin Berjon "
+  blogpost: .nan
+  camera-ready: https://openreview.net/forum?id=SSjT8IKDZP
+  id: 7
+  oral: false
+  slide-summary: .nan
+  title: 'From Clicks to Consensus: A Collective Consent Approach to Online Privacy'
+- 'Unnamed: 7': .nan
+  authors: Ayana Hussain, Cole Michael Thacker, Patrick Zhao, Aditya Karan, Nicholas
+    Vincent
+  blogpost: .nan
+  camera-ready: .nan
+  id: 8
+  oral: false
+  slide-summary: .nan
+  title: 'Empowering Users Together: Connecting Algorithmic Collective Action and
+    Explainable AI'
+- 'Unnamed: 7': .nan
+  authors: 'Claudio Battiloro, Pietro Greiner, Bret Nestor, Oumaima Amezgar, Francesca
+    Dominici '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 9
+  oral: false
+  slide-summary: .nan
+  title: Algorithmic Collective Action with Multiple Collectives
+- 'Unnamed: 7': .nan
+  authors: 'Natalie Collina, Ira Globus-Harris, Surbhi Goel, Aaron Roth, Mirah Shi,
+    Varun Gupta '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/pdf/2504.06075
+  id: 10
+  oral: false
+  slide-summary: .nan
+  title: 'Collaborative Prediction: Tractable Information Aggregation via Agreement'
+- 'Unnamed: 7': .nan
+  authors: 'Christoffer Koch Andersen, Mallika Dharmaraj '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 13
+  oral: false
+  slide-summary: .nan
+  title: 'Of Monsters and Cisgenders: Trans Data Poisoning Against Algorithmic Surveillance'
+- 'Unnamed: 7': .nan
+  authors: 'Sydney Reis '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 14
+  oral: false
+  slide-summary: .nan
+  title: 'From Reflection to Action: AI Workers, Geopolitics, and Algorithmic Collective
+    Action'
+- 'Unnamed: 7': .nan
+  authors: 'Natalie Collina, Surbhi Goel, Aaron Roth, Emily Ryu, Mirah Shi '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/pdf/2509.15090
+  id: 15
+  oral: false
+  slide-summary: .nan
+  title: 'Alignment via Competition: Emergent Alignment from Differently Misaligned
+    Agents'
+- 'Unnamed: 7': .nan
+  authors: 'Sukanya Krishna, Tobin South '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 16
+  oral: false
+  slide-summary: .nan
+  title: 'Beyond Vibe Decision Theory: Asymmetric Manipulation Vulnerabilities in
+    LLM Multi-Agent Coordination'
+- 'Unnamed: 7': .nan
+  authors: "Rushabh Solanki, Meghana Bhange, Ulrich A\xEFvodji, Elliot Creager"
+  blogpost: .nan
+  camera-ready: .nan
+  id: 17
+  oral: false
+  slide-summary: .nan
+  title: 'Crowding Out The Noise: Algorithmic Collective Action Under Differential
+    Privacy'
+- 'Unnamed: 7': .nan
+  authors: 'Zahra Khotanlou, Kate Larson, Amir-Hossein Karimi '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/abs/2508.11070
+  id: 18
+  oral: false
+  slide-summary: .nan
+  title: 'From Individual to Multi-Agent Algorithmic Recourse: Minimizing the Welfare
+    Gap via Capacitated Bipartite Matching'
+- 'Unnamed: 7': .nan
+  authors: 'Aditya Karan, Prabhat Kalle, Nicholas Vincent, Hari Sundaram '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 19
+  oral: false
+  slide-summary: .nan
+  title: 'Sync or Sink: Bounds on Algorithmic Collective Action with Noise and Multiple
+    Groups'
+- 'Unnamed: 7': .nan
+  authors: 'Katherine M. Collins, Umang Bhatt, Ilia Sucholutsky '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 20
+  oral: false
+  slide-summary: .nan
+  title: Revisiting Rogers' Paradox in the Context of Human-AI Interaction
+- 'Unnamed: 7': .nan
+  authors: 'Dimitar A. Chakarov, Nikola Konstantinov '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 21
+  oral: false
+  slide-summary: .nan
+  title: '$\texttt{strategic-fl-sim}$: An Extensible Package for Simulating Strategic
+    Behavior in Federated Learning'
+- 'Unnamed: 7': .nan
+  authors: 'Sriram Tolety '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 23
+  oral: false
+  slide-summary: .nan
+  title: 'Tacit Bidder-Side Collusion: Artificial Intelligence in Dynamic Auctions'
+- 'Unnamed: 7': .nan
+  authors: 'Jacob Taylor, Joshua Z Tan '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 24
+  oral: false
+  slide-summary: .nan
+  title: AI Multilateralism
+- 'Unnamed: 7': .nan
+  authors: 'Kavya Ravichandran, Alexander Tolbert '
+  blogpost: .nan
+  camera-ready: https://drive.google.com/file/d/1PO-K0XT-Za5q9pP0PA8S8ErUCeNUyYR_/view?usp=sharing
+  id: 25
+  oral: false
+  slide-summary: .nan
+  title: 'Polarization Traps: A Formal Model of the Epistemic Structure of Moral Polarization'
+- 'Unnamed: 7': .nan
+  authors: "Luigi Foscari, Emanuele Guidotti, Nicol\xF2 Cesa-Bianchi, Tatjana Chavdarova,\
+    \ Alfio Ferrara "
+  blogpost: .nan
+  camera-ready: .nan
+  id: 26
+  oral: false
+  slide-summary: .nan
+  title: 'The Invisible Handshake: Tacit Collusion between Adaptive Market Agents'
+- 'Unnamed: 7': .nan
+  authors: "Patrick Mesana, Gilles Caporossi, S\xE9bastien Gambs "
+  blogpost: .nan
+  camera-ready: .nan
+  id: 27
+  oral: false
+  slide-summary: .nan
+  title: Measuring the Hidden Cost of Data Valuation through Collective Disclosure
+- 'Unnamed: 7': .nan
+  authors: 'Meredith Stewart, Seung Hyun Cheon, Bogdan Kulynych, Tsui-Wei Weng, Berk
+    Ustun '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 28
+  oral: false
+  slide-summary: .nan
+  title: Statistical Inference for Model Responsiveness Audits
+- 'Unnamed: 7': .nan
+  authors: 'Shreyas Kadekodi, Hayden McTavish, Berk Ustun '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 29
+  oral: false
+  slide-summary: .nan
+  title: Selective Preference Aggregation
+- 'Unnamed: 7': .nan
+  authors: "Lena Libon, Meghana Bhange, Rushabh Solanki, Elliot Creager, Ulrich A\xEF\
+    vodji "
+  blogpost: .nan
+  camera-ready: .nan
+  id: 30
+  oral: true
+  slide-summary: .nan
+  title: Conscious Data Contribution via Community-Driven Chain-of-Thought Distillation
+- 'Unnamed: 7': .nan
+  authors: Kristina Lewandowska
+  blogpost: .nan
+  camera-ready: .nan
+  id: 31
+  oral: true
+  slide-summary: .nan
+  title: 'Workers vs. The Algorithm: Simulating Collective Action in Gig-Economy Platforms'
+- 'Unnamed: 7': .nan
+  authors: 'Saeed Alaei, Ali Daei Naby, Ali Makhdoumi, Azarakhsh Malekian '
+  blogpost: .nan
+  camera-ready: https://ssrn.com/abstract=5297868
+  id: 33
+  oral: false
+  slide-summary: .nan
+  title: 'Incentivizing Data Collaboration: A Mechanism Design Approach'
+- 'Unnamed: 7': .nan
+  authors: 'Jennifer Mickel, Carter Buckner, William Agnew, Yanan Long, Michelle Lin,
+    B.V. Alaka, Angelina Wang, Sarthak Arora, Nandhini Swaminathan, Arjun Subramonian '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 35
+  oral: true
+  slide-summary: .nan
+  title: Challenges to Grassroot Organization Engagement with AI Policy
+- 'Unnamed: 7': .nan
+  authors: 'Di Chen, Jia Li, Michael Zhang '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/abs/2511.04883
+  id: 37
+  oral: false
+  slide-summary: .nan
+  title: Emergence of Collective Rationality in Mixed Autonomous Driving Systems
+- 'Unnamed: 7': .nan
+  authors: 'Anna B. Stephenson, Andrew Zhu, Chris Callison-Burch, Jan Kulveit '
+  blogpost: .nan
+  camera-ready: https://openreview.net/pdf?id=9ply9CAnSC
+  id: 38
+  oral: false
+  slide-summary: .nan
+  title: Comparing Collective Behavior of LLM and Human Groups
+- 'Unnamed: 7': .nan
+  authors: "Alex Hern\xE1ndez-Garc\xEDa, Alexandra Volokhova, Ezekiel Williams, Dounia\
+    \ Shaaban Kabakibo "
+  blogpost: .nan
+  camera-ready: .nan
+  id: 39
+  oral: false
+  slide-summary: ACA Workshop Slide (Draft)
+  title: 'Irresponsible AI: big tech''s influence on AI research and associated impacts'
+- 'Unnamed: 7': .nan
+  authors: 'Natalie Collina, Eshwar Ram Arunachaleswaran, Meena Jagadeesan '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 40
+  oral: false
+  slide-summary: .nan
+  title: Breaking Algorithmic Collusion in Human-AI Ecosystems
+- 'Unnamed: 7': .nan
+  authors: 'Ekaterina Fedorova, Madeline Celi Kitch, Chara Podimata '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 41
+  oral: true
+  slide-summary: .nan
+  title: Altruistic Collective Action in Recommender Systems
+- 'Unnamed: 7': .nan
+  authors: 'Zihan Gao, Mohsin Y. K. Yousufi, Jacob Thebault-Spieker '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 42
+  oral: false
+  slide-summary: .nan
+  title: 'Collective Narrative Grounding: Community-Coordinated Data Contributions
+    to Improve Local AI Systems'
+- 'Unnamed: 7': .nan
+  authors: 'Wanru Zhao, Mohammad Yaghini, Nicolas Papernot '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 43
+  oral: false
+  slide-summary: .nan
+  title: To Achieve Truly Generalist Models, We Need to Incentivize Collaboration
+    Through Fair Revenue Sharing
+- 'Unnamed: 7': .nan
+  authors: 'Seth Karten, Wenzhe Li, Zihan Ding, Samuel Kleiner, Yu Bai, Chi Jin '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/pdf/2507.15815
+  id: 47
+  oral: false
+  slide-summary: .nan
+  title: 'LLM Economist: Large Population Models and Mechanism Design in Multi-Agent
+    Generative Simulacra'
+- 'Unnamed: 7': .nan
+  authors: 'Mobina Noori, Mahasweta Chakraborti, Amy X Zhang, Seth Frey '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/abs/2510.08956
+  id: 48
+  oral: false
+  slide-summary: .nan
+  title: A Human Behavioral Baseline for Collective Governance in Software Projects
+- 'Unnamed: 7': .nan
+  authors: 'Jivat Neet Kaur, Divya M Shanmugam, Emma Pierson, Michael I. Jordan, Nika
+    Haghtalab, Ahmed Alaa, Serena Lutong Wang '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 52
+  oral: false
+  slide-summary: .nan
+  title: Strategic Feature Selection
+- 'Unnamed: 7': .nan
+  authors: 'Ping Hu, Mert Kayaalp, Ali H. Sayed '
+  blogpost: .nan
+  camera-ready: https://openreview.net/pdf?id=CCWS45F3XC
+  id: 53
+  oral: false
+  slide-summary: .nan
+  title: Test-Time Collective Classification over Multi-Agent Networks
+- 'Unnamed: 7': .nan
+  authors: 'Jessica Dai, Nika Haghtalab, Jamie Heather Morgenstern '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 55
+  oral: false
+  slide-summary: .nan
+  title: 'Aggregated Individual Reporting for Post-Deployment Evaluation: Mechanism
+    Design & Modeling Considerations'
+- 'Unnamed: 7': .nan
+  authors: 'Priyanka Verma, Balagopal Unnikrishnan '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 56
+  oral: false
+  slide-summary: .nan
+  title: 'When AI Democratizes Exploitation: LLM-Assisted Strategic Manipulation of
+    Fair Division Algorithms'
+- 'Unnamed: 7': .nan
+  authors: 'Subramanyam Sahoo, Aditi Chhawacharia '
+  blogpost: .nan
+  camera-ready: https://arxiv.org/abs/2511.13432
+  id: 57
+  oral: false
+  slide-summary: .nan
+  title: 'The Last Vote: A Multi-Stakeholder Framework for Language Model Governance'

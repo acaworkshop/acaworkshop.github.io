@@ -1,0 +1,38 @@
+```{=html} 
+<div class="paper-card">
+  <% for (const paper of items) { 
+       const authors = paper.authors
+         ? paper.authors.replace(/,\s*/g, ", ").trim()
+         : ""; %>
+
+  <div class="paper-entry">
+
+    <!-- Title -->
+    <p class="paper-title"><strong><%= paper.title %></strong></p>
+
+    <!-- Authors -->
+    <p class="paper-authors">
+      <em><%= authors %></em>
+    </p>
+
+    <!-- Buttons -->
+    <div class="paper-buttons">
+      <% if (paper["camera-ready"] && paper["camera-ready"] !== ".nan") { %>
+        <a href="<%= paper['camera-ready'] %>" class="paper-btn" target="_blank">📄 Camera-ready</a>
+      <% } %>
+
+      <% if (paper["slide-summary"] && paper["slide-summary"] !== ".nan") { %>
+        <a href="<%= paper['slide-summary'] %>" class="paper-btn" target="_blank">🖥️ Slides</a>
+      <% } %>
+
+      <% if (paper.blogpost && paper.blogpost !== ".nan") { %>
+        <a href="<%= paper.blogpost %>" class="paper-btn" target="_blank">📝 Blog post</a>
+      <% } %>
+    </div>
+
+  </div>
+  <% } %>
+</div>
+
+```
+

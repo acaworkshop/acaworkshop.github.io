@@ -1,0 +1,208 @@
+- Time: 8:50 AM
+  Category: Announcements
+  Speaker(s): null
+  Speaker confirmed?: null
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: Announcements
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 9:00 AM
+  Category: Invited talk
+  Speaker(s): Tijana Zrnic
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: tijana.zrnic@stanford.edu
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 9:20 AM
+  Category: Invited talk
+  Speaker(s): Florian Tramèr
+  Speaker confirmed?: 'yes'
+  Speaker in person?: remote
+  Contact info: florian.tramer@inf.ethz.ch
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 9:40 AM
+  Category: Invited talk
+  Speaker(s): Alex Hanna
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: alex.hanna@gmail.com
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 10:10 AM
+  Category: Break
+  Speaker(s): null
+  Speaker confirmed?: 'yes'
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: Break
+  Abstract: null
+- Time: 10:20 AM
+  Category: Invited talk
+  Speaker(s): Lily Irani
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: lirani@ucsd.edu
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 10:40 AM
+  Category: Invited talk
+  Speaker(s): Bogdan Kulynych
+  Speaker confirmed?: 'yes'
+  Speaker in person?: remote
+  Contact info: bogdan@kulyny.ch
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 11:00 AM
+  Category: Invited talk
+  Speaker(s): Saiph Savage
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: s.savage@northeastern.edu
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 11:30 AM
+  Category: Contributed talks
+  Speaker(s): Contributing authors
+  Speaker confirmed?: null
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 12:15 PM
+  Category: Break
+  Speaker(s): null
+  Speaker confirmed?: 'yes'
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: Break
+  Abstract: null
+- Time: 1:15 PM
+  Category: Poster session
+  Speaker(s): null
+  Speaker confirmed?: null
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 2:15 PM
+  Category: Announcements
+  Speaker(s): null
+  Speaker confirmed?: null
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 2:30 PM
+  Category: Invited talk
+  Speaker(s): Helen Nissenbaum
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: hn288@cornell.edu
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 3:00 PM
+  Category: Invited talk
+  Speaker(s): Joanna Redden
+  Speaker confirmed?: 'yes'
+  Speaker in person?: remote
+  Contact info: jredden2@uwo.ca
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 3:20 PM
+  Category: Break
+  Speaker(s): null
+  Speaker confirmed?: 'yes'
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: Break
+  Abstract: null
+- Time: 3:30 PM
+  Category: Panel
+  Speaker(s): Lily Irani, Saiph Savage, Alex Hanna, Jillian Arnold, Tech Equity, Adio-Adet
+    Dinika, Krystal Kauffman
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: lirani@ucsd.edu
+  Speaker website: TODO
+  Title: TBD
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 4:30 PM
+  Category: Roundtable discussions
+  Speaker(s): null
+  Speaker confirmed?: null
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: Roundtable discussions
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 5:30 PM
+  Category: Announcements
+  Speaker(s): null
+  Speaker confirmed?: null
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: TODO
+  Title: Announcements
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S

@@ -1,0 +1,50 @@
+- 'Unnamed: 7': .nan
+  authors: 'Omri Ben-Dov, Samira Samadi, Amartya Sanyal, Alexandru Tifrea '
+  blogpost: https://beomri.github.io/projects/collective_fairness/
+  camera-ready: https://arxiv.org/abs/2508.15374
+  id: 2
+  oral: true
+  slide-summary: https://beomri.github.io/assets/pdf/fairness_from_users_poster.pdf
+  title: 'Fairness for the People, by the People: Minority Collective Action'
+- 'Unnamed: 7': .nan
+  authors: 'Sameep Chattopadhyay, Nikhil Karamchandani, Sharayu Moharir '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 5
+  oral: true
+  slide-summary: .nan
+  title: Observation-Free Attacks on Online Learning to Rank
+- 'Unnamed: 7': .nan
+  authors: "Lena Libon, Meghana Bhange, Rushabh Solanki, Elliot Creager, Ulrich A\xEF\
+    vodji "
+  blogpost: .nan
+  camera-ready: .nan
+  id: 30
+  oral: true
+  slide-summary: .nan
+  title: Conscious Data Contribution via Community-Driven Chain-of-Thought Distillation
+- 'Unnamed: 7': .nan
+  authors: Kristina Lewandowska
+  blogpost: .nan
+  camera-ready: .nan
+  id: 31
+  oral: true
+  slide-summary: .nan
+  title: 'Workers vs. The Algorithm: Simulating Collective Action in Gig-Economy Platforms'
+- 'Unnamed: 7': .nan
+  authors: 'Jennifer Mickel, Carter Buckner, William Agnew, Yanan Long, Michelle Lin,
+    B.V. Alaka, Angelina Wang, Sarthak Arora, Nandhini Swaminathan, Arjun Subramonian '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 35
+  oral: true
+  slide-summary: .nan
+  title: Challenges to Grassroot Organization Engagement with AI Policy
+- 'Unnamed: 7': .nan
+  authors: 'Ekaterina Fedorova, Madeline Celi Kitch, Chara Podimata '
+  blogpost: .nan
+  camera-ready: .nan
+  id: 41
+  oral: true
+  slide-summary: .nan
+  title: Altruistic Collective Action in Recommender Systems
