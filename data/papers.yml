@@ -26,7 +26,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Abhay Gupta, Mark Klein '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=h4nicA1NDm
   id: 4
   oral: false
   slide-summary: .nan
@@ -34,7 +34,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Sameep Chattopadhyay, Nikhil Karamchandani, Sharayu Moharir '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=L82pTVTQvP
   id: 5
   oral: true
   slide-summary: .nan
@@ -42,7 +42,7 @@
 - 'Unnamed: 7': .nan
   authors: Alice Kang
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=DG3g2IlrHA
   id: 6
   oral: false
   slide-summary: .nan
@@ -59,7 +59,7 @@
   authors: Ayana Hussain, Cole Michael Thacker, Patrick Zhao, Aditya Karan, Nicholas
     Vincent
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: 'https://openreview.net/pdf?id=V2TsEzYRJK '
   id: 8
   oral: false
   slide-summary: .nan
@@ -69,7 +69,7 @@
   authors: 'Claudio Battiloro, Pietro Greiner, Bret Nestor, Oumaima Amezgar, Francesca
     Dominici '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=nvAPzZ8Gcj
   id: 9
   oral: false
   slide-summary: .nan
@@ -86,18 +86,18 @@
 - 'Unnamed: 7': .nan
   authors: 'Christoffer Koch Andersen, Mallika Dharmaraj '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=h24yVOvIO9
   id: 13
   oral: false
-  slide-summary: .nan
+  slide-summary: https://docs.google.com/presentation/d/1XNGALvmKyzDA_w_n4coKtidQoYacr3wbz5CPohqUq6Q/edit?usp=sharing
   title: 'Of Monsters and Cisgenders: Trans Data Poisoning Against Algorithmic Surveillance'
 - 'Unnamed: 7': .nan
   authors: 'Sydney Reis '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=r6gfMUaT6p&referrer=%5BTasks%5D(%2Ftasks)
   id: 14
   oral: false
-  slide-summary: .nan
+  slide-summary: https://docs.google.com/presentation/d/14NM25AJUrSacj7MaTQbh03Xcu_aRx9PWwO389vAoKuU/edit?usp=sharing
   title: 'From Reflection to Action: AI Workers, Geopolitics, and Algorithmic Collective
     Action'
 - 'Unnamed: 7': .nan
@@ -112,7 +112,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Sukanya Krishna, Tobin South '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=PXzSyb2Zlv
   id: 16
   oral: false
   slide-summary: .nan
@@ -121,7 +121,7 @@
 - 'Unnamed: 7': .nan
   authors: "Rushabh Solanki, Meghana Bhange, Ulrich A\xEFvodji, Elliot Creager"
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/pdf?id=r7A8WxKIGI
   id: 17
   oral: false
   slide-summary: .nan
@@ -133,13 +133,13 @@
   camera-ready: https://arxiv.org/abs/2508.11070
   id: 18
   oral: false
-  slide-summary: .nan
+  slide-summary: https://drive.google.com/drive/folders/1sjWqP9B1JeUJIfSvVFMPBq6vOayWaRxV?usp=drive_link
   title: 'From Individual to Multi-Agent Algorithmic Recourse: Minimizing the Welfare
     Gap via Capacitated Bipartite Matching'
 - 'Unnamed: 7': .nan
   authors: 'Aditya Karan, Prabhat Kalle, Nicholas Vincent, Hari Sundaram '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://arxiv.org/abs/2510.18933
   id: 19
   oral: false
   slide-summary: .nan
@@ -148,7 +148,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Katherine M. Collins, Umang Bhatt, Ilia Sucholutsky '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=KwosFVfU5Z
   id: 20
   oral: false
   slide-summary: .nan
@@ -156,16 +156,16 @@
 - 'Unnamed: 7': .nan
   authors: 'Dimitar A. Chakarov, Nikola Konstantinov '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=wkDcZyEbeY
   id: 21
   oral: false
   slide-summary: .nan
-  title: '$\texttt{strategic-fl-sim}$: An Extensible Package for Simulating Strategic
-    Behavior in Federated Learning'
+  title: 'strategic-fl-sim: An Extensible Package for Simulating Strategic Behavior
+    in Federated Learning'
 - 'Unnamed: 7': .nan
   authors: 'Sriram Tolety '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=IWAIhrL7Nw
   id: 23
   oral: false
   slide-summary: .nan
@@ -173,7 +173,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Jacob Taylor, Joshua Z Tan '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=KPRnD5vWql
   id: 24
   oral: false
   slide-summary: .nan
@@ -190,7 +190,7 @@
   authors: "Luigi Foscari, Emanuele Guidotti, Nicol\xF2 Cesa-Bianchi, Tatjana Chavdarova,\
     \ Alfio Ferrara "
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=Q5BtXda1uF
   id: 26
   oral: false
   slide-summary: .nan
@@ -198,7 +198,7 @@
 - 'Unnamed: 7': .nan
   authors: "Patrick Mesana, Gilles Caporossi, S\xE9bastien Gambs "
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: http://arxiv.org/abs/2510.08869
   id: 27
   oral: false
   slide-summary: .nan
@@ -207,7 +207,7 @@
   authors: 'Meredith Stewart, Seung Hyun Cheon, Bogdan Kulynych, Tsui-Wei Weng, Berk
     Ustun '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=TAXYNgonCP
   id: 28
   oral: false
   slide-summary: .nan
@@ -215,7 +215,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Shreyas Kadekodi, Hayden McTavish, Berk Ustun '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=4rORP9vrAq
   id: 29
   oral: false
   slide-summary: .nan
@@ -224,7 +224,7 @@
   authors: "Lena Libon, Meghana Bhange, Rushabh Solanki, Elliot Creager, Ulrich A\xEF\
     vodji "
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/pdf?id=hmsNwG4Mxn
   id: 30
   oral: true
   slide-summary: .nan
@@ -232,7 +232,7 @@
 - 'Unnamed: 7': .nan
   authors: Kristina Lewandowska
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=NukpSXS4WL
   id: 31
   oral: true
   slide-summary: .nan
@@ -249,7 +249,7 @@
   authors: 'Jennifer Mickel, Carter Buckner, William Agnew, Yanan Long, Michelle Lin,
     B.V. Alaka, Angelina Wang, Sarthak Arora, Nandhini Swaminathan, Arjun Subramonian '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/pdf?id=XvK3kCyf70
   id: 35
   oral: true
   slide-summary: .nan
@@ -274,15 +274,15 @@
   authors: "Alex Hern\xE1ndez-Garc\xEDa, Alexandra Volokhova, Ezekiel Williams, Dounia\
     \ Shaaban Kabakibo "
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/pdf?id=QwC3Q1erNe
   id: 39
   oral: false
-  slide-summary: ACA Workshop Slide (Draft)
+  slide-summary: https://docs.google.com/presentation/d/1gFXsESlqBdE9N7ykT2S_FOkfQprw7hqOaUFn9Cew3DM/edit?slide=id.g31a4ab7b852_0_0#slide=id.g31a4ab7b852_0_0
   title: 'Irresponsible AI: big tech''s influence on AI research and associated impacts'
 - 'Unnamed: 7': .nan
   authors: 'Natalie Collina, Eshwar Ram Arunachaleswaran, Meena Jagadeesan '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/pdf?id=wZ6R3H7BvT
   id: 40
   oral: false
   slide-summary: .nan
@@ -290,7 +290,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Ekaterina Fedorova, Madeline Celi Kitch, Chara Podimata '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=wKSX4rqRSg
   id: 41
   oral: true
   slide-summary: .nan
@@ -298,7 +298,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Zihan Gao, Mohsin Y. K. Yousufi, Jacob Thebault-Spieker '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://mohsinyousufi.github.io/narrative-grounding/neurips25ACA.pdf
   id: 42
   oral: false
   slide-summary: .nan
@@ -307,7 +307,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Wanru Zhao, Mohammad Yaghini, Nicolas Papernot '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=H3V0dvjRAV
   id: 43
   oral: false
   slide-summary: .nan
@@ -324,17 +324,17 @@
     Generative Simulacra'
 - 'Unnamed: 7': .nan
   authors: 'Mobina Noori, Mahasweta Chakraborti, Amy X Zhang, Seth Frey '
-  blogpost: .nan
+  blogpost: https://www.mobinanoori.com/projects
   camera-ready: https://arxiv.org/abs/2510.08956
   id: 48
   oral: false
-  slide-summary: .nan
+  slide-summary: https://docs.google.com/presentation/d/1NFNn_oMU6G3ZUFvwc2R33u6jIHBQGWPh6SKDtKPXwR4/edit?slide=id.g31a4ab7b852_0_0#slide=id.g31a4ab7b852_0_0
   title: A Human Behavioral Baseline for Collective Governance in Software Projects
 - 'Unnamed: 7': .nan
   authors: 'Jivat Neet Kaur, Divya M Shanmugam, Emma Pierson, Michael I. Jordan, Nika
     Haghtalab, Ahmed Alaa, Serena Lutong Wang '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://openreview.net/forum?id=ll5sR3JHRV
   id: 52
   oral: false
   slide-summary: .nan
@@ -350,7 +350,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Jessica Dai, Nika Haghtalab, Jamie Heather Morgenstern '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: https://arxiv.org/abs/2506.18133
   id: 55
   oral: false
   slide-summary: .nan
@@ -359,7 +359,7 @@
 - 'Unnamed: 7': .nan
   authors: 'Priyanka Verma, Balagopal Unnikrishnan '
   blogpost: .nan
-  camera-ready: .nan
+  camera-ready: 'https://openreview.net/pdf?id=NoFKRNsDpq '
   id: 56
   oral: false
   slide-summary: .nan
