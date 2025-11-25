@@ -1,34 +1,76 @@
-- Time: 8:50 AM
+- Time: 7:50 AM
   Category: Announcements
   Speaker(s): null
-  Speaker confirmed?: null
+  Speaker affiliation: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
   Contact info: null
-  Speaker website: TODO
+  Speaker website: https://acaworkshop.github.io/schedule.html
   Title: Announcements
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
-- Time: 9:00 AM
+- Time: 8:00 AM
   Category: Invited talk
-  Speaker(s): Tijana Zrnic
+  Speaker(s): Florian Tramèr
+  Speaker affiliation: ETH Zürich
   Speaker confirmed?: 'yes'
-  Speaker in person?: in person
-  Contact info: tijana.zrnic@stanford.edu
-  Speaker website: TODO
+  Speaker in person?: remote
+  Contact info: florian.tramer@inf.ethz.ch
+  Speaker website: https://www.floriantramer.com
   Title: Invited talk
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
-- Time: 9:20 AM
+- Time: 8:20 AM
   Category: Invited talk
-  Speaker(s): Florian Tramèr
+  Speaker(s): Bogdan Kulynych
+  Speaker affiliation: Lausanne University Hospital
   Speaker confirmed?: 'yes'
   Speaker in person?: remote
-  Contact info: florian.tramer@inf.ethz.ch
-  Speaker website: TODO
+  Contact info: bogdan@kulyny.ch
+  Speaker website: https://kulyny.ch
+  Title: Invited talk
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 8:40 AM
+  Category: Invited talk
+  Speaker(s): Joanna Redden
+  Speaker affiliation: University of Western Ontario
+  Speaker confirmed?: 'yes'
+  Speaker in person?: remote
+  Contact info: jredden2@uwo.ca
+  Speaker website: https://www.fims.uwo.ca/people/profiles/joanna_redden.html
+  Title: Invited talk
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 9:00 AM
+  Category: Break
+  Speaker(s): null
+  Speaker affiliation: null
+  Speaker confirmed?: 'yes'
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: https://acaworkshop.github.io/schedule.html
+  Title: Break
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 9:10 AM
+  Category: Invited talk
+  Speaker(s): Saiph Savage
+  Speaker affiliation: Northeastern University
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: s.savage@northeastern.edu
+  Speaker website: https://www.saiph.org
   Title: Invited talk
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
@@ -36,69 +78,52 @@
     a justo scelerisque semper. S
 - Time: 9:40 AM
   Category: Invited talk
-  Speaker(s): Alex Hanna
+  Speaker(s): Tijana Zrnic
+  Speaker affiliation: Stanford University
   Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Contact info: alex.hanna@gmail.com
-  Speaker website: TODO
+  Contact info: tijana.zrnic@stanford.edu
+  Speaker website: https://tijana-zrnic.github.io
   Title: Invited talk
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
 - Time: 10:10 AM
-  Category: Break
-  Speaker(s): null
-  Speaker confirmed?: 'yes'
-  Speaker in person?: null
-  Contact info: null
-  Speaker website: TODO
-  Title: Break
-  Abstract: null
-- Time: 10:20 AM
   Category: Invited talk
-  Speaker(s): Lily Irani
+  Speaker(s): Alex Hanna
+  Speaker affiliation: Distributed AI Research Institute (DAIR)
   Speaker confirmed?: 'yes'
   Speaker in person?: in person
-  Contact info: lirani@ucsd.edu
-  Speaker website: TODO
+  Contact info: alex.hanna@gmail.com
+  Speaker website: https://alex-hanna.com
   Title: Invited talk
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
-- Time: 10:40 AM
-  Category: Invited talk
-  Speaker(s): Bogdan Kulynych
-  Speaker confirmed?: 'yes'
-  Speaker in person?: remote
-  Contact info: bogdan@kulyny.ch
-  Speaker website: TODO
-  Title: Invited talk
-  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
-    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
-    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
-    a justo scelerisque semper. S
-- Time: 11:00 AM
-  Category: Invited talk
-  Speaker(s): Saiph Savage
-  Speaker confirmed?: 'yes'
-  Speaker in person?: in person
-  Contact info: s.savage@northeastern.edu
-  Speaker website: TODO
-  Title: Invited talk
-  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
-    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
-    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
-    a justo scelerisque semper. S
-- Time: 11:30 AM
+- Time: 10:30 AM
   Category: Contributed talks
-  Speaker(s): Contributing authors
-  Speaker confirmed?: null
+  Speaker(s): null
+  Speaker affiliation: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
   Contact info: null
-  Speaker website: TODO
-  Title: Invited talk
+  Speaker website: https://acaworkshop.github.io/schedule.html
+  Title: Contributing authors
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 11:15 AM
+  Category: Poster session
+  Speaker(s): null
+  Speaker affiliation: null
+  Speaker confirmed?: 'yes'
+  Speaker in person?: null
+  Contact info: null
+  Speaker website: https://acaworkshop.github.io/schedule.html
+  Title: Poster Session
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
@@ -106,101 +131,141 @@
 - Time: 12:15 PM
   Category: Break
   Speaker(s): null
+  Speaker affiliation: null
   Speaker confirmed?: 'yes'
   Speaker in person?: null
   Contact info: null
-  Speaker website: TODO
+  Speaker website: https://acaworkshop.github.io/schedule.html
   Title: Break
-  Abstract: null
-- Time: 1:15 PM
-  Category: Poster session
-  Speaker(s): null
-  Speaker confirmed?: null
-  Speaker in person?: null
-  Contact info: null
-  Speaker website: TODO
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 1:30 PM
+  Category: Invited talk
+  Speaker(s): Helen Nissenbaum
+  Speaker affiliation: Cornell Tech
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: hn288@cornell.edu
+  Speaker website: https://nissenbaum.tech.cornell.edu
   Title: Invited talk
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
-- Time: 2:15 PM
+- Time: 2:00 PM
+  Category: Invited talk
+  Speaker(s): Lilly Irani
+  Speaker affiliation: UCSD
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: lirani@ucsd.edu
+  Speaker website: https://communication.ucsd.edu/people/faculty/irani-lilly.html
+  Title: Invited talk
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 2:20 PM
   Category: Announcements
   Speaker(s): null
-  Speaker confirmed?: null
+  Speaker affiliation: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
   Contact info: null
-  Speaker website: TODO
-  Title: Invited talk
+  Speaker website: https://acaworkshop.github.io/schedule.html
+  Title: Announcements
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
 - Time: 2:30 PM
-  Category: Invited talk
-  Speaker(s): Helen Nissenbaum
-  Speaker confirmed?: 'yes'
-  Speaker in person?: in person
-  Contact info: hn288@cornell.edu
-  Speaker website: TODO
-  Title: Invited talk
-  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
-    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
-    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
-    a justo scelerisque semper. S
-- Time: 3:00 PM
-  Category: Invited talk
-  Speaker(s): Joanna Redden
-  Speaker confirmed?: 'yes'
-  Speaker in person?: remote
-  Contact info: jredden2@uwo.ca
-  Speaker website: TODO
-  Title: Invited talk
-  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
-    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
-    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
-    a justo scelerisque semper. S
-- Time: 3:20 PM
   Category: Break
   Speaker(s): null
+  Speaker affiliation: null
   Speaker confirmed?: 'yes'
   Speaker in person?: null
   Contact info: null
-  Speaker website: TODO
+  Speaker website: https://acaworkshop.github.io/schedule.html
   Title: Break
-  Abstract: null
-- Time: 3:30 PM
-  Category: Panel
-  Speaker(s): Lily Irani, Saiph Savage, Alex Hanna, Jillian Arnold, Tech Equity, Adio-Adet
-    Dinika, Krystal Kauffman
-  Speaker confirmed?: 'yes'
-  Speaker in person?: in person
-  Contact info: lirani@ucsd.edu
-  Speaker website: TODO
-  Title: Invited talk
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
-- Time: 4:30 PM
+- Time: 2:45 PM
+  Category: Panel
+  Speaker(s): Lilly Irani
+  Speaker affiliation: UCSD
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: null
+  Speaker website: https://communication.ucsd.edu/people/faculty/irani-lilly.html
+  Title: Panel
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 2:45 PM
+  Category: Panel
+  Speaker(s): Jillian Arnold
+  Speaker affiliation: IATSE Local 695
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: null
+  Speaker website: https://www.linkedin.com/in/jillian-arnold-a157952b7/
+  Title: Panel
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 2:45 PM
+  Category: Panel
+  Speaker(s): Vinhcent Le
+  Speaker affiliation: Tech Equity
+  Speaker confirmed?: 'yes'
+  Speaker in person?: in person
+  Contact info: null
+  Speaker website: https://www.linkedin.com/in/vinhcentle/
+  Title: Panel
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 2:45 PM
+  Category: Panel
+  Speaker(s): Adio-Adet Dinika
+  Speaker affiliation: Distributed AI Research Institute (DAIR)
+  Speaker confirmed?: 'yes'
+  Speaker in person?: remote
+  Contact info: null
+  Speaker website: https://www.dair-institute.org/team/adio-adet-dinika/
+  Title: Panel
+  Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
+    ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
+    Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
+    a justo scelerisque semper. S
+- Time: 3:45 PM
   Category: Roundtable discussions
   Speaker(s): null
-  Speaker confirmed?: null
+  Speaker affiliation: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
   Contact info: null
-  Speaker website: TODO
+  Speaker website: https://acaworkshop.github.io/schedule.html
   Title: Roundtable discussions
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
     Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit
     a justo scelerisque semper. S
-- Time: 5:30 PM
+- Time: 4:45 PM
   Category: Announcements
   Speaker(s): null
-  Speaker confirmed?: null
+  Speaker affiliation: null
+  Speaker confirmed?: 'yes'
   Speaker in person?: null
   Contact info: null
-  Speaker website: TODO
+  Speaker website: https://acaworkshop.github.io/schedule.html
   Title: Announcements
   Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor
     ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at.
