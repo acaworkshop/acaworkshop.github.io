@@ -1,68 +1,78 @@
 ```{=html} 
 <section class="schedule-section">
   <div class="schedule-card">
-    <% for (const row of items) {
 
-       const authors = row["Speaker(s)"]
-         ? row["Speaker(s)"].replace(/,\s*/g, ", ").trim()
-         : "";
+    <%
+      // --- GROUP ITEMS BY TIME + CATEGORY, ONLY CONFIRMED ---
+      const grouped = {};
 
-       const modeRaw = row["Speaker in person?"] || "";
-       const mode = modeRaw.toLowerCase();
+      for (const row of items) {
+        const confirmed = (row["Speaker confirmed?"] || "").toLowerCase();
+        if (!confirmed.includes("yes")) continue;
 
-       const confirmed = (row["Speaker confirmed?"] || "").toLowerCase();
-       const isYes = confirmed.includes("yes");
+        const time = row.Time || "";
+        const category = row.Category || "";
+        const key = time + "___" + category;
 
-       const titleRaw = row.title || row.Title || "";   // support both `title` or `Title`
+        if (!grouped[key]) grouped[key] = [];
+        grouped[key].push(row);
+      }
 
-       const abstract = row.Abstract || "";
+      const groupKeys = Object.keys(grouped);
+      for (const key of groupKeys) {
+        const group = grouped[key];
+        const first = group[0];
+        const category = (first.Category || "").trim();
+        const isPanel = category.toLowerCase().includes("panel");
+
+        // Collect REAL speakers (skip "-", "null", empty)
+        const speakers = group.filter(r => {
+          const s = (r["Speaker(s)"] || "").trim().toLowerCase();
+          return s && s !== "-" && s !== "null";
+        });
     %>
-      <% if (confirmed) { %>
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span><%= row.Time || "" %></span>
-            </div>
-          </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                <% if (row.Category) { %>
-                  <span class="pill pill-category"><%= row.Category %></span>
-                <% } %>
-
-                <!-- <% if (mode) { %>
-                  <span class="pill 
-                    <%= mode.includes("remote") ? "pill-remote"
-                      : mode.includes("in person") ? "pill-inperson"
-                      : "pill-todo" %>">
-                    <%= modeRaw %>
-                  </span>
-                <% } %> -->
-
-                <!-- <% if (confirmed) { %>
-                  <span class="pill pill-confirm <%= isYes ? "pill-confirm-yes" : "pill-confirm-maybe" %>">
-                    <%= isYes ? "✔ confirmed" : confirmed %>
-                  </span>
-                <% } %> -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title"><%= row.Title || row.title || "" %></h4>
-
-            <% if (authors) { %>
-              <div class="schedule-speaker">Speaker(s): <%= authors %></div>
-            <% } %>
-
-            <!-- <% if (row.Abstract) { %>
-              <p class="schedule-notes"><%= row.Abstract %></p>
-            <% } %> -->
-          </div>
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge"><%= first.Time || "" %></span>
         </div>
-      <% } %>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              <% if (category) { %>
+                <span class="pill pill-category"><%= category %></span>
+              <% } %>
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong><%= first.Title || first.title || "" %></strong></p>
+
+          <% if (speakers.length > 0) { %>
+            <p class="schedule-speaker">
+              <strong><%= isPanel ? "Panelists:" : "Speaker:" %></strong>
+              <% speakers.forEach((r, idx) => { 
+                   const name = (r["Speaker(s)"] || "").trim();
+                   const aff = (r["Speaker affiliation"] || "").trim();
+                   const website = (r["Speaker website"] || "").trim();
+                   const label = aff ? `${name} (${aff})` : name;
+              %>
+                <% if (idx > 0) { %>, <% } %>
+                <% if (website) { %>
+                  <a href="<%= website %>" target="_blank" rel="noopener"><%= label %></a>
+                <% } else { %>
+                  <%= label %>
+                <% } %>
+              <% }); %>
+            </p>
+          <% } %>
+        </div>
+      </div>
+
     <% } %>
+
   </div>
 </section>
 ```
-
