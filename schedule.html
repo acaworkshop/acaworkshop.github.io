@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-Time','listing-Category','listing-Speaker(s)','listing-Speaker confirmed?','listing-Speaker in person?','listing-Contact info','listing-Speaker website','listing-Title','listing-Abstract',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-Time','listing-Category','listing-Speaker(s)','listing-Speaker affiliation','listing-Speaker confirmed?','listing-Speaker in person?','listing-Contact info','listing-Speaker website','listing-Title','listing-Abstract',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-Time","listing-Category","listing-Speaker(s)","listing-Speaker confirmed?","listing-Speaker in person?","listing-Contact info","listing-Speaker website","listing-Title","listing-Abstract"],
+      searchColumns: ["listing-Time","listing-Category","listing-Speaker(s)","listing-Speaker affiliation","listing-Speaker confirmed?","listing-Speaker in person?","listing-Contact info","listing-Speaker website","listing-Title","listing-Abstract"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -224,508 +224,546 @@ window.Quarto = {
 <div id="listing-schedule" class="quarto-listing quarto-listing-container-custom">
 <section class="schedule-section">
   <div class="schedule-card">
+
     
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>9:00 AM</span>
-            </div>
-          </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Invited talk</span>
-                
-
-                <!-- 
-                  <span class="pill 
-                    pill-inperson">
-                    in person
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored" data-anchor-id="schedule">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Tijana Zrnic</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">7:50 AM</span>
         </div>
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>9:20 AM</span>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Announcements</span>
+              
             </div>
           </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Invited talk</span>
-                
+          <p class="schedule-title"><strong>Announcements</strong></p>
 
-                <!-- 
-                  <span class="pill 
-                    pill-remote">
-                    remote
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Florian Tramèr</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+          
         </div>
-      
+      </div>
+
     
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>9:40 AM</span>
-            </div>
-          </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Invited talk</span>
-                
-
-                <!-- 
-                  <span class="pill 
-                    pill-inperson">
-                    in person
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Alex Hanna</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">8:00 AM</span>
         </div>
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>10:10 AM</span>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
             </div>
           </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
                 
-                  <span class="pill pill-category">Break</span>
                 
-
-                <!--  -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Break</h4>
-
-            
-
-            <!--  -->
-          </div>
+                  <a href="https://www.floriantramer.com" target="_blank" rel="noopener">Florian Tramèr (ETH Zürich)</a>
+                
+              
+            </p>
+          
         </div>
-      
+      </div>
+
     
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>10:20 AM</span>
-            </div>
-          </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Invited talk</span>
-                
-
-                <!-- 
-                  <span class="pill 
-                    pill-inperson">
-                    in person
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Lily Irani</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">8:20 AM</span>
         </div>
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>10:40 AM</span>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
             </div>
           </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
                 
-                  <span class="pill pill-category">Invited talk</span>
                 
-
-                <!-- 
-                  <span class="pill 
-                    pill-remote">
-                    remote
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Bogdan Kulynych</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+                  <a href="https://kulyny.ch" target="_blank" rel="noopener">Bogdan Kulynych (Lausanne University Hospital)</a>
+                
+              
+            </p>
+          
         </div>
-      
+      </div>
+
     
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>11:00 AM</span>
-            </div>
-          </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Invited talk</span>
-                
-
-                <!-- 
-                  <span class="pill 
-                    pill-inperson">
-                    in person
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Saiph Savage</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">8:40 AM</span>
         </div>
-      
-    
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>12:15 PM</span>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
             </div>
           </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
                 
-                  <span class="pill pill-category">Break</span>
                 
-
-                <!--  -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Break</h4>
-
-            
-
-            <!--  -->
-          </div>
+                  <a href="https://www.fims.uwo.ca/people/profiles/joanna_redden.html" target="_blank" rel="noopener">Joanna Redden (University of Western Ontario)</a>
+                
+              
+            </p>
+          
         </div>
-      
+      </div>
+
     
-      
-    
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>2:30 PM</span>
-            </div>
-          </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Invited talk</span>
-                
-
-                <!-- 
-                  <span class="pill 
-                    pill-inperson">
-                    in person
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Helen Nissenbaum</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">9:00 AM</span>
         </div>
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>3:00 PM</span>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Break</span>
+              
             </div>
           </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Invited talk</span>
-                
+          <p class="schedule-title"><strong>Break</strong></p>
 
-                <!-- 
-                  <span class="pill 
-                    pill-remote">
-                    remote
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Joanna Redden</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+          
         </div>
-      
+      </div>
+
     
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>3:20 PM</span>
-            </div>
-          </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
-                
-                  <span class="pill pill-category">Break</span>
-                
-
-                <!--  -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Break</h4>
-
-            
-
-            <!--  -->
-          </div>
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">9:10 AM</span>
         </div>
-      
-    
-      
-        <div class="schedule-entry">
-          <div class="schedule-time-col">
-            <div class="schedule-time-badge">
-              <span>3:30 PM</span>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
             </div>
           </div>
 
-          <div class="schedule-content">
-            <div class="schedule-header">
-              <div class="schedule-pills">
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
                 
-                  <span class="pill pill-category">Panel</span>
                 
-
-                <!-- 
-                  <span class="pill 
-                    pill-inperson">
-                    in person
-                  </span>
-                 -->
-
-                <!-- 
-                  <span class="pill pill-confirm pill-confirm-yes">
-                    ✔ confirmed
-                  </span>
-                 -->
-              </div>
-            </div>
-
-            <h4 class="schedule-title anchored">Invited talk</h4>
-
-            
-              <div class="schedule-speaker">Speaker(s): Lily Irani, Jillian Arnold, Vinhcent Le, Adio-Adet Dinika</div>
-            
-
-            <!-- 
-              <p class="schedule-notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ex eu suscipit pretium. Nam ultricies elit nunc, eget cursus massa varius at. Curabitur rhoncus ipsum ante, nec rhoncus nulla sagittis eu. Donec feugiat elit a justo scelerisque semper. S</p>
-             -->
-          </div>
+                  <a href="https://www.saiph.org" target="_blank" rel="noopener">Saiph Savage (Northeastern University)</a>
+                
+              
+            </p>
+          
         </div>
-      
+      </div>
+
     
-      
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">9:40 AM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
+                
+                
+                  <a href="https://tijana-zrnic.github.io" target="_blank" rel="noopener">Tijana Zrnic (Stanford University)</a>
+                
+              
+            </p>
+          
+        </div>
+      </div>
+
     
-      
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">10:10 AM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
+                
+                
+                  <a href="https://alex-hanna.com" target="_blank" rel="noopener">Alex Hanna (Distributed AI Research Institute (DAIR))</a>
+                
+              
+            </p>
+          
+        </div>
+      </div>
+
     
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">10:30 AM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Contributed talks</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Contributing authors</strong></p>
+
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">11:15 AM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Poster session</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Poster Session</strong></p>
+
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">12:15 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Break</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Break</strong></p>
+
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">1:30 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
+                
+                
+                  <a href="https://nissenbaum.tech.cornell.edu" target="_blank" rel="noopener">Helen Nissenbaum (Cornell Tech)</a>
+                
+              
+            </p>
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">2:00 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Invited talk</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Invited talk</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Speaker:</strong>
+              
+                
+                
+                  <a href="https://communication.ucsd.edu/people/faculty/irani-lilly.html" target="_blank" rel="noopener">Lilly Irani (UCSD)</a>
+                
+              
+            </p>
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">2:20 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Announcements</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Announcements</strong></p>
+
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">2:30 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Break</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Break</strong></p>
+
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">2:45 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Panel</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Panel</strong></p>
+
+          
+            <p class="schedule-speaker">
+              <strong>Panelists:</strong>
+              
+                
+                
+                  <a href="https://communication.ucsd.edu/people/faculty/irani-lilly.html" target="_blank" rel="noopener">Lilly Irani (UCSD)</a>
+                
+              
+                , 
+                
+                  <a href="https://www.linkedin.com/in/jillian-arnold-a157952b7/" target="_blank" rel="noopener">Jillian Arnold (IATSE Local 695)</a>
+                
+              
+                , 
+                
+                  <a href="https://www.linkedin.com/in/vinhcentle/" target="_blank" rel="noopener">Vinhcent Le (Tech Equity)</a>
+                
+              
+                , 
+                
+                  <a href="https://www.dair-institute.org/team/adio-adet-dinika/" target="_blank" rel="noopener">Adio-Adet Dinika (Distributed AI Research Institute (DAIR))</a>
+                
+              
+            </p>
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">3:45 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Roundtable discussions</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Roundtable discussions</strong></p>
+
+          
+        </div>
+      </div>
+
+    
+
+      <div class="schedule-entry">
+        <!-- TIME -->
+        <div class="schedule-time-col">
+          <span class="schedule-time-badge">4:45 PM</span>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="schedule-content">
+          <div class="schedule-header">
+            <div class="schedule-pills">
+              
+                <span class="pill pill-category">Announcements</span>
+              
+            </div>
+          </div>
+
+          <p class="schedule-title"><strong>Announcements</strong></p>
+
+          
+        </div>
+      </div>
+
+    
+
   </div>
 </section>
 <div class="listing-no-matching d-none">No matching items</div>
