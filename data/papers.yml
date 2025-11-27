@@ -234,7 +234,7 @@
   blogpost: .nan
   camera-ready: https://openreview.net/forum?id=NukpSXS4WL
   id: 31
-  oral: true
+  oral: false
   slide-summary: .nan
   title: 'Workers vs. The Algorithm: Simulating Collective Action in Gig-Economy Platforms'
 - 'Unnamed: 7': .nan
