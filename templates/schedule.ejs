@@ -30,6 +30,8 @@
           const s = (r["Speaker(s)"] || "").trim().toLowerCase();
           return s && s !== "-" && s !== "null";
         });
+
+        const abstract = (first.Abstract || first.abstract || "").trim();
     %>
 
       <div class="schedule-entry">
@@ -49,6 +51,7 @@
           </div>
 
           <p class="schedule-title"><strong><%= first.Title || first.title || "" %></strong></p>
+          
 
           <% if (speakers.length > 0) { %>
             <p class="schedule-speaker">
@@ -67,6 +70,9 @@
                 <% } %>
               <% }); %>
             </p>
+          <% } %>
+          <% if (abstract) { %>
+            <p class="schedule-abstract"><%= abstract %></p>
           <% } %>
         </div>
       </div>
