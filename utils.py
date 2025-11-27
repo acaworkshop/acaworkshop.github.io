@@ -6,6 +6,9 @@ from dotenv import load_dotenv
 # Load environment variables from .env
 load_dotenv()
 
+SHHET_ID_WEBSITE = os.getenv("SHEET_ID_WEBSITE", "")
+SHEET_ID_SCHEDULE = os.getenv("SHEET_ID_SCHEDULE", "")
+
 def yml_reviewers():
     csv_path = "data/reviewers.csv"
     yml_path = "data/reviewers.yml"
@@ -16,9 +19,7 @@ def yml_reviewers():
 
 def get_website_data(sheet_name: str = ""):
     # Read from environment instead of hard-coding
-    sheet_id = os.environ.get("SHEET_ID_WEBSITE")
-    if not sheet_id:
-        raise RuntimeError("SHEET_ID_WEBSITE is not set in the environment")
+    sheet_id = SHHET_ID_WEBSITE
 
     url = (
         f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq"
@@ -29,9 +30,7 @@ def get_website_data(sheet_name: str = ""):
 
 def get_schedule_data(sheet_name: str = ""):
     # Read from environment instead of hard-coding
-    sheet_id = os.environ.get("SHEET_ID_SCHEDULE")
-    if not sheet_id:
-        raise RuntimeError("SHEET_ID_SCHEDULE is not set in the environment")
+    sheet_id = SHEET_ID_SCHEDULE
 
     url = (
         f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq"
