@@ -12,6 +12,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    env:
+      SHEET_ID_WEBSITE: ${{ vars.SHEET_ID_WEBSITE }}
+      SHEET_ID_SCHEDULE: ${{ vars.SHEET_ID_SCHEDULE }}
+
     steps:
       # Checkout your private repo
       - name: Checkout repository
