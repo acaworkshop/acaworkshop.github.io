@@ -12,9 +12,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    environment: github-pages
+
+
     env:
       SHEET_ID_WEBSITE: ${{ vars.SHEET_ID_WEBSITE }}
       SHEET_ID_SCHEDULE: ${{ vars.SHEET_ID_SCHEDULE }}
+      # (if you prefer the environment *secret* for schedule instead, use:
+      # SHEET_ID_SCHEDULE: ${{ secrets.SHEET_ID_SCHEDULE }} )
 
     steps:
       # Checkout your private repo
@@ -37,7 +42,13 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # Render the Quarto site (including any Python execution)
+      # Debug: confirm the env vars are visible
+      - name: Show env (debug)
+        run: |
+          echo "SHEET_ID_WEBSITE=${SHEET_ID_WEBSITE:-<not set>}"
+          echo "SHEET_ID_SCHEDULE=${SHEET_ID_SCHEDULE:-<not set>}"
+          python -c "import os; print('python sees WEBSITE:', os.getenv('SHEET_ID_WEBSITE'))"
+
       - name: Render Quarto site
         run: quarto render
 
