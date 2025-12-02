@@ -12,6 +12,14 @@ listing:
       template: templates/organisers.ejs
       contents:
         - data/organisers.yml
+    - id: list-panel
+      template: templates/panel.ejs
+      contents:
+        - data/panel.yml
+    - id: list-students
+      template: templates/student-organisers.ejs
+      contents:
+        - data/student.yml
     - id: list-rev
       template: templates/reviewers.ejs
       contents:
@@ -67,12 +75,25 @@ We welcome contributions that examine algorithmic collective action through the 
 
 ---
 
+# Panelists
+
+::: {#list-panel}
+:::
+
+---
+
 # Organisers
 
 ::: {#list-org}
 :::
 
 ---
+
+# Student Organisers
+::: {#list-students}
+:::
+
+--- 
 
 # Program Committee
 We are gratefull to the following volunteer reviewers:

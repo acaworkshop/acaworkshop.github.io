@@ -1,0 +1,22 @@
+# Panel: Organizing and Advocacy in the Age of AI
+# Panelists: Lilly Irani (UCSD) , Jillian Arnold (IATSE Local 695) , Vinhcent Le (Tech Equity) , Adio-Adet Dinika (Distributed AI Research Institute (DAIR))
+- name: Lilly Irani
+  institution: UC San Diego
+  website: https://communication.ucsd.edu/people/faculty/irani-lilly.html
+  photo: "images/lilly.jpg"
+
+- name: Jillian Arnold
+  institution: IATSE Local 695
+  website: https://www.linkedin.com/in/jillian-arnold-a157952b7/
+  photo: "images/jillian.jpg"
+
+- name: Vinhcent Le
+  institution: Tech Equity
+  website: https://www.linkedin.com/in/vinhcentle/
+  photo: "images/vinhcent.jpg"
+
+- name: Adio-Adet Dinika
+  institution: Distributed AI Research Institute (DAIR)
+  website: https://www.dair-institute.org/team/adio-adet-dinika/
+  photo: "images/adio-adet.jpg"
+

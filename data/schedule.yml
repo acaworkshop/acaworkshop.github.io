@@ -111,7 +111,7 @@
   Contact info: tijana.zrnic@stanford.edu
   Speaker website: https://tijana-zrnic.github.io
   Title: Incentives and Collective Action in AI Evaluation
-  Abstract: Existing theory in algorithmic collective action and related topics describes the importance of parameters such as collective size and alignment between the platform’s and its users’ objectives. In this talk, I reflect on these results and provide a new perspective drawing upon my empirical work in AI evaluation. I describe the incentives at play and how they shape user—platform dynamics.
+  Abstract: 'Existing theory in algorithmic collective action and related topics describes the importance of parameters such as collective size and alignment between the platform’s and its users’ objectives. In this talk, I reflect on these results and provide a new perspective drawing upon my empirical work in AI evaluation. I describe the incentives at play and how they shape user—platform dynamics.'
 - Time: 10:00 AM
   Category: Invited talk
   Speaker(s): Alex Hanna
@@ -171,8 +171,8 @@
   Speaker in person?: in person
   Contact info: hn288@cornell.edu
   Speaker website: https://nissenbaum.tech.cornell.edu
-  Title: Ethical Obfuscation: Why’s, How’s, and Should Have’s
-  Abstract: This talk is about data obfuscation, defined as the “production, inclusion, addition, or communication of misleading, ambiguous, of false data in an effort to evade, distract, or confuse” [Brunton & Nissenbaum 2015]. This was a theoretical abstraction that followed on the heels of TrackMeNot [2006] and AdNauseam [2014], two browser extensions aimed at disrupting business-as-usual for behavioral profiling, which have both earned praise and provoked rebuke [Howe and Nissenbaum 2018]. I will revisit our efforts of twenty years ago explaining why we chose obfuscation and why those designs and not other ones (possibly, more effective.) Confronting the contemporary landscape of GenAI and LLMs, with diverse privacy threats, greatly intensified, I ask whether this landscape offers new opportunities to instantiate past ethical and practical successes while mitigating prior limitations.
+  Title: 'Ethical Obfuscation: Why’s, How’s, and Should Have’s'
+  Abstract: 'This talk is about data obfuscation, defined as the “production, inclusion, addition, or communication of misleading, ambiguous, of false data in an effort to evade, distract, or confuse” [Brunton & Nissenbaum 2015]. This was a theoretical abstraction that followed on the heels of TrackMeNot [2006] and AdNauseam [2014], two browser extensions aimed at disrupting business-as-usual for behavioral profiling, which have both earned praise and provoked rebuke [Howe and Nissenbaum 2018]. I will revisit our efforts of twenty years ago explaining why we chose obfuscation and why those designs and not other ones (possibly, more effective.) Confronting the contemporary landscape of GenAI and LLMs, with diverse privacy threats, greatly intensified, I ask whether this landscape offers new opportunities to instantiate past ethical and practical successes while mitigating prior limitations.'
 - Time: 2:00 PM
   Category: Invited talk
   Speaker(s): Lilly Irani
@@ -181,8 +181,8 @@
   Speaker in person?: in person
   Contact info: lirani@ucsd.edu
   Speaker website: https://communication.ucsd.edu/people/faculty/irani-lilly.html
-  Title: Deepening Worker Power Over AI: Lessons from Popular Education and Organizing
-  Abstract: I will discuss pathways for building research that can support collective action to shape algorithms, data, and AI. I draw on over a decade of experience supporting Amazon Mechanical Turk workers, taxi and rideshare drivers, surveilled communities, and union workers across various industries. I suggest four principles: relationality, response-ability,  accountability, and generosity to guide researchers in finding their path to supporting algorithmic collective action.
+  Title: 'Deepening Worker Power Over AI: Lessons from Popular Education and Organizing'
+  Abstract: 'I will discuss pathways for building research that can support collective action to shape algorithms, data, and AI. I draw on over a decade of experience supporting Amazon Mechanical Turk workers, taxi and rideshare drivers, surveilled communities, and union workers across various industries. I suggest four principles: relationality, response-ability,  accountability, and generosity to guide researchers in finding their path to supporting algorithmic collective action.'
 - Time: 2:20 PM
   Category: Announcements
   Speaker(s): null
