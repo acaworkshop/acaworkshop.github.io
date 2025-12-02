@@ -101,6 +101,62 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-list-panel .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-institution','listing-website','listing-photo',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-institution","listing-website","listing-photo"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-list-panel'] = new List('listing-list-panel', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-list-students .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-institution','listing-website','listing-photo',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-institution","listing-website","listing-photo"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-list-students'] = new List('listing-list-students', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-list-rev .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -229,6 +285,10 @@ window.Quarto = {
     <a class="nav-link" href="./cfp.html"> 
 <span class="menu-text">📣 Call for Papers</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://discord.gg/c3dnuNJdzq"> 
+<span class="menu-text">Join our Discord</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -262,7 +322,9 @@ window.Quarto = {
    
   <ul>
   <li><a href="#speakers" id="toc-speakers" class="nav-link active" data-scroll-target="#speakers">Speakers</a></li>
+  <li><a href="#panelists" id="toc-panelists" class="nav-link" data-scroll-target="#panelists">Panelists</a></li>
   <li><a href="#organisers" id="toc-organisers" class="nav-link" data-scroll-target="#organisers">Organisers</a></li>
+  <li><a href="#student-organisers" id="toc-student-organisers" class="nav-link" data-scroll-target="#student-organisers">Student Organisers</a></li>
   <li><a href="#program-committee" id="toc-program-committee" class="nav-link" data-scroll-target="#program-committee">Program Committee</a></li>
   </ul>
 </nav>
@@ -394,6 +456,51 @@ UC San Diego
 </div>
 <hr>
 </section>
+<section id="panelists" class="level1">
+<h1>Panelists</h1>
+<div id="listing-list-panel" class="quarto-listing quarto-listing-container-custom">
+<ul class="organiser-grid">
+<li class="organiser-card" data-index="0">
+<img src="images/lilly.jpg" alt="Photo of Lilly Irani" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://communication.ucsd.edu/people/faculty/irani-lilly.html" target="_blank" rel="noopener noreferrer"> Lilly Irani </a>
+</p>
+<p class="organiser-institution">
+UC San Diego
+</p>
+</li>
+<li class="organiser-card" data-index="1">
+<img src="images/jillian.jpg" alt="Photo of Jillian Arnold" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://www.linkedin.com/in/jillian-arnold-a157952b7/" target="_blank" rel="noopener noreferrer"> Jillian Arnold </a>
+</p>
+<p class="organiser-institution">
+IATSE Local 695
+</p>
+</li>
+<li class="organiser-card" data-index="2">
+<img src="images/vinhcent.jpg" alt="Photo of Vinhcent Le" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://www.linkedin.com/in/vinhcentle/" target="_blank" rel="noopener noreferrer"> Vinhcent Le </a>
+</p>
+<p class="organiser-institution">
+Tech Equity
+</p>
+</li>
+<li class="organiser-card" data-index="3">
+<img src="images/adio-adet.jpg" alt="Photo of Adio-Adet Dinika" class="organiser-photo">
+<p class="organiser-name">
+<a href="https://www.dair-institute.org/team/adio-adet-dinika/" target="_blank" rel="noopener noreferrer"> Adio-Adet Dinika </a>
+</p>
+<p class="organiser-institution">
+Distributed AI Research Institute (DAIR)
+</p>
+</li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
 <section id="organisers" class="level1">
 <h1>Organisers</h1>
 <div id="listing-list-org" class="quarto-listing quarto-listing-container-custom">
@@ -450,6 +557,24 @@ University of Texas at Austin
 </p>
 <p class="organiser-institution">
 École de Technologie Supérieure
+</p>
+</li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
+<section id="student-organisers" class="level1">
+<h1>Student Organisers</h1>
+<div id="listing-list-students" class="quarto-listing quarto-listing-container-custom">
+<ul class="organiser-grid">
+<li class="organiser-card" data-index="0">
+<img src="images/meghana.jpg" alt="Photo of Meghana Bhange" class="organiser-photo">
+<p class="organiser-name">
+<a href="http://meghanabhange.com/" target="_blank" rel="noopener noreferrer"> Meghana Bhange </a>
+</p>
+<p class="organiser-institution">
+ETS Montreal
 </p>
 </li>
 </ul>
