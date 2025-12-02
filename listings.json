@@ -1,10 +1,6 @@
 [
   {
-    "listing": "/accepted-papers.html",
-    "items": []
-  },
-  {
-    "listing": "/team.html",
+    "listing": "/schedule.html",
     "items": []
   },
   {
@@ -17,11 +13,16 @@
       "/speakers/seda gürses/index.html",
       "/speakers/joana redden/index.html",
       "/speakers/helen nissenbaum/index.html",
-      "/speakers/bogdan kulynych/index.html"
+      "/speakers/bogdan kulynych/index.html",
+      "/speakers/Lilly Irani/index.html"
     ]
   },
   {
-    "listing": "/schedule.html",
+    "listing": "/team.html",
+    "items": []
+  },
+  {
+    "listing": "/accepted-papers.html",
     "items": []
   },
   {
@@ -34,7 +35,8 @@
       "/speakers/seda gürses/index.html",
       "/speakers/joana redden/index.html",
       "/speakers/helen nissenbaum/index.html",
-      "/speakers/bogdan kulynych/index.html"
+      "/speakers/bogdan kulynych/index.html",
+      "/speakers/Lilly Irani/index.html"
     ]
   }
 ]
