@@ -42,7 +42,7 @@ yml_reviewers()
 <span class="hero-title">Algorithmic Collective Action</span>
 <span class="hero-subtitle">
 A Workshop co-located with [NeurIPS 2025](https://neurips.cc/). \
-Saturday, December 6, San Diego Convention Center.
+Saturday, December 6, San Diego Convention Center, **Upper Level Room 4**.
 </span>
 :::
 
