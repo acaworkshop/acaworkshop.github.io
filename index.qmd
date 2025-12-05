@@ -60,6 +60,22 @@ This workshop explores collective strategies for shaping outcomes in socio-techn
 We welcome contributions that examine algorithmic collective action through the lense of machine learning, statistics, optimization, economics, and the humanities. Submissions may address theoretical foundations, empirical studies, or practical challenges that advance our understanding of how coordinated efforts can influence the development and deployment of AI systems.
 :::
 
+::: {.text-center}
+<span class="hero-subtitle">
+**CDMX Satellite Event** (co-located with NeurIPS Mexico City):\n
+</span>
+Programmable Logic Devices Laboratory\
+Q Building, School of Engineering\
+National Autonomous University of Mexico (UNAM)\
+Coyoacán, Mexico City, Mexico
+
+Please note the location is 20km away from the Hilton Mexico City Reforma\
+(special thanks to Saiph Savage for organizing the satellite event)
+:::
+
+
+
+
 <!--
 ::: {.text-center}
 <a href="https://acaworkshop.github.io/cfp.html" class="btn btn-primary" role="button">Submit your work!</a>
