@@ -157,6 +157,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-list-satellite .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-institution','listing-website','listing-photo',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-institution","listing-website","listing-photo"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-list-satellite'] = new List('listing-list-satellite', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-list-rev .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -325,6 +353,7 @@ window.Quarto = {
   <li><a href="#panelists" id="toc-panelists" class="nav-link" data-scroll-target="#panelists">Panelists</a></li>
   <li><a href="#organisers" id="toc-organisers" class="nav-link" data-scroll-target="#organisers">Organisers</a></li>
   <li><a href="#student-organisers" id="toc-student-organisers" class="nav-link" data-scroll-target="#student-organisers">Student Organisers</a></li>
+  <li><a href="#satellite-event-organisers" id="toc-satellite-event-organisers" class="nav-link" data-scroll-target="#satellite-event-organisers">Satellite Event Organisers</a></li>
   <li><a href="#program-committee" id="toc-program-committee" class="nav-link" data-scroll-target="#program-committee">Program Committee</a></li>
   </ul>
 </nav>
@@ -583,6 +612,24 @@ University of Texas at Austin
 </p>
 <p class="organiser-institution">
 ETS Montreal
+</p>
+</li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
+<section id="satellite-event-organisers" class="level1">
+<h1>Satellite Event Organisers</h1>
+<div id="listing-list-satellite" class="quarto-listing quarto-listing-container-custom">
+<ul class="organiser-grid">
+<li class="organiser-card" data-index="0">
+<img src="images/norma.png" alt="Photo of Prof. Norma Elva Chavez" class="organiser-photo">
+<p class="organiser-name">
+<a href="http://profesores.fi-b.unam.mx/normaelva/" target="_blank" rel="noopener noreferrer"> Prof.&nbsp;Norma Elva Chavez </a>
+</p>
+<p class="organiser-institution">
+UNAM
 </p>
 </li>
 </ul>
