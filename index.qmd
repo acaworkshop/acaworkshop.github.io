@@ -20,6 +20,10 @@ listing:
       template: templates/student-organisers.ejs
       contents:
         - data/student.yml
+    - id: list-satellite
+      template: templates/satellite.ejs
+      contents:
+        - data/satellite.yml
     - id: list-rev
       template: templates/reviewers.ejs
       contents:
@@ -107,6 +111,12 @@ Please note the location is 20km away from the Hilton Mexico City Reforma\
 
 # Student Organisers
 ::: {#list-students}
+:::
+
+---
+
+# Satellite Event Organisers
+::: {#list-satellite}
 :::
 
 --- 
