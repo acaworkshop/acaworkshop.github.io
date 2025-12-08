@@ -18,8 +18,8 @@ website:
         text: Schedule
       - href: cfp.qmd
         text: 📣 Call for Papers
-      - href: https://discord.gg/c3dnuNJdzq
-        text: Join our Discord
+      # - href: https://discord.gg/c3dnuNJdzq
+      #   text: Join our Discord
       # - href: speakers/index.qmd
       #   text: Our Speakers
       # - href: team.qmd
